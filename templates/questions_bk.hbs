@@ -1,0 +1,40 @@
+ <div class="question-image image-{{section}}">
+ 	
+ 	
+ </div>
+ <div class="question-container primary-background primary-text-color">
+	<div class="question-label large-font font-2">
+		<label for="{{id}}">
+			{{label}} <!-- queries the json obj for the 'text' attribute and filtering on 'language'-->
+		</label>
+	</div>
+	<ons-list>
+   	<div class="question-responses">
+   		
+   		
+
+		{{#each choices}}  <!-- iterate over the choices array and use file node up one notation (../type) to get attributes from the parent-->
+			   <ons-list-item class="question-response" tappable  data-value="{{../name}}">
+
+						 <!-- INPUT FIELD -->
+						<label class="checkbox">
+							<ons-{{../type}} name="{{../name}}" input-id="{{../name}}-{{@index}}"  {{#if message}}onclick="app.message.createMessage(event,'message1','{{message}}')"{{else}}onclick="app.nav.check('forward');"{{/if}} value="{{value}}" {{checked}}></ons-{{../type}}>
+						  </label>
+
+						  <!-- LABEL -->
+						  <label for="{{../name}}-{{@index}}" class="medium-font font-2" style="width:100%; display:inline-block; margin-left: 24px; margin-top: -24px;">
+							{{lookup text ../language}}
+						  </label>
+
+			   </ons-list-item>
+
+		 {{/each}}
+     	</div>
+    </ons-list>    
+
+
+  </div>
+
+
+	 
+	 

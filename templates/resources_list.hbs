@@ -1,0 +1,23 @@
+  <div class="title xxxlarge-font font-4">{{title}}</div>
+   
+   <ons-list>
+    <ons-list-header>Nearby ({{nearby}})</ons-list-header>
+    {{{firstSet}}}
+    {{#if isMoreSet}}
+   		<ons-list-item expandable id="res-nearby">
+		  <div class="top list-header-2">Show All Nearby ({{nearby}})</div>
+		  <div class="expandable-content">
+		  	<ons-list>{{{moreSet}}}</ons-list>
+		  </div>
+		</ons-list-item>
+    {{/if}}
+</ons-list> 
+  {{#if isOtherSet}}
+   		<ons-list-item expandable id="res-other">
+		  <div class="top list-header-2">Further Away ({{other}})</div>
+		  <div class="expandable-content">
+		  	<ons-list>{{{otherSet}}}</ons-list>
+		  </div>
+		</ons-list-item>
+    {{/if}}
+    

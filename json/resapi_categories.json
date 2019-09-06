@@ -1,0 +1,4618 @@
+{"categories" :[{
+	"category": "Crisis Hotlines",
+	"categoryID": "2603",
+	"order": "1",
+	"subcat": [{
+		"subcategory": "Domestic Violence Hotlines",
+		"subcategoryID": "2630",
+		"order": "1",
+		"subcatterm": [{
+			"sterm": "Dating Abuse Hotlines"
+		}, {
+			"sterm": "Domestic Violence Hotlines"
+		}, {
+			"sterm": "Domestic Violence Hotlines * Asian Community"
+		}, {
+			"sterm": "Domestic Violence Hotlines * Deafness"
+		}, {
+			"sterm": "Domestic Violence Hotlines * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "Domestic Violence Hotlines * Hispanic/Latino Community"
+		}, {
+			"sterm": "Domestic Violence Hotlines * Native American Community"
+		}, {
+			"sterm": "Domestic Violence Hotlines * Russian Community"
+		}]
+	}, {
+		"subcategory": "LGBTQ Hotlines",
+		"subcategoryID": "2631",
+		"order": "1",
+		"subcatterm": [{
+			"sterm": "General Crisis Intervention Hotlines * Transsexual/Transgender Individuals"
+		}, {
+			"sterm": "GLBTQ Helplines"
+		}, {
+			"sterm": "GLBTQ Helplines * GLBT Youth"
+		}, {
+			"sterm": "GLBTQ Helplines * Older Adults"
+		}, {
+			"sterm": "GLBTQ Helplines * Transsexual/Transgender Individuals"
+		}, {
+			"sterm": "Suicide Prevention Hotlines * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "Suicide Prevention Hotlines * Transsexual/Transgender Individuals"
+		}]
+	}, {
+		"subcategory": "Local Crisis Hotlines",
+		"subcategoryID": "2632",
+		"order": "1",
+		"subcatterm": [{
+			"sterm": "General Crisis Intervention Hotlines"
+		}, {
+			"sterm": "General Crisis Intervention Hotlines * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "General Crisis Intervention Hotlines * At Risk Families"
+		}, {
+			"sterm": "General Crisis Intervention Hotlines * Disaster/Emergency Issues"
+		}, {
+			"sterm": "General Crisis Intervention Hotlines * Older Adults"
+		}]
+	}, {
+		"subcategory": "Pregnancy Options Hotlines",
+		"subcategoryID": "2633",
+		"order": "1",
+		"subcatterm": [{
+			"sterm": "Crisis Pregnancy Hotlines"
+		}, {
+			"sterm": "Crisis Pregnancy Hotlines * Down Syndrome"
+		}]
+	}, {
+		"subcategory": "Homeless/Runaway Youth Hotlines",
+		"subcategoryID": "2634",
+		"order": "1",
+		"subcatterm": [{
+			"sterm": "Runaway/Homeless Youth Counseling"
+		}, {
+			"sterm": "Runaway/Homeless Youth Helplines"
+		}]
+	}, {
+		"subcategory": "Sexual Assault Hotlines",
+		"subcategoryID": "2635",
+		"order": "1",
+		"subcatterm": [{
+			"sterm": "Sexual Assault Hotlines"
+		}, {
+			"sterm": "Sexual Assault Hotlines * Hispanic/Latino Community"
+		}, {
+			"sterm": "Sexual Assault Hotlines * Native American Community"
+		}, {
+			"sterm": "Sexual Assault Hotlines * Russian Community"
+		}]
+	}, {
+		"subcategory": "Suicide Prevention Hotlines",
+		"subcategoryID": "2636",
+		"order": "1",
+		"subcatterm": [{
+			"sterm": "Suicide Prevention Hotlines"
+		}, {
+			"sterm": "Suicide Prevention Hotlines * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "Suicide Prevention Hotlines * Older Adults"
+		}, {
+			"sterm": "Suicide Prevention Hotlines * Transsexual/Transgender Individuals"
+		}]
+	}, {
+		"subcategory": "Human Trafficking Hotlines",
+		"subcategoryID": "2637",
+		"order": "1",
+		"subcatterm": [{
+			"sterm": "Human Trafficking Hotlines"
+		}]
+	}, {
+		"subcategory": "Teen Crisis Hotlines",
+		"subcategoryID": "2638",
+		"order": "1",
+		"subcatterm": [{
+			"sterm": "General Crisis Intervention Hotlines * Youth Issues"
+		}, {
+			"sterm": "Youth Issues Lines"
+		}]
+	}]
+}, {
+	"category": "Basic Needs",
+	"categoryID": "2604",
+	"order": "2",
+	"subcat": [{
+		"subcategory": "Clothing",
+		"subcategoryID": "2623",
+		"order": "2",
+		"subcatterm": [{
+			"sterm": "Baby Clothing"
+		}, {
+			"sterm": "Children's Clothing"
+		}, {
+			"sterm": "Children's Clothing * Foster Children"
+		}, {
+			"sterm": "Clothing Vouchers"
+		}, {
+			"sterm": "General Clothing Provision"
+		}, {
+			"sterm": "General Clothing Provision * AIDS/HIV"
+		}, {
+			"sterm": "General Clothing Provision * At Risk Youth"
+		}, {
+			"sterm": "General Clothing Provision * Domestic Violence Issues"
+		}, {
+			"sterm": "General Clothing Provision * Hispanic/Latino Community"
+		}, {
+			"sterm": "General Clothing Provision * Homeless Families"
+		}, {
+			"sterm": "General Clothing Provision * Homeless Men"
+		}, {
+			"sterm": "General Clothing Provision * Homeless Women"
+		}, {
+			"sterm": "General Clothing Provision * Homeless Youth"
+		}, {
+			"sterm": "General Clothing Provision * Homelessness Issues"
+		}, {
+			"sterm": "General Clothing Provision * Human Trafficking Issues"
+		}, {
+			"sterm": "General Clothing Provision * Veterans"
+		}, {
+			"sterm": "Winter Clothing"
+		}, {
+			"sterm": "Work Clothing"
+		}, {
+			"sterm": "Work Clothing * Homeless Youth"
+		}, {
+			"sterm": "Work Clothing * Women"
+		}]
+	}, {
+		"subcategory": "Household Goods",
+		"subcategoryID": "2624",
+		"order": "2",
+		"subcatterm": [{
+			"sterm": "Bedding/Linen"
+		}, {
+			"sterm": "Bedding/Linen * AIDS/HIV"
+		}, {
+			"sterm": "Bedding/Linen * Homelessness Issues"
+		}, {
+			"sterm": "Bedding/Linen * Infants/Toddlers"
+		}, {
+			"sterm": "Bedding/Linen * Veteran/Military Personnel Issues"
+		}, {
+			"sterm": "Furniture"
+		}, {
+			"sterm": "Furniture * Infants/Toddlers"
+		}, {
+			"sterm": "Furniture * Newborns"
+		}, {
+			"sterm": "General Appliance Provision"
+		}, {
+			"sterm": "Household Goods Vouchers"
+		}, {
+			"sterm": "Kitchenware"
+		}, {
+			"sterm": "Kitchenware * AIDS/HIV"
+		}, {
+			"sterm": "Small Kitchen Appliances"
+		}, {
+			"sterm": "Small Kitchen Appliances * AIDS/HIV"
+		}]
+	}, {
+		"subcategory": "ID Assistance",
+		"subcategoryID": "2625",
+		"order": "2",
+		"subcatterm": [{
+			"sterm": "Identification Cards"
+		}, {
+			"sterm": "Records/Licenses/Permits Fee Payment Assistance"
+		}, {
+			"sterm": "Records/Licenses/Permits Fee Payment Assistance * Homeless Youth"
+		}, {
+			"sterm": "Records/Licenses/Permits Fee Payment Assistance * Transsexual/Transgender Individuals"
+		}, {
+			"sterm": "Records/Licenses/Permits Fee Payment Assistance * Veteran/Military Personnel Issues"
+		}]
+	}, {
+		"subcategory": "Laundry",
+		"subcategoryID": "2626",
+		"order": "2",
+		"subcatterm": [{
+			"sterm": "Laundry Facilities"
+		}, {
+			"sterm": "Laundry Facilities * AIDS/HIV"
+		}, {
+			"sterm": "Laundry Facilities * Homeless Families"
+		}, {
+			"sterm": "Laundry Facilities * Homeless Men"
+		}, {
+			"sterm": "Laundry Facilities * Homeless Women"
+		}, {
+			"sterm": "Laundry Facilities * Homeless Youth"
+		}, {
+			"sterm": "Laundry Facilities * Pregnant Women"
+		}, {
+			"sterm": "Laundry Facilities * Veteran/Military Personnel Issues"
+		}, {
+			"sterm": "Laundry Products"
+		}, {
+			"sterm": "Laundry Vouchers"
+		}]
+	}, {
+		"subcategory": "Personal Hygiene Supplies",
+		"subcategoryID": "2627",
+		"order": "2",
+		"subcatterm": [{
+			"sterm": "Hairdressing/Nail Care"
+		}, {
+			"sterm": "Hairdressing/Nail Care * AIDS/HIV"
+		}, {
+			"sterm": "Hairdressing/Nail Care * Men"
+		}, {
+			"sterm": "Hairdressing/Nail Care * Veterans"
+		}, {
+			"sterm": "Personal/Grooming Supplies"
+		}, {
+			"sterm": "Personal/Grooming Supplies * AIDS/HIV"
+		}, {
+			"sterm": "Personal/Grooming Supplies * Domestic Violence Issues"
+		}, {
+			"sterm": "Personal/Grooming Supplies * Homeless Families"
+		}, {
+			"sterm": "Personal/Grooming Supplies * Homeless Men"
+		}, {
+			"sterm": "Personal/Grooming Supplies * Homeless Women"
+		}, {
+			"sterm": "Personal/Grooming Supplies * Homeless Youth"
+		}, {
+			"sterm": "Personal/Grooming Supplies * Homelessness Issues"
+		}, {
+			"sterm": "Personal/Grooming Supplies * Human Trafficking Issues"
+		}, {
+			"sterm": "Personal/Grooming Supplies * Veterans"
+		}]
+	}, {
+		"subcategory": "Showers/Bathing Facilities",
+		"subcategoryID": "2628",
+		"order": "2",
+		"subcatterm": [{
+			"sterm": "Public Showers/Baths"
+		}, {
+			"sterm": "Public Showers/Baths * AIDS/HIV"
+		}, {
+			"sterm": "Public Showers/Baths * Homeless Families"
+		}, {
+			"sterm": "Public Showers/Baths * Homeless Men"
+		}, {
+			"sterm": "Public Showers/Baths * Homeless Women"
+		}, {
+			"sterm": "Public Showers/Baths * Homeless Youth"
+		}, {
+			"sterm": "Public Showers/Baths * Pregnant Women"
+		}]
+	}, {
+		"subcategory": "Mobile Devices and Internet Access",
+		"subcategoryID": "2629",
+		"order": "2",
+		"subcatterm": [{
+			"sterm": "Discounted Internet Service"
+		}, {
+			"sterm": "Discounted Telephone Service"
+		}, {
+			"sterm": "Mobile Devices"
+		}, {
+			"sterm": "Public Internet Access Sites"
+		}, {
+			"sterm": "Public Internet Access Sites * AIDS/HIV"
+		}, {
+			"sterm": "Public Internet Access Sites * Homeless Women"
+		}, {
+			"sterm": "Public Internet Access Sites * Homeless Youth"
+		}, {
+			"sterm": "Public Libraries"
+		}, {
+			"sterm": "Telephone Facilities"
+		}, {
+			"sterm": "Telephone Facilities * AIDS/HIV"
+		}, {
+			"sterm": "Telephone Facilities * Homeless Families"
+		}, {
+			"sterm": "Telephone Facilities * Homeless Men"
+		}, {
+			"sterm": "Telephone Facilities * Homeless Women"
+		}, {
+			"sterm": "Telephone Facilities * Homeless Youth"
+		}, {
+			"sterm": "Telephone Facilities * Pregnant Women"
+		}, {
+			"sterm": "Telephone Facilities * Veteran/Military Personnel Issues"
+		}]
+	}, {
+		"subcategory": "Shoes",
+		"subcategoryID": "2812",
+		"order": "2",
+		"subcatterm": [{
+			"sterm": "Shoes"
+		}, {
+			"sterm": "Shoes * Amputations"
+		}, {
+			"sterm": "Shoes * Foster Children"
+		}, {
+			"sterm": "Shoes * Women"
+		}]
+	}]
+}, {
+	"category": "Housing Assistance/Shelters",
+	"categoryID": "2612",
+	"order": "3",
+	"subcat": [{
+		"subcategory": "Transitional Housing",
+		"subcategoryID": "2639",
+		"order": "3",
+		"subcatterm": [{
+			"sterm": "Transitional Housing/Shelter"
+		}, {
+			"sterm": "Transitional Housing/Shelter * AIDS/HIV"
+		}, {
+			"sterm": "Transitional Housing/Shelter * Crime Victims"
+		}, {
+			"sterm": "Transitional Housing/Shelter * Disabilities Issues"
+		}, {
+			"sterm": "Transitional Housing/Shelter * Hispanic/Latino Community"
+		}, {
+			"sterm": "Transitional Housing/Shelter * Homeless Families"
+		}, {
+			"sterm": "Transitional Housing/Shelter * Homeless Men"
+		}, {
+			"sterm": "Transitional Housing/Shelter * Homeless Veterans"
+		}, {
+			"sterm": "Transitional Housing/Shelter * Homeless Women"
+		}]
+	}, {
+		"subcategory": "Domestic Violence Shelters",
+		"subcategoryID": "2640",
+		"order": "3",
+		"subcatterm": [{
+			"sterm": "Domestic Violence Motel Vouchers"
+		}, {
+			"sterm": "Domestic Violence Shelters"
+		}, {
+			"sterm": "Domestic Violence Shelters * Hispanic/Latino Community"
+		}, {
+			"sterm": "Drop In Centers * Sexual Assault Issues"
+		}, {
+			"sterm": "Emergency Shelter Clearinghouses * Domestic Violence Issues"
+		}, {
+			"sterm": "Homeless Drop In Centers * Domestic Violence Issues"
+		}]
+	}, {
+		"subcategory": "Drop-In/Day Shelters",
+		"subcategoryID": "2641",
+		"order": "3",
+		"subcatterm": [{
+			"sterm": "Drop In Centers"
+		}, {
+			"sterm": "Drop In Centers * AIDS/HIV"
+		}, {
+			"sterm": "Drop In Centers * Sex Trade Workers"
+		}, {
+			"sterm": "Drop In Centers * Sexual Assault Issues"
+		}, {
+			"sterm": "Homeless Drop In Centers"
+		}, {
+			"sterm": "Homeless Drop In Centers * Homeless Families"
+		}, {
+			"sterm": "Homeless Drop In Centers * Homeless Men"
+		}, {
+			"sterm": "Homeless Drop In Centers * Homeless Women"
+		}, {
+			"sterm": "Homeless Drop In Centers * Homeless Youth"
+		}, {
+			"sterm": "Homeless Drop In Centers * Pregnant Women"
+		}]
+	}, {
+		"subcategory": "Temporary Shelter",
+		"subcategoryID": "2642",
+		"order": "3",
+		"subcatterm": [{
+			"sterm": "Community Shelters"
+		}, {
+			"sterm": "Community Shelters * Agricultural Laborers"
+		}, {
+			"sterm": "Community Shelters * Disabilities Issues"
+		}, {
+			"sterm": "Community Shelters * Homeless Couples"
+		}, {
+			"sterm": "Community Shelters * Homeless Families"
+		}, {
+			"sterm": "Community Shelters * Homeless Men"
+		}, {
+			"sterm": "Community Shelters * Homeless Veterans"
+		}, {
+			"sterm": "Community Shelters * Homeless Women"
+		}, {
+			"sterm": "Community Shelters * Pregnant Women"
+		}, {
+			"sterm": "Emergency Shelter Clearinghouses"
+		}, {
+			"sterm": "Emergency Shelter Clearinghouses * Homeless Families"
+		}, {
+			"sterm": "Emergency Shelter Clearinghouses * Pregnant Women"
+		}, {
+			"sterm": "Homeless Motel Vouchers"
+		}, {
+			"sterm": "Homeless Motel Vouchers * Veterans"
+		}, {
+			"sterm": "Homeless Safe Parking Programs"
+		}, {
+			"sterm": "Urban Campsites"
+		}]
+	}, {
+		"subcategory": "Youth Shelter/Housing",
+		"subcategoryID": "2643",
+		"order": "3",
+		"subcatterm": [{
+			"sterm": "Runaway/Youth Shelters"
+		}, {
+			"sterm": "Transitional Housing/Shelter * Homeless Youth"
+		}]
+	}, {
+		"subcategory": "Severe Weather Shelter",
+		"subcategoryID": "2644",
+		"order": "3",
+		"subcatterm": [{
+			"sterm": "Extreme Cold Warming Centers"
+		}, {
+			"sterm": "Extreme Cold Weather Shelters"
+		}, {
+			"sterm": "Extreme Heat Cooling Centers"
+		}]
+	}, {
+		"subcategory": "Housing Search Assistance",
+		"subcategoryID": "2645",
+		"order": "3",
+		"subcatterm": [{
+			"sterm": "Housing Search Assistance"
+		}, {
+			"sterm": "Housing Search Assistance * AIDS/HIV Issues"
+		}, {
+			"sterm": "Housing Search Assistance * Disabilities Issues"
+		}, {
+			"sterm": "Housing Search Assistance * Domestic Violence Issues"
+		}, {
+			"sterm": "Housing Search Assistance * Ex-Offenders"
+		}, {
+			"sterm": "Housing Search Assistance * Former Foster Children"
+		}, {
+			"sterm": "Housing Search Assistance * Foster Children"
+		}, {
+			"sterm": "Housing Search Assistance * Hispanic/Latino Community"
+		}, {
+			"sterm": "Housing Search Assistance * Homeless Families"
+		}, {
+			"sterm": "Housing Search Assistance * Homeless Men"
+		}, {
+			"sterm": "Housing Search Assistance * Homeless Women"
+		}, {
+			"sterm": "Housing Search Assistance * Homeless Youth"
+		}, {
+			"sterm": "Housing Search Assistance * Homelessness Issues"
+		}, {
+			"sterm": "Housing Search Assistance * Pregnant Women"
+		}, {
+			"sterm": "Housing Search Assistance * Teen Pregnancy Issues"
+		}, {
+			"sterm": "Housing Search Assistance * Veteran/Military Personnel Issues"
+		}]
+	}, {
+		"subcategory": "Low Income Rental Resources",
+		"subcategoryID": "2646",
+		"order": "3",
+		"subcatterm": [{
+			"sterm": "Government Subsidized Private Rental Housing Listings"
+		}, {
+			"sterm": "Low Cost Home Rental Listings"
+		}, {
+			"sterm": "Low Cost Home Rental Listings * Ex-Offenders"
+		}, {
+			"sterm": "Low Income/Subsidized Private Rental Housing"
+		}, {
+			"sterm": "Low Income/Subsidized Private Rental Housing * Adults With Disabilities/Health Conditions"
+		}, {
+			"sterm": "Low Income/Subsidized Private Rental Housing * Agricultural Laborers"
+		}, {
+			"sterm": "Low Income/Subsidized Private Rental Housing * Foster Families"
+		}, {
+			"sterm": "Low Income/Subsidized Private Rental Housing * Mental Health Issues"
+		}, {
+			"sterm": "Low Income/Subsidized Private Rental Housing * Older Adults"
+		}, {
+			"sterm": "Low Income/Subsidized Private Rental Housing * Substance Use Disorder Issues"
+		}, {
+			"sterm": "Low Income/Subsidized Private Rental Housing * Veteran/Military Personnel Issues"
+		}, {
+			"sterm": "Section 8 Housing Choice Vouchers"
+		}, {
+			"sterm": "Section 8 Housing Choice Vouchers * Veterans"
+		}, {
+			"sterm": "Section 8/Rental Assistance Program Rental Listings"
+		}, {
+			"sterm": "Section 8/Rental Assistance Program Rental Listings * Adults With Disabilities/Health Conditions"
+		}, {
+			"sterm": "Shared Housing Facilities"
+		}, {
+			"sterm": "Shared Housing Facilities * High School Students"
+		}, {
+			"sterm": "Single Room Occupancy Housing"
+		}, {
+			"sterm": "Single Room Occupancy Housing * Women"
+		}]
+	}, {
+		"subcategory": "Deposit/Fee Assistance",
+		"subcategoryID": "2647",
+		"order": "3",
+		"subcatterm": [{
+			"sterm": "Rent Payment Assistance"
+		}, {
+			"sterm": "Rent Payment Assistance * AIDS/HIV"
+		}, {
+			"sterm": "Rent Payment Assistance * Cancer"
+		}, {
+			"sterm": "Rent Payment Assistance * Hispanic/Latino Community"
+		}, {
+			"sterm": "Rent Payment Assistance * Homeless Veterans"
+		}, {
+			"sterm": "Rent Payment Assistance * Homeless Youth"
+		}, {
+			"sterm": "Rent Payment Assistance * Homelessness Issues"
+		}, {
+			"sterm": "Rent Payment Assistance * Native American Community"
+		}, {
+			"sterm": "Rent Payment Assistance * Offender/Ex-Offender Issues"
+		}, {
+			"sterm": "Rent Payment Assistance * Older Adults"
+		}, {
+			"sterm": "Rent Payment Assistance * Pregnant Women"
+		}, {
+			"sterm": "Rent Payment Assistance * Slavic Community"
+		}, {
+			"sterm": "Rent Payment Assistance * Veterans"
+		}, {
+			"sterm": "Rental Application Fee Payment Assistance"
+		}, {
+			"sterm": "Rental Application Fee Payment Assistance * Homeless Families"
+		}, {
+			"sterm": "Rental Application Fee Payment Assistance * Homelessness Issues"
+		}, {
+			"sterm": "Rental Application Fee Payment Assistance * Older Adults"
+		}, {
+			"sterm": "Rental Application Fee Payment Assistance * Pregnant Women"
+		}, {
+			"sterm": "Rental Deposit Assistance"
+		}, {
+			"sterm": "Rental Deposit Assistance * Agricultural Laborers"
+		}, {
+			"sterm": "Rental Deposit Assistance * AIDS/HIV"
+		}, {
+			"sterm": "Rental Deposit Assistance * Foster Children"
+		}, {
+			"sterm": "Rental Deposit Assistance * Hispanic/Latino Community"
+		}, {
+			"sterm": "Rental Deposit Assistance * Homeless Families"
+		}, {
+			"sterm": "Rental Deposit Assistance * Homeless Veterans"
+		}, {
+			"sterm": "Rental Deposit Assistance * Homeless Youth"
+		}, {
+			"sterm": "Rental Deposit Assistance * Homelessness Issues"
+		}, {
+			"sterm": "Rental Deposit Assistance * Older Adults"
+		}, {
+			"sterm": "Rental Deposit Assistance * Pregnant Women"
+		}, {
+			"sterm": "Rental Deposit Assistance * Slavic Community"
+		}, {
+			"sterm": "Rental Deposit Assistance * Veterans"
+		}]
+	}, {
+		"subcategory": "Renters' Resources",
+		"subcategoryID": "2648",
+		"order": "3",
+		"subcatterm": [{
+			"sterm": "Eviction Prevention Legal Assistance"
+		}, {
+			"sterm": "Eviction Prevention Legal Assistance * Agricultural Laborers"
+		}, {
+			"sterm": "Eviction Prevention Legal Assistance * AIDS/HIV"
+		}, {
+			"sterm": "Housing Advocacy Groups"
+		}, {
+			"sterm": "Landlord/Tenant Dispute Resolution"
+		}, {
+			"sterm": "Landlord/Tenant Dispute Resolution * Mobile Home Park Residents"
+		}, {
+			"sterm": "Mediation"
+		}, {
+			"sterm": "Tenant Associations"
+		}, {
+			"sterm": "Tenant Readiness Education Programs"
+		}, {
+			"sterm": "Tenant Readiness Education Programs * AIDS/HIV"
+		}, {
+			"sterm": "Tenant Readiness Education Programs * Native American Community"
+		}, {
+			"sterm": "Tenant Rights Information/Counseling"
+		}, {
+			"sterm": "Tenant Rights Information/Counseling * Domestic Violence Issues"
+		}, {
+			"sterm": "Tenant Rights Information/Counseling * Mobile Home Park Residents"
+		}]
+	}, {
+		"subcategory": "Maternal Housing and Shelter",
+		"subcategoryID": "2828",
+		"order": "3",
+		"subcatterm": [{
+			"sterm": "Maternity Homes"
+		}, {
+			"sterm": "Post Pregnancy Shelter/Transitional Housing"
+		}, {
+			"sterm": "Post Pregnancy Shelter/Transitional Housing * Homeless Youth"
+		}, {
+			"sterm": "Transitional Housing/Shelter * Pregnant Women"
+		}]
+	}, {
+		"subcategory": "Foreclosure Assistance",
+		"subcategoryID": "2846",
+		"order": "3",
+		"subcatterm": [{
+			"sterm": "HUD Approved Counseling Agencies"
+		}, {
+			"sterm": "HUD Approved Counseling Agencies * Native American Community"
+		}, {
+			"sterm": "Mortgage Delinquency and Default Counseling"
+		}, {
+			"sterm": "Mortgage Payment Assistance"
+		}]
+	}]
+}, {
+	"category": "Utility Assistance",
+	"categoryID": "2620",
+	"order": "4",
+	"subcat": [{
+		"subcategory": "Water",
+		"subcategoryID": "2674",
+		"order": "4",
+		"subcatterm": [{
+			"sterm": "Discounted Water Service"
+		}, {
+			"sterm": "Discounted Water Service * Active Military"
+		}, {
+			"sterm": "Discounted Water Service * Adults With Disabilities/Health Conditions"
+		}, {
+			"sterm": "Discounted Water Service * Families of Military Personnel/Veterans"
+		}, {
+			"sterm": "Discounted Water Service * Hispanic/Latino Community"
+		}, {
+			"sterm": "Discounted Water Service * Older Adults"
+		}, {
+			"sterm": "Water Service Connection/Repair"
+		}, {
+			"sterm": "Water Service Payment Assistance"
+		}, {
+			"sterm": "Water Service Payment Assistance * Cancer"
+		}, {
+			"sterm": "Water Service Payment Assistance * Hispanic/Latino Community"
+		}, {
+			"sterm": "Water Service Payment Assistance * Native American Community"
+		}, {
+			"sterm": "Water Service Payment Assistance * Veterans"
+		}, {
+			"sterm": "Water Service Providers"
+		}]
+	}, {
+		"subcategory": "Gas",
+		"subcategoryID": "2675",
+		"order": "4",
+		"subcatterm": [{
+			"sterm": "Discounted Gas Service * Adults With Disabilities/Health Conditions"
+		}, {
+			"sterm": "Discounted Gas Service * Older Adults"
+		}, {
+			"sterm": "Gas Service Payment Assistance"
+		}, {
+			"sterm": "Gas Service Payment Assistance * Adults With Disabilities/Health Conditions"
+		}, {
+			"sterm": "Gas Service Payment Assistance * Cancer"
+		}, {
+			"sterm": "Gas Service Payment Assistance * Hispanic/Latino Community"
+		}, {
+			"sterm": "Gas Service Payment Assistance * Native American Community"
+		}, {
+			"sterm": "Gas Service Payment Assistance * Older Adults"
+		}, {
+			"sterm": "Gas Service Payment Assistance * Veterans"
+		}]
+	}, {
+		"subcategory": "Electric",
+		"subcategoryID": "2676",
+		"order": "4",
+		"subcatterm": [{
+			"sterm": "Discounted Electric Service"
+		}, {
+			"sterm": "Discounted Electric Service * Adults With Disabilities/Health Conditions"
+		}, {
+			"sterm": "Discounted Electric Service * Older Adults"
+		}, {
+			"sterm": "Electric Service Connection/Repair"
+		}, {
+			"sterm": "Electric Service Payment Assistance"
+		}, {
+			"sterm": "Electric Service Payment Assistance * Adults With Disabilities/Health Conditions"
+		}, {
+			"sterm": "Electric Service Payment Assistance * Cancer"
+		}, {
+			"sterm": "Electric Service Payment Assistance * Hispanic/Latino Community"
+		}, {
+			"sterm": "Electric Service Payment Assistance * Native American Community"
+		}, {
+			"sterm": "Electric Service Payment Assistance * Older Adults"
+		}, {
+			"sterm": "Electric Service Payment Assistance * Veterans"
+		}]
+	}, {
+		"subcategory": "Trash/Recycling",
+		"subcategoryID": "2677",
+		"order": "4",
+		"subcatterm": [{
+			"sterm": "Discounted Trash/Recycling Service"
+		}, {
+			"sterm": "Discounted Trash/Recycling Service * Older Adults"
+		}, {
+			"sterm": "Trash/Recycling Service Payment Assistance"
+		}]
+	}, {
+		"subcategory": "Heating Fuel",
+		"subcategoryID": "2678",
+		"order": "4",
+		"subcatterm": [{
+			"sterm": "Discounted Heating Fuel"
+		}, {
+			"sterm": "Discounted Heating Fuel * Adults With Disabilities/Health Conditions"
+		}, {
+			"sterm": "Discounted Heating Fuel * Older Adults"
+		}, {
+			"sterm": "Heating Fuel Payment Assistance"
+		}, {
+			"sterm": "Heating Fuel Payment Assistance * Adults With Disabilities/Health Conditions"
+		}, {
+			"sterm": "Heating Fuel Payment Assistance * Cancer"
+		}, {
+			"sterm": "Heating Fuel Payment Assistance * Hispanic/Latino Community"
+		}, {
+			"sterm": "Heating Fuel Payment Assistance * Native American Community"
+		}, {
+			"sterm": "Heating Fuel Payment Assistance * Older Adults"
+		}, {
+			"sterm": "Heating Fuel Payment Assistance * Veterans"
+		}]
+	}, {
+		"subcategory": "Telephone and Internet",
+		"subcategoryID": "2679",
+		"order": "4",
+		"subcatterm": [{
+			"sterm": "Discounted Internet Service"
+		}, {
+			"sterm": "Discounted Telephone Service"
+		}, {
+			"sterm": "Mobile Devices"
+		}, {
+			"sterm": "Telephone Service Payment Assistance * Cancer"
+		}]
+	}]
+}, {
+	"category": "Food/Meals",
+	"categoryID": "2609",
+	"order": "5",
+	"subcat": [{
+		"subcategory": "Hot Meals/Sack Lunches",
+		"subcategoryID": "2687",
+		"order": "5",
+		"subcatterm": [{
+			"sterm": "Community Meals"
+		}, {
+			"sterm": "Community Meals * At Risk Youth"
+		}, {
+			"sterm": "Community Meals * Homeless Men"
+		}, {
+			"sterm": "Community Meals * Homeless Youth"
+		}, {
+			"sterm": "Congregate Meals/Nutrition Sites"
+		}, {
+			"sterm": "Congregate Meals/Nutrition Sites * AIDS/HIV"
+		}, {
+			"sterm": "Congregate Meals/Nutrition Sites * Chronic/Severe Mental Illness"
+		}, {
+			"sterm": "Congregate Meals/Nutrition Sites * Hispanic/Latino Community"
+		}, {
+			"sterm": "Congregate Meals/Nutrition Sites * Korean Community"
+		}, {
+			"sterm": "Congregate Meals/Nutrition Sites * Native American Community"
+		}, {
+			"sterm": "Congregate Meals/Nutrition Sites * Veterans"
+		}, {
+			"sterm": "Sack Lunches/Dinners"
+		}]
+	}, {
+		"subcategory": "Food Pantries",
+		"subcategoryID": "2688",
+		"order": "5",
+		"subcatterm": [{
+			"sterm": "Food Pantries"
+		}, {
+			"sterm": "Food Pantries * AIDS/HIV"
+		}, {
+			"sterm": "Food Pantries * At Risk Youth"
+		}, {
+			"sterm": "Food Pantries * Hispanic/Latino Community"
+		}, {
+			"sterm": "Food Pantries * Homeless Families"
+		}, {
+			"sterm": "Food Pantries * Homeless Youth"
+		}, {
+			"sterm": "Food Pantries * Mental Health Issues"
+		}]
+	}, {
+		"subcategory": "SNAP/Food Stamps",
+		"subcategoryID": "2689",
+		"order": "5",
+		"subcatterm": [{
+			"sterm": "Benefits Assistance * Food Stamps/SNAP Recipients"
+		}, {
+			"sterm": "Farmers Markets * Food Stamps/SNAP Recipients"
+		}, {
+			"sterm": "Food Stamps/SNAP"
+		}, {
+			"sterm": "Food Stamps/SNAP * Adults With Disabilities/Health Conditions"
+		}, {
+			"sterm": "Food Stamps/SNAP * Domestic Violence Issues"
+		}, {
+			"sterm": "Food Stamps/SNAP * Older Adults"
+		}, {
+			"sterm": "Food Stamps/SNAP * Veterans"
+		}, {
+			"sterm": "Food Stamps/SNAP Fraud Reporting"
+		}, {
+			"sterm": "Specialized Information and Referral * Food Stamps/SNAP Recipients"
+		}]
+	}, {
+		"subcategory": "Youth After School/Summer Meals",
+		"subcategoryID": "2690",
+		"order": "5",
+		"subcatterm": [{
+			"sterm": "After School Meal Programs"
+		}, {
+			"sterm": "School Lunches/Snacks"
+		}, {
+			"sterm": "Summer Food Service Programs"
+		}]
+	}, {
+		"subcategory": "Fresh Food",
+		"subcategoryID": "2691",
+		"order": "5",
+		"subcatterm": [{
+			"sterm": "Community Gardening"
+		}, {
+			"sterm": "Farmers Markets"
+		}, {
+			"sterm": "Farmers Markets * Food Stamps/SNAP Recipients"
+		}, {
+			"sterm": "Food Cooperatives"
+		}, {
+			"sterm": "Food Cooperatives * Food Stamps/SNAP Recipients"
+		}, {
+			"sterm": "Food Vouchers"
+		}, {
+			"sterm": "Food Vouchers * College/University Students"
+		}, {
+			"sterm": "Food Vouchers * Families with Infants/Toddlers"
+		}, {
+			"sterm": "Food Vouchers * Human Trafficking Issues"
+		}, {
+			"sterm": "Food Vouchers * Older Adults"
+		}, {
+			"sterm": "Food Vouchers * Pregnant Women"
+		}, {
+			"sterm": "Fresh Food"
+		}, {
+			"sterm": "Grocery Ordering/Delivery"
+		}, {
+			"sterm": "Grocery Ordering/Delivery * Homebound"
+		}]
+	}, {
+		"subcategory": "WIC",
+		"subcategoryID": "2731",
+		"order": "5",
+		"subcatterm": [{
+			"sterm": "WIC"
+		}]
+	}]
+}, {
+	"category": "Health Care",
+	"categoryID": "2611",
+	"order": "6",
+	"subcat": [{
+		"subcategory": "Child/Youth Health Care",
+		"subcategoryID": "2808",
+		"order": "1",
+		"subcatterm": [{
+			"sterm": "Child Abuse Medical Evaluations"
+		}, {
+			"sterm": "Child Health and Disability Prevention Exams"
+		}, {
+			"sterm": "Childhood Immunizations"
+		}, {
+			"sterm": "Childhood Immunizations * Native American Community"
+		}, {
+			"sterm": "Cleft Lip/Palate Clinics"
+		}, {
+			"sterm": "Developmental Assessment"
+		}, {
+			"sterm": "Developmental Assessment * Autism"
+		}, {
+			"sterm": "Developmental Screening"
+		}, {
+			"sterm": "Developmental Screening * Native American Community"
+		}, {
+			"sterm": "HPV Immunizations"
+		}, {
+			"sterm": "HPV Immunizations * Native American Community"
+		}, {
+			"sterm": "Pediatrics"
+		}, {
+			"sterm": "Pediatrics * Children and Youth With Disabilities/Health Conditions"
+		}, {
+			"sterm": "Pediatrics * Down Syndrome"
+		}, {
+			"sterm": "Pediatrics * Hemophilia"
+		}, {
+			"sterm": "Pediatrics * Spina Bifida"
+		}, {
+			"sterm": "Well Baby Care"
+		}, {
+			"sterm": "Well Baby Care * Native American Community"
+		}]
+	}, {
+		"subcategory": "Free/Low Cost Clinics",
+		"subcategoryID": "2799",
+		"order": "2",
+		"subcatterm": [{
+			"sterm": "Community Clinics"
+		}, {
+			"sterm": "Community Clinics * African American Community"
+		}, {
+			"sterm": "Community Clinics * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "Community Clinics * Homelessness Issues"
+		}, {
+			"sterm": "Community Clinics * Native American Community"
+		}, {
+			"sterm": "Physician Referrals * People With Inadequate Health Insurance"
+		}, {
+			"sterm": "Physician Referrals * People Without Health Insurance"
+		}, {
+			"sterm": "Public Clinics"
+		}]
+	}, {
+		"subcategory": "Health Insurance Information Resources",
+		"subcategoryID": "2802",
+		"order": "3",
+		"subcatterm": [{
+			"sterm": "Benefits Assistance * Medicaid Recipients"
+		}, {
+			"sterm": "CHIP Programs"
+		}, {
+			"sterm": "General Health Insurance Information/Counseling"
+		}, {
+			"sterm": "Medicaid"
+		}, {
+			"sterm": "Medicaid * Older Adults"
+		}, {
+			"sterm": "Medicaid * Veterans"
+		}, {
+			"sterm": "Medicaid Information/Counseling"
+		}, {
+			"sterm": "Medicaid Planning"
+		}, {
+			"sterm": "Medicare"
+		}, {
+			"sterm": "Medicare Information/Counseling"
+		}, {
+			"sterm": "Medicare Information/Counseling * African American Community"
+		}, {
+			"sterm": "Medicare Information/Counseling * Veterans"
+		}, {
+			"sterm": "Navigator Programs"
+		}, {
+			"sterm": "Navigator Programs * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Navigator Programs * African American Community"
+		}, {
+			"sterm": "Navigator Programs * AIDS/HIV Issues"
+		}, {
+			"sterm": "Navigator Programs * Drug Use Disorder Issues"
+		}, {
+			"sterm": "Navigator Programs * Ex-Offenders"
+		}, {
+			"sterm": "Navigator Programs * Hispanic/Latino Community"
+		}, {
+			"sterm": "Navigator Programs * Homelessness Issues"
+		}, {
+			"sterm": "Navigator Programs * Native American Community"
+		}, {
+			"sterm": "Navigator Programs * Pregnant Women"
+		}, {
+			"sterm": "Veteran/Military Health Insurance"
+		}]
+	}, {
+		"subcategory": "HIV/STD Hotlines",
+		"subcategoryID": "2803",
+		"order": "4",
+		"subcatterm": [{
+			"sterm": "AIDS/HIV Clinics"
+		}, {
+			"sterm": "AIDS/HIV Prevention Counseling"
+		}, {
+			"sterm": "AIDS/HIV Prevention Counseling * Native American Community"
+		}, {
+			"sterm": "Specialized Information and Referral * AIDS/HIV Issues"
+		}]
+	}, {
+		"subcategory": "Immunizations",
+		"subcategoryID": "2806",
+		"order": "5",
+		"subcatterm": [{
+			"sterm": "Adolescent/Adult Immunizations"
+		}, {
+			"sterm": "Adolescent/Adult Immunizations * African American Community"
+		}, {
+			"sterm": "Adolescent/Adult Immunizations * Native American Community"
+		}, {
+			"sterm": "Childhood Immunizations"
+		}, {
+			"sterm": "Childhood Immunizations * Native American Community"
+		}, {
+			"sterm": "Flu Vaccines"
+		}, {
+			"sterm": "Flu Vaccines * Pregnant Women"
+		}, {
+			"sterm": "HPV Immunizations"
+		}, {
+			"sterm": "HPV Immunizations * Native American Community"
+		}, {
+			"sterm": "Travel Immunizations"
+		}, {
+			"sterm": "Vaccine Information"
+		}, {
+			"sterm": "Vaccine Information * Pertussis"
+		}, {
+			"sterm": "Vaccine Information * Pregnant Women"
+		}, {
+			"sterm": "Vaccine Information * Seasonal Flu"
+		}]
+	}, {
+		"subcategory": "Medicaid Recipients",
+		"subcategoryID": "2848",
+		"order": "6",
+		"subcatterm": [{
+			"sterm": "Dental Care Referrals * Medicaid Recipients"
+		}, {
+			"sterm": "Eye Care Referrals * Medicaid Recipients"
+		}, {
+			"sterm": "Medical Appointments Transportation * Medicaid Recipients"
+		}, {
+			"sterm": "Pharmacy Referrals * Medicaid Recipients"
+		}, {
+			"sterm": "Specialized Information and Referral * Medicaid Recipients"
+		}, {
+			"sterm": "Substance Use Disorder Referrals * Medicaid Recipients"
+		}]
+	}, {
+		"subcategory": "Medical Care Expense Assistance",
+		"subcategoryID": "2835",
+		"order": "7",
+		"subcatterm": [{
+			"sterm": "Incidental Medical Expense Assistance"
+		}, {
+			"sterm": "Incidental Medical Expense Assistance * Abortion Issues"
+		}, {
+			"sterm": "Incidental Medical Expense Assistance * Breast Cancer"
+		}, {
+			"sterm": "Incidental Medical Expense Assistance * Cancer"
+		}, {
+			"sterm": "Medical Care Expense Assistance"
+		}, {
+			"sterm": "Medical Care Expense Assistance * AIDS/HIV"
+		}, {
+			"sterm": "Medical Care Expense Assistance * Breast Cancer"
+		}, {
+			"sterm": "Medical Care Expense Assistance * Cancer"
+		}, {
+			"sterm": "Medical Care Expense Assistance * Cervical Cancer"
+		}, {
+			"sterm": "Medical Care Expense Assistance * Muscular Dystrophy"
+		}, {
+			"sterm": "Medical Care Expense Assistance * Stillbirth"
+		}, {
+			"sterm": "Medical Care Expense Assistance * Women"
+		}, {
+			"sterm": "Medical Equipment Expense Assistance * Speech Impairments"
+		}]
+	}, {
+		"subcategory": "Mobile Health Care",
+		"subcategoryID": "2800",
+		"order": "8",
+		"subcatterm": [{
+			"sterm": "Mobile Health Care"
+		}]
+	}, {
+		"subcategory": "Pre/Postnatal Care",
+		"subcategoryID": "2805",
+		"order": "9",
+		"subcatterm": [{
+			"sterm": "Perinatal/Postpartum Depression Counseling"
+		}, {
+			"sterm": "Perinatal/Postpartum Depression Counseling * Hispanic/Latino Community"
+		}, {
+			"sterm": "Postpartum Care"
+		}, {
+			"sterm": "Preconception Care"
+		}, {
+			"sterm": "Pregnancy/Childbirth Support Groups"
+		}, {
+			"sterm": "Pregnancy/Childbirth Support Groups * African American Community"
+		}, {
+			"sterm": "Prenatal Care"
+		}, {
+			"sterm": "Prenatal Evaluation"
+		}, {
+			"sterm": "Prenatal/Postnatal Home Visitation Programs"
+		}, {
+			"sterm": "Prenatal/Postnatal Home Visitation Programs * African American Community"
+		}, {
+			"sterm": "Prenatal/Postnatal Home Visitation Programs * At Risk Families"
+		}, {
+			"sterm": "Teen Expectant/New Parent Assistance"
+		}, {
+			"sterm": "Teen Expectant/New Parent Assistance * At Risk Youth"
+		}, {
+			"sterm": "Women's Health Centers"
+		}, {
+			"sterm": "Women's Health Centers * Veterans"
+		}]
+	}, {
+		"subcategory": "Prescription Assistance",
+		"subcategoryID": "2807",
+		"order": "10",
+		"subcatterm": [{
+			"sterm": "Prescription Drug Discount Cards"
+		}, {
+			"sterm": "Prescription Drug Discount Cards * Pets"
+		}, {
+			"sterm": "Prescription Drug Patient Assistance Programs"
+		}, {
+			"sterm": "Prescription Expense Assistance"
+		}, {
+			"sterm": "Prescription Expense Assistance * Adults With Disabilities/Health Conditions"
+		}, {
+			"sterm": "Prescription Expense Assistance * AIDS/HIV"
+		}, {
+			"sterm": "Prescription Expense Assistance * Cancer"
+		}, {
+			"sterm": "Prescription Expense Assistance * Epilepsy"
+		}, {
+			"sterm": "Prescription Expense Assistance * Medicare Beneficiaries"
+		}, {
+			"sterm": "Prescription Expense Assistance * Mental Health Issues"
+		}, {
+			"sterm": "Prescription Expense Assistance * Older Adults"
+		}, {
+			"sterm": "Psychiatric Medication Services"
+		}, {
+			"sterm": "Psychiatric Medication Services * Deafness"
+		}, {
+			"sterm": "Psychiatric Medication Services * Native American Community"
+		}]
+	}, {
+		"subcategory": "Urgent Care Facilities",
+		"subcategoryID": "2801",
+		"order": "11",
+		"subcatterm": [{
+			"sterm": "Emergency Room Care"
+		}, {
+			"sterm": "Hospitals"
+		}, {
+			"sterm": "Hospitals * Children"
+		}, {
+			"sterm": "Hospitals * Veterans"
+		}, {
+			"sterm": "Urgent Care Centers"
+		}]
+	}, {
+		"subcategory": "Women's Health Centers",
+		"subcategoryID": "2804",
+		"order": "12",
+		"subcatterm": [{
+			"sterm": "Abortion Referrals"
+		}, {
+			"sterm": "Abortions"
+		}, {
+			"sterm": "Biopsies * Cervical Cancer"
+		}, {
+			"sterm": "Birth Control Counseling"
+		}, {
+			"sterm": "Breast Examinations"
+		}, {
+			"sterm": "Breast Examinations * African American Community"
+		}, {
+			"sterm": "Breast Examinations * Native American Community"
+		}, {
+			"sterm": "Contraception"
+		}, {
+			"sterm": "Mammograms"
+		}, {
+			"sterm": "Mammograms * Hispanic/Latino Community"
+		}, {
+			"sterm": "Mammograms * Russian Community"
+		}, {
+			"sterm": "Obstetrics/Gynecology"
+		}, {
+			"sterm": "Obstetrics/Gynecology * Bladder Incontinence"
+		}, {
+			"sterm": "Obstetrics/Gynecology * Hysterectomy"
+		}, {
+			"sterm": "Obstetrics/Gynecology * Pregnancy Complications"
+		}, {
+			"sterm": "Obstetrics/Gynecology * Veterans"
+		}, {
+			"sterm": "Pap Tests"
+		}, {
+			"sterm": "Pap Tests * African American Community"
+		}, {
+			"sterm": "Pap Tests * Native American Community"
+		}, {
+			"sterm": "Pregnancy Testing"
+		}, {
+			"sterm": "Women's Health Centers"
+		}, {
+			"sterm": "Women's Health Centers * Veterans"
+		}]
+	}]
+}, {
+	"category": "Health Screenings/Tests",
+	"categoryID": "2792",
+	"order": "7",
+	"subcat": [{
+		"subcategory": "TB Testing",
+		"subcategoryID": "2793",
+		"order": "7",
+		"subcatterm": [{
+			"sterm": "Tuberculosis Screening"
+		}]
+	}, {
+		"subcategory": "STD/STI Screening",
+		"subcategoryID": "2794",
+		"order": "7",
+		"subcatterm": [{
+			"sterm": "Sexually Transmitted Disease Screening"
+		}, {
+			"sterm": "Sexually Transmitted Disease Screening * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "Sexually Transmitted Disease Screening * Native American Community"
+		}, {
+			"sterm": "Sexually Transmitted Disease Screening * Syphilis"
+		}, {
+			"sterm": "Sexually Transmitted Disease Screening * Transsexual/Transgender Individuals"
+		}]
+	}, {
+		"subcategory": "Hepatitis Screenings",
+		"subcategoryID": "2795",
+		"order": "7",
+		"subcatterm": [{
+			"sterm": "Hepatitis Testing"
+		}]
+	}, {
+		"subcategory": "HIV Testing",
+		"subcategoryID": "2796",
+		"order": "7",
+		"subcatterm": [{
+			"sterm": "AIDS/HIV Clinics"
+		}, {
+			"sterm": "AIDS/HIV Prevention Counseling"
+		}, {
+			"sterm": "AIDS/HIV Prevention Counseling * Native American Community"
+		}, {
+			"sterm": "Chronic Disease Self Management Programs * AIDS/HIV"
+		}, {
+			"sterm": "HIV Testing"
+		}, {
+			"sterm": "HIV Testing * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "HIV Testing * Native American Community"
+		}, {
+			"sterm": "HIV Testing * Transsexual/Transgender Individuals"
+		}]
+	}, {
+		"subcategory": "Pregnancy Tests",
+		"subcategoryID": "2797",
+		"order": "7",
+		"subcatterm": [{
+			"sterm": "Pregnancy Testing"
+		}]
+	}, {
+		"subcategory": "Genetic Screenings/Tests",
+		"subcategoryID": "2798",
+		"order": "7",
+		"subcatterm": [{
+			"sterm": "Genetic Counseling"
+		}, {
+			"sterm": "Genetic Testing and Screening"
+		}, {
+			"sterm": "Genetic Testing and Screening * Breast Cancer"
+		}, {
+			"sterm": "Genetic Testing and Screening * Cervical Cancer"
+		}]
+	}, {
+		"subcategory": "Skin Screenings",
+		"subcategoryID": "2810",
+		"order": "7",
+		"subcatterm": []
+	}, {
+		"subcategory": "General Lab Tests",
+		"subcategoryID": "2831",
+		"order": "7",
+		"subcatterm": [{
+			"sterm": "General Laboratory Tests"
+		}]
+	}, {
+		"subcategory": "Diabetes Screenings",
+		"subcategoryID": "2837",
+		"order": "7",
+		"subcatterm": [{
+			"sterm": "Diabetes Screening"
+		}, {
+			"sterm": "Diabetes Screening * Native American Community"
+		}]
+	}, {
+		"subcategory": "Blood Pressure Screenings",
+		"subcategoryID": "2838",
+		"order": "7",
+		"subcatterm": [{
+			"sterm": "Blood Pressure Screening"
+		}, {
+			"sterm": "Blood Pressure Screening * African American Community"
+		}]
+	}]
+}, {
+	"category": "Addiction and Substance Use",
+	"categoryID": "2694",
+	"order": "8",
+	"subcat": [{
+		"subcategory": "Sober Living/Recovery Homes",
+		"subcategoryID": "2697",
+		"order": "6",
+		"subcatterm": [{
+			"sterm": "Recovery Homes/Halfway Houses"
+		}, {
+			"sterm": "Recovery Homes/Halfway Houses * Men"
+		}, {
+			"sterm": "Recovery Homes/Halfway Houses * Women"
+		}, {
+			"sterm": "Sober Living Homes"
+		}]
+	}, {
+		"subcategory": "Substance Abuse Hotlines",
+		"subcategoryID": "2698",
+		"order": "6",
+		"subcatterm": [{
+			"sterm": "Substance Use Disorder Crisis Intervention"
+		}, {
+			"sterm": "Substance Use Disorder Hotlines"
+		}]
+	}, {
+		"subcategory": "Substance Abuse Assessments",
+		"subcategoryID": "2699",
+		"order": "6",
+		"subcatterm": [{
+			"sterm": "Assessment for Substance Use Disorders"
+		}, {
+			"sterm": "Assessment for Substance Use Disorders * Adolescents"
+		}, {
+			"sterm": "Assessment for Substance Use Disorders * At Risk Families"
+		}, {
+			"sterm": "Assessment for Substance Use Disorders * Domestic Violence Issues"
+		}, {
+			"sterm": "Assessment for Substance Use Disorders * Hispanic/Latino Community"
+		}, {
+			"sterm": "Assessment for Substance Use Disorders * Native American Community"
+		}, {
+			"sterm": "Assessment for Substance Use Disorders * Veterans"
+		}, {
+			"sterm": "Substance Use Disorder Referrals"
+		}, {
+			"sterm": "Substance Use Disorder Referrals * Medicaid Recipients"
+		}, {
+			"sterm": "Substance Use Disorder Referrals * Native American Community"
+		}, {
+			"sterm": "Substance Use Disorder Referrals * Veterans"
+		}]
+	}, {
+		"subcategory": "Adult Outpatient/Day Treatment Programs",
+		"subcategoryID": "2700",
+		"order": "6",
+		"subcatterm": [{
+			"sterm": "Comprehensive Outpatient Substance Use Disorder Treatment"
+		}, {
+			"sterm": "Comprehensive Outpatient Substance Use Disorder Treatment * African American Community"
+		}, {
+			"sterm": "Comprehensive Outpatient Substance Use Disorder Treatment * Deafness"
+		}, {
+			"sterm": "Comprehensive Outpatient Substance Use Disorder Treatment * Hispanic/Latino Community"
+		}, {
+			"sterm": "Comprehensive Outpatient Substance Use Disorder Treatment * Men"
+		}, {
+			"sterm": "Comprehensive Outpatient Substance Use Disorder Treatment * Native American Community"
+		}, {
+			"sterm": "Comprehensive Outpatient Substance Use Disorder Treatment * Offender/Ex-Offender Issues"
+		}, {
+			"sterm": "Comprehensive Outpatient Substance Use Disorder Treatment * Women"
+		}, {
+			"sterm": "Substance Use Disorder Counseling"
+		}, {
+			"sterm": "Substance Use Disorder Counseling * At Risk Families"
+		}, {
+			"sterm": "Substance Use Disorder Counseling * Deafness"
+		}, {
+			"sterm": "Substance Use Disorder Counseling * Domestic Violence Issues"
+		}, {
+			"sterm": "Substance Use Disorder Counseling * Hispanic/Latino Community"
+		}, {
+			"sterm": "Substance Use Disorder Counseling * Native American Community"
+		}, {
+			"sterm": "Substance Use Disorder Counseling * Veterans"
+		}, {
+			"sterm": "Substance Use Disorder Day Treatment"
+		}, {
+			"sterm": "Substance Use Disorder Day Treatment * Adolescents"
+		}, {
+			"sterm": "Substance Use Disorder Day Treatment * Veterans"
+		}]
+	}, {
+		"subcategory": "Adult Inpatient Programs",
+		"subcategoryID": "2701",
+		"order": "6",
+		"subcatterm": [{
+			"sterm": "Inpatient Substance Use Disorder Treatment Facilities"
+		}, {
+			"sterm": "Perinatal Substance Use Disorder Treatment"
+		}, {
+			"sterm": "Residential Substance Use Disorder Treatment Facilities"
+		}, {
+			"sterm": "Residential Substance Use Disorder Treatment Facilities * Deafness"
+		}, {
+			"sterm": "Residential Substance Use Disorder Treatment Facilities * Fathers"
+		}, {
+			"sterm": "Residential Substance Use Disorder Treatment Facilities * Men"
+		}, {
+			"sterm": "Residential Substance Use Disorder Treatment Facilities * Offender/Ex-Offender Issues"
+		}, {
+			"sterm": "Residential Substance Use Disorder Treatment Facilities * Women"
+		}]
+	}, {
+		"subcategory": "Youth Outpatient/Day Treatment Programs",
+		"subcategoryID": "2702",
+		"order": "6",
+		"subcatterm": [{
+			"sterm": "Comprehensive Outpatient Substance Use Disorder Treatment * Adolescents"
+		}, {
+			"sterm": "Comprehensive Outpatient Substance Use Disorder Treatment * Adolescents * Hispanic/Latino Community"
+		}, {
+			"sterm": "Smoking Cessation * Adolescents"
+		}]
+	}, {
+		"subcategory": "Youth Inpatient Programs",
+		"subcategoryID": "2703",
+		"order": "6",
+		"subcatterm": [{
+			"sterm": "Detoxification * Adolescents"
+		}, {
+			"sterm": "Inpatient Substance Use Disorder Treatment Facilities * Adolescents"
+		}, {
+			"sterm": "Residential Substance Use Disorder Treatment Facilities * Adolescents"
+		}]
+	}, {
+		"subcategory": "Methadone/Suboxone Treatment",
+		"subcategoryID": "2704",
+		"order": "6",
+		"subcatterm": [{
+			"sterm": "Medication Assisted Maintenance Treatment for Opioid Use Disorders"
+		}]
+	}, {
+		"subcategory": "Needle Exchanges",
+		"subcategoryID": "2705",
+		"order": "6",
+		"subcatterm": [{
+			"sterm": "Needle Exchange/Distribution Programs"
+		}, {
+			"sterm": "Sharps Disposal Programs"
+		}]
+	}, {
+		"subcategory": "Substance Abuse Support Groups/Meetings",
+		"subcategoryID": "2706",
+		"order": "6",
+		"subcatterm": [{
+			"sterm": "Alcohol Use Disorder Support Groups"
+		}, {
+			"sterm": "Alcohol Use Disorder Support Groups * Domestic Violence Issues"
+		}, {
+			"sterm": "Alcohol Use Disorder Support Groups * Hispanic/Latino Community"
+		}, {
+			"sterm": "Drug Use Disorder Support Groups"
+		}, {
+			"sterm": "Drug Use Disorder Support Groups * Domestic Violence Issues"
+		}, {
+			"sterm": "Drug Use Disorder Support Groups * Hispanic/Latino Community"
+		}, {
+			"sterm": "Drug Use Disorder Support Groups * Men"
+		}, {
+			"sterm": "Drug Use Disorder Support Groups * Women"
+		}, {
+			"sterm": "General Addictions/Substance Use Disorder Support Groups"
+		}, {
+			"sterm": "Relapse Prevention Programs"
+		}, {
+			"sterm": "Smoking Addiction Support Groups"
+		}]
+	}, {
+		"subcategory": "Detoxification Programs",
+		"subcategoryID": "2707",
+		"order": "6",
+		"subcatterm": [{
+			"sterm": "Detoxification"
+		}, {
+			"sterm": "Detoxification * Adolescents"
+		}, {
+			"sterm": "Detoxification * Deafness"
+		}, {
+			"sterm": "Detoxification * Homelessness Issues"
+		}]
+	}, {
+		"subcategory": "Support for Family and Friends",
+		"subcategoryID": "2708",
+		"order": "6",
+		"subcatterm": [{
+			"sterm": "Adult Children of Alcoholics Support Groups"
+		}, {
+			"sterm": "Alcohol Use Disorder Education/Prevention"
+		}, {
+			"sterm": "Alcohol Use Disorder Education/Prevention * Hispanic/Latino Community"
+		}, {
+			"sterm": "Alcohol Use Disorder Support Groups * At Risk Families"
+		}, {
+			"sterm": "Drug Use Disorder Education/Prevention"
+		}, {
+			"sterm": "Drug Use Disorder Education/Prevention * Hispanic/Latino Community"
+		}, {
+			"sterm": "Drug Use Disorder Education/Prevention * Native American Community"
+		}, {
+			"sterm": "Drug Use Disorder Support Groups * At Risk Families"
+		}, {
+			"sterm": "Families/Friends of Individuals With a Drug Use Disorder Support Groups"
+		}, {
+			"sterm": "Families/Friends of Individuals With an Alcohol Use Disorder Support Groups"
+		}]
+	}]
+}, {
+	"category": "Mental/Behavioral Health",
+	"categoryID": "2615",
+	"order": "9",
+	"subcat": [{
+		"subcategory": "Talklines or Warmlines",
+		"subcategoryID": "2769",
+		"order": "10",
+		"subcatterm": [{
+			"sterm": "Mental Health Hotlines"
+		}, {
+			"sterm": "Mental Health Hotlines * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Mental Health Hotlines * Medicaid Recipients"
+		}, {
+			"sterm": "Mental Health Hotlines * Russian Community"
+		}, {
+			"sterm": "Talklines/Warmlines"
+		}]
+	}, {
+		"subcategory": "Mental Health Information and Education",
+		"subcategoryID": "2770",
+		"order": "10",
+		"subcatterm": [{
+			"sterm": "Mental Health Information/Education"
+		}, {
+			"sterm": "Mental Health Information/Education * Native American Community"
+		}, {
+			"sterm": "Mental Health Information/Education * Veteran/Military Personnel Issues"
+		}, {
+			"sterm": "Speakers/Speakers Bureaus * Mental Health Issues"
+		}]
+	}, {
+		"subcategory": "Evaluation or Intervention Programs",
+		"subcategoryID": "2771",
+		"order": "10",
+		"subcatterm": [{
+			"sterm": "After Hours Crisis Drop In Programs"
+		}, {
+			"sterm": "In Person Crisis Intervention"
+		}, {
+			"sterm": "In Person Crisis Intervention * Disaster/Emergency Issues"
+		}, {
+			"sterm": "In Person Crisis Intervention * Hispanic/Latino Community"
+		}, {
+			"sterm": "In Person Crisis Intervention * Human Trafficking Issues"
+		}, {
+			"sterm": "In Person Crisis Intervention * Sex Trafficking Victims"
+		}, {
+			"sterm": "Involuntary Psychiatric Intervention"
+		}, {
+			"sterm": "Mental Health Evaluation * Adolescents"
+		}, {
+			"sterm": "Mental Health Evaluation * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Mental Health Evaluation * AIDS/HIV Issues"
+		}, {
+			"sterm": "Mental Health Evaluation * All Grade School Students"
+		}, {
+			"sterm": "Mental Health Evaluation * Children"
+		}, {
+			"sterm": "Mental Health Evaluation * Domestic Violence Issues"
+		}, {
+			"sterm": "Mental Health Evaluation * Ex-Offenders"
+		}, {
+			"sterm": "Mental Health Evaluation * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "Mental Health Evaluation * Hispanic/Latino Community"
+		}, {
+			"sterm": "Mental Health Evaluation * Homelessness Issues"
+		}, {
+			"sterm": "Mental Health Evaluation * Immigration Issues"
+		}, {
+			"sterm": "Mental Health Evaluation * Infants/Toddlers"
+		}, {
+			"sterm": "Mental Health Evaluation * Medicaid Recipients"
+		}, {
+			"sterm": "Mental Health Evaluation * Native American Community"
+		}, {
+			"sterm": "Mental Health Evaluation * Older Adults"
+		}, {
+			"sterm": "Mental Health Evaluation * Perinatal/Postpartum Depression"
+		}, {
+			"sterm": "Mental Health Evaluation * Veterans"
+		}]
+	}, {
+		"subcategory": "Outpatient Treatment Programs",
+		"subcategoryID": "2772",
+		"order": "10",
+		"subcatterm": [{
+			"sterm": "Anger Management"
+		}, {
+			"sterm": "Anger Management * At Risk Youth"
+		}, {
+			"sterm": "Anger Management * Hispanic/Latino Community"
+		}, {
+			"sterm": "Anger Management * Infants/Toddlers"
+		}, {
+			"sterm": "Community Mental Health Agencies"
+		}, {
+			"sterm": "Community Mental Health Agencies * African American Community"
+		}, {
+			"sterm": "Community Mental Health Agencies * Hispanic/Latino Community"
+		}, {
+			"sterm": "Community Mental Health Agencies * Native American Community"
+		}, {
+			"sterm": "General Counseling Services"
+		}, {
+			"sterm": "General Counseling Services * Deafness"
+		}, {
+			"sterm": "General Counseling Services * Hispanic/Latino Community"
+		}, {
+			"sterm": "General Counseling Services * Native American Community"
+		}, {
+			"sterm": "Home Based Mental Health Services"
+		}, {
+			"sterm": "Mental Health Drop In Centers"
+		}, {
+			"sterm": "Psychiatric Day Treatment"
+		}, {
+			"sterm": "Psychiatric Day Treatment * Adolescents"
+		}, {
+			"sterm": "Psychiatric Day Treatment * Children"
+		}, {
+			"sterm": "Psychiatric Day Treatment * Chronically Homeless"
+		}, {
+			"sterm": "Psychiatric Disorder Counseling"
+		}, {
+			"sterm": "Psychiatric Medication Services"
+		}, {
+			"sterm": "Psychiatric Medication Services * Deafness"
+		}, {
+			"sterm": "Psychiatric Medication Services * Native American Community"
+		}, {
+			"sterm": "Psychiatric Rehabilitation"
+		}, {
+			"sterm": "Therapy Referrals"
+		}, {
+			"sterm": "Therapy Referrals * Child Abuse Issues"
+		}, {
+			"sterm": "Therapy Referrals * Domestic Violence Issues"
+		}, {
+			"sterm": "Therapy Referrals * Human Trafficking Issues"
+		}, {
+			"sterm": "Therapy Referrals * Tourette's Syndrome"
+		}, {
+			"sterm": "Transitional Mental Health Services"
+		}, {
+			"sterm": "Transitional Mental Health Services * Chronically Homeless"
+		}]
+	}, {
+		"subcategory": "Inpatient/Residential Mental Health Programs",
+		"subcategoryID": "2773",
+		"order": "10",
+		"subcatterm": [{
+			"sterm": "Adult Residential Treatment Facilities"
+		}, {
+			"sterm": "Children's/Adolescent Residential Treatment Facilities"
+		}, {
+			"sterm": "Crisis Residential Treatment"
+		}, {
+			"sterm": "Crisis Residential Treatment * Disorders of Infancy/Childhood"
+		}, {
+			"sterm": "Inpatient Mental Health Facilities"
+		}]
+	}, {
+		"subcategory": "Couples Counseling",
+		"subcategoryID": "2774",
+		"order": "10",
+		"subcatterm": [{
+			"sterm": "Conjoint Counseling"
+		}, {
+			"sterm": "Conjoint Counseling * Immigrants"
+		}, {
+			"sterm": "Conjoint Counseling * Native American Community"
+		}, {
+			"sterm": "Conjoint Counseling * Refugees/Entrants/Asylees"
+		}, {
+			"sterm": "Marriage Counseling"
+		}, {
+			"sterm": "Marriage Counseling * Hispanic/Latino Community"
+		}, {
+			"sterm": "Premarital Counseling"
+		}]
+	}, {
+		"subcategory": "Family Counseling",
+		"subcategoryID": "2775",
+		"order": "10",
+		"subcatterm": [{
+			"sterm": "Adolescent/Youth Counseling"
+		}, {
+			"sterm": "Adolescent/Youth Counseling * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Adolescent/Youth Counseling * At Risk Youth"
+		}, {
+			"sterm": "Adolescent/Youth Counseling * Child/Adolescent Sex Offenders"
+		}, {
+			"sterm": "Adolescent/Youth Counseling * Hispanic/Latino Community"
+		}, {
+			"sterm": "Adolescent/Youth Counseling * Immigration Issues"
+		}, {
+			"sterm": "Adolescent/Youth Counseling * Korean Community"
+		}, {
+			"sterm": "Adolescent/Youth Counseling * Native American Community"
+		}, {
+			"sterm": "Child Guidance"
+		}, {
+			"sterm": "Child Guidance * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Child Guidance * At Risk Families"
+		}, {
+			"sterm": "Child Guidance * Child/Adolescent Sex Offenders"
+		}, {
+			"sterm": "Child Guidance * Mental Health Issues"
+		}, {
+			"sterm": "Family Counseling"
+		}, {
+			"sterm": "Family Counseling * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Family Counseling * At Risk Families"
+		}, {
+			"sterm": "Family Counseling * Deafness"
+		}, {
+			"sterm": "Family Counseling * Hispanic/Latino Community"
+		}, {
+			"sterm": "Family Counseling * Immigration Issues"
+		}, {
+			"sterm": "Family Counseling * Native American Community"
+		}, {
+			"sterm": "Family Counseling * Refugees/Entrants/Asylees"
+		}, {
+			"sterm": "Family Counseling Agencies"
+		}, {
+			"sterm": "Parent Child Interactive Therapy"
+		}]
+	}, {
+		"subcategory": "Support for Family and Friends",
+		"subcategoryID": "2776",
+		"order": "10",
+		"subcatterm": [{
+			"sterm": "Mental Health Information/Education"
+		}, {
+			"sterm": "Mental Health Information/Education * Native American Community"
+		}, {
+			"sterm": "Mental Health Information/Education * Veteran/Military Personnel Issues"
+		}, {
+			"sterm": "Support Group Clearinghouses * Families/Friends of People with Disabilities"
+		}]
+	}, {
+		"subcategory": "Individual Counseling",
+		"subcategoryID": "2777",
+		"order": "10",
+		"subcatterm": [{
+			"sterm": "General Counseling Services"
+		}, {
+			"sterm": "General Counseling Services * Deafness"
+		}, {
+			"sterm": "General Counseling Services * Hispanic/Latino Community"
+		}, {
+			"sterm": "General Counseling Services * Native American Community"
+		}, {
+			"sterm": "Individual Counseling"
+		}, {
+			"sterm": "Individual Counseling * AIDS/HIV Issues"
+		}, {
+			"sterm": "Individual Counseling * Chronic/Severe Mental Illness"
+		}, {
+			"sterm": "Individual Counseling * Deafness"
+		}, {
+			"sterm": "Individual Counseling * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "Individual Counseling * Hispanic/Latino Community"
+		}, {
+			"sterm": "Individual Counseling * Homelessness Issues"
+		}, {
+			"sterm": "Individual Counseling * Immigration Issues"
+		}, {
+			"sterm": "Individual Counseling * Medicaid Recipients"
+		}, {
+			"sterm": "Individual Counseling * Native American Community"
+		}, {
+			"sterm": "Individual Counseling * Pregnant Women"
+		}, {
+			"sterm": "Individual Counseling * Sex Trafficking Victims"
+		}, {
+			"sterm": "Individual Counseling * Veterans"
+		}]
+	}, {
+		"subcategory": "Group Counseling",
+		"subcategoryID": "2778",
+		"order": "10",
+		"subcatterm": [{
+			"sterm": "Group Counseling"
+		}, {
+			"sterm": "Group Counseling * Deafness"
+		}, {
+			"sterm": "Group Counseling * Hispanic/Latino Community"
+		}, {
+			"sterm": "Group Counseling * Homelessness Issues"
+		}, {
+			"sterm": "Group Counseling * Immigration Issues"
+		}, {
+			"sterm": "Group Counseling * Medicaid Recipients"
+		}, {
+			"sterm": "Group Counseling * Native American Community"
+		}, {
+			"sterm": "Group Counseling * Sex Trafficking Victims"
+		}, {
+			"sterm": "Group Counseling * Veteran/Military Personnel Issues"
+		}, {
+			"sterm": "Peer Counseling"
+		}, {
+			"sterm": "Peer Counseling * AIDS/HIV * African American Community"
+		}, {
+			"sterm": "Peer Counseling * AIDS/HIV * Hispanic/Latino Community"
+		}, {
+			"sterm": "Peer Counseling * Amputations"
+		}, {
+			"sterm": "Peer Counseling * Breast Cancer"
+		}, {
+			"sterm": "Peer Counseling * Breastfeeding Women"
+		}, {
+			"sterm": "Peer Counseling * Disabilities Issues"
+		}, {
+			"sterm": "Peer Counseling * Ex-Offenders"
+		}, {
+			"sterm": "Peer Counseling * Mental Health Issues"
+		}, {
+			"sterm": "Peer Counseling * Older Adult/Aging Issues"
+		}, {
+			"sterm": "Peer Counseling * Perinatal/Postpartum Depression"
+		}, {
+			"sterm": "Peer Counseling * Reproductive Issues"
+		}, {
+			"sterm": "Peer Counseling * Sexual Assault Issues"
+		}]
+	}, {
+		"subcategory": "Support Groups",
+		"subcategoryID": "2779",
+		"order": "10",
+		"subcatterm": [{
+			"sterm": "Codependents Anonymous Support Groups"
+		}, {
+			"sterm": "Domestic Violence Support Groups"
+		}, {
+			"sterm": "Domestic Violence Support Groups * Adolescents"
+		}, {
+			"sterm": "Domestic Violence Support Groups * African American Community"
+		}, {
+			"sterm": "Domestic Violence Support Groups * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "Domestic Violence Support Groups * Hispanic/Latino Community"
+		}, {
+			"sterm": "Domestic Violence Support Groups * Mothers"
+		}, {
+			"sterm": "Domestic Violence Support Groups * Women"
+		}, {
+			"sterm": "Dual Diagnosis Support Groups"
+		}, {
+			"sterm": "Emotions Anonymous Support Groups"
+		}, {
+			"sterm": "Gambling Addiction Support Groups"
+		}, {
+			"sterm": "General Addictions/Substance Use Disorder Support Groups"
+		}, {
+			"sterm": "Hoarding Support Groups"
+		}, {
+			"sterm": "Immigrant/Refugee Support Groups"
+		}, {
+			"sterm": "Men's Support Groups"
+		}, {
+			"sterm": "Religion/Spirituality Related Support Groups"
+		}, {
+			"sterm": "Sexual Assault/Incest Support Groups"
+		}, {
+			"sterm": "Sexual Assault/Incest Support Groups * African American Community"
+		}, {
+			"sterm": "Sexual/Love Addiction Support Groups"
+		}, {
+			"sterm": "Suicide Survivors Support Groups"
+		}, {
+			"sterm": "Support Group Clearinghouses"
+		}, {
+			"sterm": "Support Group Clearinghouses * Children and Youth With Disabilities/Health Conditions"
+		}, {
+			"sterm": "Terminal Illness Counseling"
+		}, {
+			"sterm": "Terminal Illness Support Groups"
+		}, {
+			"sterm": "Veteran Support Groups"
+		}, {
+			"sterm": "Veteran Support Groups * Native American Community"
+		}, {
+			"sterm": "Weight Related Support Groups"
+		}, {
+			"sterm": "Women's Support Groups"
+		}]
+	}, {
+		"subcategory": "Grief and Bereavement Counseling and Support Groups",
+		"subcategoryID": "2780",
+		"order": "10",
+		"subcatterm": [{
+			"sterm": "Benefits Assistance * Social Security Issues"
+		}, {
+			"sterm": "Bereaved Child Support Groups"
+		}, {
+			"sterm": "Bereaved Parent Support Groups"
+		}, {
+			"sterm": "Bereaved Parent Support Groups * Families/Friends of People with Cancer"
+		}, {
+			"sterm": "Bereavement Counseling"
+		}, {
+			"sterm": "Bereavement Counseling * Cancer"
+		}, {
+			"sterm": "Bereavement Counseling * Families/Friends of Murder Victims"
+		}, {
+			"sterm": "General Bereavement Support Groups"
+		}, {
+			"sterm": "Homicide Survivors Support Groups"
+		}, {
+			"sterm": "Pet Loss Support Groups"
+		}, {
+			"sterm": "Suicide Survivors Support Groups"
+		}, {
+			"sterm": "Terminal Illness Counseling"
+		}, {
+			"sterm": "Terminal Illness Support Groups"
+		}]
+	}, {
+		"subcategory": "Developmental Assessments",
+		"subcategoryID": "2836",
+		"order": "10",
+		"subcatterm": [{
+			"sterm": "Developmental Assessment"
+		}, {
+			"sterm": "Developmental Assessment * Autism"
+		}, {
+			"sterm": "Developmental Screening"
+		}, {
+			"sterm": "Developmental Screening * Native American Community"
+		}]
+	}, {
+		"subcategory": "Child/Adolescent Mental Health",
+		"subcategoryID": "2839",
+		"order": "10",
+		"subcatterm": [{
+			"sterm": "Adolescent/Youth Counseling"
+		}, {
+			"sterm": "Adolescent/Youth Counseling * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Adolescent/Youth Counseling * At Risk Youth"
+		}, {
+			"sterm": "Adolescent/Youth Counseling * Child/Adolescent Sex Offenders"
+		}, {
+			"sterm": "Adolescent/Youth Counseling * Hispanic/Latino Community"
+		}, {
+			"sterm": "Adolescent/Youth Counseling * Immigration Issues"
+		}, {
+			"sterm": "Adolescent/Youth Counseling * Korean Community"
+		}, {
+			"sterm": "Adolescent/Youth Counseling * Native American Community"
+		}, {
+			"sterm": "Child Sexual Abuse Counseling"
+		}, {
+			"sterm": "Children's/Adolescent Residential Treatment Facilities"
+		}, {
+			"sterm": "Comprehensive Outpatient Substance Use Disorder Treatment * Adolescents"
+		}, {
+			"sterm": "Comprehensive Outpatient Substance Use Disorder Treatment * Adolescents * Hispanic/Latino Community"
+		}, {
+			"sterm": "Early Intervention for Children with Disabilities/Delays"
+		}, {
+			"sterm": "Early Intervention for Children with Disabilities/Delays * African American Community"
+		}, {
+			"sterm": "Early Intervention for Children with Disabilities/Delays * Autism"
+		}, {
+			"sterm": "Early Intervention for Children with Disabilities/Delays * Deafness"
+		}, {
+			"sterm": "Early Intervention for Children with Disabilities/Delays * Language Impairments"
+		}, {
+			"sterm": "Early Intervention for Mental Illness"
+		}, {
+			"sterm": "Early Intervention for Mental Illness * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Mental Health Evaluation * Adolescents"
+		}, {
+			"sterm": "Mental Health Evaluation * Children"
+		}]
+	}]
+}, {
+	"category": "Dental/Vision",
+	"categoryID": "2695",
+	"order": "10",
+	"subcat": [{
+		"subcategory": "Speciality Dental Care",
+		"subcategoryID": "2710",
+		"order": "7",
+		"subcatterm": [{
+			"sterm": "Cosmetic Dentistry"
+		}, {
+			"sterm": "Cosmetic Dentistry * Disabilities Issues"
+		}, {
+			"sterm": "Cosmetic Dentistry * Older Adults"
+		}, {
+			"sterm": "Dental Restoration"
+		}, {
+			"sterm": "Dental Restoration * Disabilities Issues"
+		}, {
+			"sterm": "Dental Restoration * Native American Community"
+		}, {
+			"sterm": "Dental Restoration * Older Adults"
+		}, {
+			"sterm": "Endodontics"
+		}, {
+			"sterm": "Endodontics * AIDS/HIV"
+		}, {
+			"sterm": "Endodontics * Disabilities Issues"
+		}, {
+			"sterm": "Endodontics * Native American Community"
+		}, {
+			"sterm": "Endodontics * Older Adults"
+		}, {
+			"sterm": "Geriatric Dentistry"
+		}, {
+			"sterm": "Geriatric Dentistry * AIDS/HIV"
+		}, {
+			"sterm": "Geriatric Dentistry * Native American Community"
+		}, {
+			"sterm": "Oral/Maxillofacial Surgery"
+		}, {
+			"sterm": "Oral/Maxillofacial Surgery * AIDS/HIV"
+		}, {
+			"sterm": "Oral/Maxillofacial Surgery * Disabilities Issues"
+		}, {
+			"sterm": "Oral/Maxillofacial Surgery * Older Adults"
+		}, {
+			"sterm": "Pediatric Dentistry"
+		}, {
+			"sterm": "Pediatric Dentistry * AIDS/HIV"
+		}, {
+			"sterm": "Pediatric Dentistry * Native American Community"
+		}, {
+			"sterm": "Special Care Dentistry"
+		}, {
+			"sterm": "Special Care Dentistry * AIDS/HIV"
+		}]
+	}, {
+		"subcategory": "Dental Care Referrals",
+		"subcategoryID": "2711",
+		"order": "7",
+		"subcatterm": [{
+			"sterm": "Dental Care Referrals"
+		}, {
+			"sterm": "Dental Care Referrals * AIDS/HIV"
+		}, {
+			"sterm": "Dental Care Referrals * Medicaid Recipients"
+		}, {
+			"sterm": "Dental Care Referrals * Older Adults"
+		}, {
+			"sterm": "Dental Care Referrals * Pregnant Women"
+		}]
+	}, {
+		"subcategory": "Emergency Dental Care",
+		"subcategoryID": "2712",
+		"order": "7",
+		"subcatterm": [{
+			"sterm": "Emergency Dental Care"
+		}, {
+			"sterm": "Emergency Dental Care * AIDS/HIV"
+		}, {
+			"sterm": "Emergency Dental Care * Native American Community"
+		}, {
+			"sterm": "Emergency Dental Care * Veterans"
+		}]
+	}, {
+		"subcategory": "Mobile Dental Care",
+		"subcategoryID": "2713",
+		"order": "7",
+		"subcatterm": [{
+			"sterm": "Mobile Dental Care"
+		}, {
+			"sterm": "Mobile Dental Care * Native American Community"
+		}, {
+			"sterm": "Mobile Dental Care * Veterans"
+		}]
+	}, {
+		"subcategory": "Dental Expence Assistance",
+		"subcategoryID": "2714",
+		"order": "7",
+		"subcatterm": [{
+			"sterm": "Dental Care Expense Assistance"
+		}, {
+			"sterm": "Dental Care Expense Assistance * AIDS/HIV"
+		}, {
+			"sterm": "Dental Care Expense Assistance * Homelessness Issues"
+		}]
+	}, {
+		"subcategory": "Dentures",
+		"subcategoryID": "2715",
+		"order": "7",
+		"subcatterm": [{
+			"sterm": "Dental Prosthodontics"
+		}, {
+			"sterm": "Dental Prosthodontics * AIDS/HIV"
+		}, {
+			"sterm": "Dental Prosthodontics * Disabilities Issues"
+		}, {
+			"sterm": "Dental Prosthodontics * Native American Community"
+		}, {
+			"sterm": "Dental Prosthodontics * Older Adults"
+		}]
+	}, {
+		"subcategory": "Eye Care",
+		"subcategoryID": "2716",
+		"order": "7",
+		"subcatterm": [{
+			"sterm": "Eye Care"
+		}, {
+			"sterm": "Eye Care * Glaucoma"
+		}, {
+			"sterm": "Eye Care * Macular Degeneration"
+		}, {
+			"sterm": "Eye Care Referrals"
+		}, {
+			"sterm": "Eye Care Referrals * Medicaid Recipients"
+		}, {
+			"sterm": "Eye Screening"
+		}, {
+			"sterm": "Eye Screening * Native American Community"
+		}]
+	}, {
+		"subcategory": "Eye Care Expense Assistance",
+		"subcategoryID": "2717",
+		"order": "7",
+		"subcatterm": [{
+			"sterm": "Eye Care Expense Assistance"
+		}]
+	}, {
+		"subcategory": "Glasses/Contact Lenses",
+		"subcategoryID": "2718",
+		"order": "7",
+		"subcatterm": [{
+			"sterm": "Glasses/Contact Lenses"
+		}]
+	}, {
+		"subcategory": "General Dental Care",
+		"subcategoryID": "2813",
+		"order": "7",
+		"subcatterm": [{
+			"sterm": "Cavity Prevention Measures"
+		}, {
+			"sterm": "Cavity Prevention Measures * AIDS/HIV"
+		}, {
+			"sterm": "Cavity Prevention Measures * Disabilities Issues"
+		}, {
+			"sterm": "Cavity Prevention Measures * Native American Community"
+		}, {
+			"sterm": "Cavity Prevention Measures * Older Adults"
+		}, {
+			"sterm": "Cavity Prevention Measures * Veterans"
+		}, {
+			"sterm": "Dental Hygiene"
+		}, {
+			"sterm": "Dental Hygiene * AIDS/HIV"
+		}, {
+			"sterm": "Dental Hygiene * Disabilities Issues"
+		}, {
+			"sterm": "Dental Hygiene * Native American Community"
+		}, {
+			"sterm": "Dental Hygiene * Older Adults"
+		}, {
+			"sterm": "Dental Hygiene * Veterans"
+		}, {
+			"sterm": "Dental Screening"
+		}, {
+			"sterm": "General Dentistry"
+		}, {
+			"sterm": "General Dentistry * AIDS/HIV"
+		}, {
+			"sterm": "General Dentistry * Native American Community"
+		}, {
+			"sterm": "General Dentistry * Veterans"
+		}]
+	}]
+}, {
+	"category": "Reproductive and Sexual Health",
+	"categoryID": "2696",
+	"order": "11",
+	"subcat": [{
+		"subcategory": "Contraception",
+		"subcategoryID": "2817",
+		"order": "12",
+		"subcatterm": [{
+			"sterm": "Birth Control Counseling"
+		}, {
+			"sterm": "Contraception"
+		}, {
+			"sterm": "Emergency Contraception"
+		}, {
+			"sterm": "Emergency Contraception * Sexual Assault Issues"
+		}, {
+			"sterm": "General Sexuality/Reproductive Health Education"
+		}, {
+			"sterm": "Teen Family Planning Programs"
+		}, {
+			"sterm": "Teen Pregnancy Prevention"
+		}]
+	}, {
+		"subcategory": "Reproductive and Sexual Health",
+		"subcategoryID": "2818",
+		"order": "12",
+		"subcatterm": [{
+			"sterm": "Breast Examinations"
+		}, {
+			"sterm": "Breast Examinations * African American Community"
+		}, {
+			"sterm": "Breast Examinations * Native American Community"
+		}, {
+			"sterm": "General Sexuality/Reproductive Health Education"
+		}, {
+			"sterm": "General Sexuality/Reproductive Health Education * Autism"
+		}, {
+			"sterm": "HIV Testing"
+		}, {
+			"sterm": "HIV Testing * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "HIV Testing * Native American Community"
+		}, {
+			"sterm": "HIV Testing * Transsexual/Transgender Individuals"
+		}, {
+			"sterm": "HPV Immunizations"
+		}, {
+			"sterm": "HPV Immunizations * Native American Community"
+		}, {
+			"sterm": "Obstetrics/Gynecology"
+		}, {
+			"sterm": "Obstetrics/Gynecology * Bladder Incontinence"
+		}, {
+			"sterm": "Obstetrics/Gynecology * Hysterectomy"
+		}, {
+			"sterm": "Obstetrics/Gynecology * Pregnancy Complications"
+		}, {
+			"sterm": "Obstetrics/Gynecology * Veterans"
+		}, {
+			"sterm": "Pap Tests"
+		}, {
+			"sterm": "Pap Tests * African American Community"
+		}, {
+			"sterm": "Pap Tests * Native American Community"
+		}, {
+			"sterm": "Pregnancy Testing"
+		}, {
+			"sterm": "Sexually Transmitted Disease Screening"
+		}, {
+			"sterm": "Sexually Transmitted Disease Screening * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "Sexually Transmitted Disease Screening * Native American Community"
+		}, {
+			"sterm": "Sexually Transmitted Disease Screening * Syphilis"
+		}, {
+			"sterm": "Sexually Transmitted Disease Screening * Transsexual/Transgender Individuals"
+		}, {
+			"sterm": "Sexually Transmitted Disease Treatment"
+		}, {
+			"sterm": "Sexually Transmitted Disease Treatment * Chlamydia"
+		}, {
+			"sterm": "Sexually Transmitted Disease Treatment * Gonorrhea"
+		}, {
+			"sterm": "Sexually Transmitted Disease Treatment * Native American Community"
+		}, {
+			"sterm": "Talklines/Warmlines * Reproductive Issues"
+		}]
+	}, {
+		"subcategory": "Prenatal Care",
+		"subcategoryID": "2819",
+		"order": "12",
+		"subcatterm": [{
+			"sterm": "Breastfeeding Support Programs"
+		}, {
+			"sterm": "Childbirth Education"
+		}, {
+			"sterm": "Obstetrics/Gynecology"
+		}, {
+			"sterm": "Obstetrics/Gynecology * Pregnancy Complications"
+		}, {
+			"sterm": "Obstetrics/Gynecology * Veterans"
+		}, {
+			"sterm": "Perinatal/Postpartum Depression Counseling"
+		}, {
+			"sterm": "Perinatal/Postpartum Depression Counseling * Hispanic/Latino Community"
+		}, {
+			"sterm": "Physician Referrals * Pregnant Women"
+		}, {
+			"sterm": "Pre-Abortion Counseling"
+		}, {
+			"sterm": "Prenatal Care"
+		}, {
+			"sterm": "Prenatal Evaluation"
+		}, {
+			"sterm": "Prenatal/Postnatal Home Visitation Programs"
+		}, {
+			"sterm": "Prenatal/Postnatal Home Visitation Programs * African American Community"
+		}, {
+			"sterm": "Prenatal/Postnatal Home Visitation Programs * At Risk Families"
+		}, {
+			"sterm": "Talklines/Warmlines * Perinatal/Postpartum Depression"
+		}, {
+			"sterm": "Teen Expectant/New Parent Assistance"
+		}, {
+			"sterm": "Teen Expectant/New Parent Assistance * At Risk Youth"
+		}, {
+			"sterm": "Women's Health Centers"
+		}, {
+			"sterm": "Women's Health Centers * Veterans"
+		}]
+	}, {
+		"subcategory": "Postpartum Care",
+		"subcategoryID": "2820",
+		"order": "12",
+		"subcatterm": [{
+			"sterm": "Breast Milk Banks"
+		}, {
+			"sterm": "Breast Pumps"
+		}, {
+			"sterm": "Breastfeeding Support Programs"
+		}, {
+			"sterm": "Perinatal/Postpartum Depression Counseling"
+		}, {
+			"sterm": "Perinatal/Postpartum Depression Counseling * Hispanic/Latino Community"
+		}, {
+			"sterm": "Physician Referrals * Pregnant Women"
+		}, {
+			"sterm": "Postpartum Care"
+		}, {
+			"sterm": "Pre-Abortion Counseling"
+		}, {
+			"sterm": "Prenatal/Postnatal Home Visitation Programs"
+		}, {
+			"sterm": "Prenatal/Postnatal Home Visitation Programs * African American Community"
+		}, {
+			"sterm": "Prenatal/Postnatal Home Visitation Programs * At Risk Families"
+		}, {
+			"sterm": "Talklines/Warmlines * Perinatal/Postpartum Depression"
+		}, {
+			"sterm": "Teen Expectant/New Parent Assistance"
+		}, {
+			"sterm": "Teen Expectant/New Parent Assistance * At Risk Youth"
+		}, {
+			"sterm": "Women's Health Centers"
+		}, {
+			"sterm": "Women's Health Centers * Veterans"
+		}]
+	}, {
+		"subcategory": "Pregnancy Options",
+		"subcategoryID": "2821",
+		"order": "12",
+		"subcatterm": [{
+			"sterm": "Abortion Expense Assistance"
+		}, {
+			"sterm": "Abortion Referrals"
+		}, {
+			"sterm": "Abortions"
+		}, {
+			"sterm": "Adoption Services"
+		}, {
+			"sterm": "Crisis Pregnancy Hotlines"
+		}, {
+			"sterm": "Crisis Pregnancy Hotlines * Down Syndrome"
+		}, {
+			"sterm": "Pre-Abortion Counseling"
+		}, {
+			"sterm": "Pro-Choice Pregnancy Counseling"
+		}, {
+			"sterm": "Safe Havens for Abandoned Newborns"
+		}]
+	}, {
+		"subcategory": "HIV/STD Testing and Treatment",
+		"subcategoryID": "2822",
+		"order": "12",
+		"subcatterm": [{
+			"sterm": "AIDS/HIV Clinics"
+		}, {
+			"sterm": "AIDS/HIV Prevention Counseling"
+		}, {
+			"sterm": "AIDS/HIV Prevention Counseling * Native American Community"
+		}, {
+			"sterm": "AIDS/HIV/STD Prevention Supplies"
+		}, {
+			"sterm": "General Sexuality/Reproductive Health Education"
+		}, {
+			"sterm": "General Sexuality/Reproductive Health Education * Autism"
+		}, {
+			"sterm": "Hepatitis Testing"
+		}, {
+			"sterm": "HIV Testing"
+		}, {
+			"sterm": "HIV Testing * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "HIV Testing * Native American Community"
+		}, {
+			"sterm": "HIV Testing * Transsexual/Transgender Individuals"
+		}, {
+			"sterm": "HPV Immunizations"
+		}, {
+			"sterm": "HPV Immunizations * Native American Community"
+		}, {
+			"sterm": "Sexually Transmitted Disease Screening"
+		}, {
+			"sterm": "Sexually Transmitted Disease Screening * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "Sexually Transmitted Disease Screening * Native American Community"
+		}, {
+			"sterm": "Sexually Transmitted Disease Screening * Syphilis"
+		}, {
+			"sterm": "Sexually Transmitted Disease Screening * Transsexual/Transgender Individuals"
+		}, {
+			"sterm": "Sexually Transmitted Disease Treatment"
+		}, {
+			"sterm": "Sexually Transmitted Disease Treatment * Chlamydia"
+		}, {
+			"sterm": "Sexually Transmitted Disease Treatment * Gonorrhea"
+		}, {
+			"sterm": "Sexually Transmitted Disease Treatment * Native American Community"
+		}]
+	}, {
+		"subcategory": "Health Screenings",
+		"subcategoryID": "2823",
+		"order": "12",
+		"subcatterm": [{
+			"sterm": "Blood Pressure Screening"
+		}, {
+			"sterm": "Blood Pressure Screening * African American Community"
+		}, {
+			"sterm": "Breast Examinations"
+		}, {
+			"sterm": "Breast Examinations * African American Community"
+		}, {
+			"sterm": "Breast Examinations * Native American Community"
+		}, {
+			"sterm": "Dental Care Referrals * Pregnant Women"
+		}, {
+			"sterm": "Genetic Counseling"
+		}, {
+			"sterm": "Genetic Testing and Screening"
+		}, {
+			"sterm": "Genetic Testing and Screening * Breast Cancer"
+		}, {
+			"sterm": "Genetic Testing and Screening * Cervical Cancer"
+		}, {
+			"sterm": "HIV Testing"
+		}, {
+			"sterm": "HIV Testing * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "HIV Testing * Native American Community"
+		}, {
+			"sterm": "HIV Testing * Transsexual/Transgender Individuals"
+		}, {
+			"sterm": "Navigator Programs * Pregnant Women"
+		}, {
+			"sterm": "Pap Tests"
+		}, {
+			"sterm": "Pap Tests * African American Community"
+		}, {
+			"sterm": "Pap Tests * Native American Community"
+		}, {
+			"sterm": "Sexually Transmitted Disease Screening"
+		}, {
+			"sterm": "Sexually Transmitted Disease Screening * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "Sexually Transmitted Disease Screening * Native American Community"
+		}, {
+			"sterm": "Sexually Transmitted Disease Screening * Syphilis"
+		}, {
+			"sterm": "Sexually Transmitted Disease Screening * Transsexual/Transgender Individuals"
+		}]
+	}, {
+		"subcategory": "LGBTQ Resources",
+		"subcategoryID": "2824",
+		"order": "12",
+		"subcatterm": [{
+			"sterm": "Community Clinics * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "GLBTQ Helplines"
+		}, {
+			"sterm": "GLBTQ Helplines * GLBT Youth"
+		}, {
+			"sterm": "GLBTQ Helplines * Older Adults"
+		}, {
+			"sterm": "GLBTQ Helplines * Transsexual/Transgender Individuals"
+		}, {
+			"sterm": "Physician Referrals * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "Specialized Information and Referral * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "Transgender Hormone Therapy"
+		}, {
+			"sterm": "Transgender Hormone Therapy * Children"
+		}]
+	}, {
+		"subcategory": "Paternity Testing",
+		"subcategoryID": "2825",
+		"order": "12",
+		"subcatterm": [{
+			"sterm": "Genetic Testing and Screening"
+		}]
+	}]
+}, {
+	"category": "Foster Families",
+	"categoryID": "2610",
+	"order": "12",
+	"subcat": [{
+		"subcategory": "Advocacy",
+		"subcategoryID": "2733",
+		"order": "1",
+		"subcatterm": [{
+			"sterm": "Advocacy * Former Foster Children"
+		}, {
+			"sterm": "Advocacy * Foster Children"
+		}, {
+			"sterm": "Benefits Assistance * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Case/Care Management * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Guardians ad Litem"
+		}, {
+			"sterm": "Placements for Children and Youth"
+		}, {
+			"sterm": "Specialized Information and Referral * Adoption/Foster Care Issues"
+		}]
+	}, {
+		"subcategory": "Children's Clothing",
+		"subcategoryID": "2811",
+		"order": "2",
+		"subcatterm": [{
+			"sterm": "Baby Clothing"
+		}, {
+			"sterm": "Children's Clothing * Foster Children"
+		}, {
+			"sterm": "School Clothing"
+		}, {
+			"sterm": "Shoes * Foster Children"
+		}]
+	}, {
+		"subcategory": "Education Resources",
+		"subcategoryID": "2734",
+		"order": "3",
+		"subcatterm": [{
+			"sterm": "College/University Entrance Support * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Education Advocacy Groups * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Tutoring Services * Adoption/Foster Care Issues"
+		}]
+	}, {
+		"subcategory": "Employment Resources for Foster Youth",
+		"subcategoryID": "2735",
+		"order": "4",
+		"subcatterm": [{
+			"sterm": "Job Finding Assistance * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Student Financial Aid * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Tutoring Services * Adoption/Foster Care Issues"
+		}]
+	}, {
+		"subcategory": "Foster Family Support Groups and Counseling",
+		"subcategoryID": "2737",
+		"order": "5",
+		"subcatterm": [{
+			"sterm": "Child Abuse Support Groups * Foster Children"
+		}, {
+			"sterm": "Child Custody/Support Related Support Groups"
+		}, {
+			"sterm": "In Person Support Groups * Foster Parents"
+		}, {
+			"sterm": "Mental Health Evaluation * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Mental Health Related Support Groups * Adoption/Foster Care Issues"
+		}]
+	}, {
+		"subcategory": "Foster Parent Classes/Programs",
+		"subcategoryID": "2732",
+		"order": "6",
+		"subcatterm": [{
+			"sterm": "Caregiver Training * Foster Parents"
+		}, {
+			"sterm": "Foster Parent/Family Recruitment"
+		}, {
+			"sterm": "Foster Parent/Family Recruitment * Developmental Issues"
+		}, {
+			"sterm": "Foster Parent/Family Recruitment * Native American Community"
+		}, {
+			"sterm": "Low Income/Subsidized Private Rental Housing * Foster Families"
+		}, {
+			"sterm": "Parent Counseling * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Parent to Parent Networking * Foster Parents"
+		}, {
+			"sterm": "Parenting Skills Classes * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Undesignated Temporary Financial Assistance * Social Security Issues"
+		}, {
+			"sterm": "Workshops/Symposiums * Adoption/Foster Care Issues"
+		}]
+	}, {
+		"subcategory": "Foster Parenting Helplines",
+		"subcategoryID": "2736",
+		"order": "7",
+		"subcatterm": []
+	}, {
+		"subcategory": "Health Care for Foster Youth",
+		"subcategoryID": "2840",
+		"order": "8",
+		"subcatterm": [{
+			"sterm": "Dental Care Referrals * Medicaid Recipients"
+		}, {
+			"sterm": "Eye Care Referrals * Medicaid Recipients"
+		}, {
+			"sterm": "Medical Appointments Transportation * Medicaid Recipients"
+		}, {
+			"sterm": "Pharmacy Referrals * Medicaid Recipients"
+		}, {
+			"sterm": "Physician Referrals * Medicaid Recipients"
+		}, {
+			"sterm": "Specialized Information and Referral * Medicaid Recipients"
+		}, {
+			"sterm": "Substance Use Disorder Referrals * Medicaid Recipients"
+		}]
+	}, {
+		"subcategory": "Independent Living Programs for Foster Youth",
+		"subcategoryID": "2738",
+		"order": "9",
+		"subcatterm": [{
+			"sterm": "Cooking Classes"
+		}, {
+			"sterm": "Cooking Classes * At Risk Youth"
+		}, {
+			"sterm": "Driver Licenses"
+		}, {
+			"sterm": "Driver Training"
+		}, {
+			"sterm": "Driving Safety Education"
+		}, {
+			"sterm": "Housing Search Assistance * Former Foster Children"
+		}, {
+			"sterm": "Housing Search Assistance * Foster Children"
+		}, {
+			"sterm": "Independent Living Skills Instruction"
+		}, {
+			"sterm": "Life Skills Education * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Low Income/Subsidized Private Rental Housing * Foster Families"
+		}, {
+			"sterm": "Placements for Children and Youth"
+		}, {
+			"sterm": "Rental Deposit Assistance * Foster Children"
+		}]
+	}, {
+		"subcategory": "Legal Resources",
+		"subcategoryID": "2741",
+		"order": "10",
+		"subcatterm": [{
+			"sterm": "Facility Licensing * Foster Parents"
+		}, {
+			"sterm": "Family Law * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Foster Home Placement"
+		}, {
+			"sterm": "Foster Home Placement * Juvenile Offenders"
+		}, {
+			"sterm": "Foster Home Placement * Native American Community"
+		}, {
+			"sterm": "Government Complaints/Government Ombudsman Offices * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Government Complaints/Government Ombudsman Offices * Former Foster Children"
+		}, {
+			"sterm": "Government Complaints/Government Ombudsman Offices * Foster Children"
+		}, {
+			"sterm": "Government Complaints/Government Ombudsman Offices * Foster Families"
+		}, {
+			"sterm": "Guardians ad Litem"
+		}, {
+			"sterm": "Placements for Children and Youth"
+		}, {
+			"sterm": "Public Guardianship/Conservatorship Programs"
+		}]
+	}, {
+		"subcategory": "Mental Health for Foster Families",
+		"subcategoryID": "2843",
+		"order": "12",
+		"subcatterm": [{
+			"sterm": "Child Guidance * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Early Intervention for Mental Illness * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Family Counseling * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Mental Health Evaluation * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Parent Counseling * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Physician Referrals * Foster Children"
+		}, {
+			"sterm": "Respite Care Registries * Adoption/Foster Care Issues"
+		}]
+	}, {
+		"subcategory": "Peer Groups/Activities for Foster Youth",
+		"subcategoryID": "2739",
+		"order": "13",
+		"subcatterm": [{
+			"sterm": "Age Peer Networking * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Camps * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Camps * Former Foster Children"
+		}, {
+			"sterm": "Camps * Foster Children"
+		}, {
+			"sterm": "Community Calendars * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Community Calendars * Foster Families"
+		}, {
+			"sterm": "Fishing Licenses * Foster Children"
+		}, {
+			"sterm": "Leadership Development * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Parent/Child Activity Groups * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Recreation Related Expense Assistance * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Youth Enrichment Programs * Foster Children"
+		}]
+	}]
+}, {
+	"category": "Parenting/Child Care",
+	"categoryID": "2616",
+	"order": "13",
+	"subcat": [{
+		"subcategory": "Child Care",
+		"subcategoryID": "2742",
+		"order": "16",
+		"subcatterm": [{
+			"sterm": "Child Care Provider Referrals"
+		}, {
+			"sterm": "Child Care Providers"
+		}]
+	}, {
+		"subcategory": "Baby Supplies",
+		"subcategoryID": "2743",
+		"order": "16",
+		"subcatterm": [{
+			"sterm": "Baby Clothing"
+		}, {
+			"sterm": "Child Passenger Safety Seats"
+		}, {
+			"sterm": "Child Passenger Safety Seats * African American Community"
+		}, {
+			"sterm": "Diapers"
+		}, {
+			"sterm": "Diapers * Homelessness Issues"
+		}, {
+			"sterm": "Formula/Baby Food"
+		}, {
+			"sterm": "Formula/Baby Food * Homelessness Issues"
+		}, {
+			"sterm": "Furniture * Infants/Toddlers"
+		}, {
+			"sterm": "Furniture * Newborns"
+		}, {
+			"sterm": "Household Safety Programs"
+		}]
+	}, {
+		"subcategory": "Child Care Expense Assistance",
+		"subcategoryID": "2744",
+		"order": "16",
+		"subcatterm": [{
+			"sterm": "Child Care Expense Assistance"
+		}, {
+			"sterm": "Child Care Expense Assistance * College/University Students"
+		}, {
+			"sterm": "Child Care Expense Assistance * Native American Community"
+		}]
+	}, {
+		"subcategory": "Children's Clothing",
+		"subcategoryID": "2745",
+		"order": "16",
+		"subcatterm": [{
+			"sterm": "Baby Clothing"
+		}, {
+			"sterm": "Children's Clothing"
+		}, {
+			"sterm": "Children's Clothing * Foster Children"
+		}, {
+			"sterm": "Clothing Vouchers"
+		}, {
+			"sterm": "School Clothing"
+		}]
+	}, {
+		"subcategory": "Custody and Child Support",
+		"subcategoryID": "2746",
+		"order": "16",
+		"subcatterm": [{
+			"sterm": "Co-Parenting Workshops"
+		}, {
+			"sterm": "Mediation * Divorce/Custody/Support Issues"
+		}, {
+			"sterm": "Parental Visitation Facilitation"
+		}, {
+			"sterm": "Wage Assignment Assistance"
+		}]
+	}, {
+		"subcategory": "Parenting Classes",
+		"subcategoryID": "2747",
+		"order": "16",
+		"subcatterm": [{
+			"sterm": "Court Ordered Parenting Programs"
+		}, {
+			"sterm": "Court Ordered Parenting Programs * Hispanic/Latino Community"
+		}, {
+			"sterm": "General Expectant/New Parent Assistance Programs"
+		}, {
+			"sterm": "General Expectant/New Parent Assistance Programs * Hispanic/Latino Community"
+		}, {
+			"sterm": "Parenting Skills Classes"
+		}, {
+			"sterm": "Parenting Skills Classes * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Parenting Skills Classes * African American Community"
+		}, {
+			"sterm": "Parenting Skills Classes * At Risk Families"
+		}, {
+			"sterm": "Parenting Skills Classes * Child Abuse Issues"
+		}, {
+			"sterm": "Parenting Skills Classes * Disabilities Issues"
+		}, {
+			"sterm": "Parenting Skills Classes * Divorce/Custody/Support Issues"
+		}, {
+			"sterm": "Parenting Skills Classes * Domestic Violence Issues"
+		}, {
+			"sterm": "Parenting Skills Classes * Fathers"
+		}, {
+			"sterm": "Parenting Skills Classes * Fetal Alcohol Spectrum Disorders"
+		}, {
+			"sterm": "Parenting Skills Classes * Hispanic/Latino Community"
+		}, {
+			"sterm": "Parenting Skills Classes * Mothers"
+		}, {
+			"sterm": "Parenting Skills Classes * Native American Community"
+		}, {
+			"sterm": "Parenting Skills Classes * Offender/Ex-Offender Issues"
+		}, {
+			"sterm": "Parenting Skills Classes * Sexual Assault Issues"
+		}, {
+			"sterm": "Parenting Skills Classes * Substance Use Disorder Issues"
+		}, {
+			"sterm": "Teen Expectant/New Parent Assistance"
+		}, {
+			"sterm": "Teen Expectant/New Parent Assistance * At Risk Youth"
+		}]
+	}, {
+		"subcategory": "Parent Helplines and Support Groups",
+		"subcategoryID": "2748",
+		"order": "16",
+		"subcatterm": [{
+			"sterm": "Internet Information Resources * Parenting Issues"
+		}, {
+			"sterm": "Parent Support Groups"
+		}, {
+			"sterm": "Parent Support Groups * Autism"
+		}, {
+			"sterm": "Parent Support Groups * Cultural/Racial Issues"
+		}, {
+			"sterm": "Parent Support Groups * Disabilities Issues"
+		}, {
+			"sterm": "Parent Support Groups * Fathers"
+		}, {
+			"sterm": "Parent Support Groups * Hispanic/Latino Community"
+		}, {
+			"sterm": "Parent Support Groups * Mothers"
+		}, {
+			"sterm": "Parent Support Groups * Perinatal/Postpartum Depression"
+		}, {
+			"sterm": "Parent Support Groups * Substance Use Disorder Issues"
+		}, {
+			"sterm": "Parenting Helplines"
+		}, {
+			"sterm": "Parenting Helplines * Disabilities Issues"
+		}, {
+			"sterm": "Parenting Helplines * Foster Parents"
+		}, {
+			"sterm": "Talklines/Warmlines * Perinatal/Postpartum Depression"
+		}]
+	}, {
+		"subcategory": "Parenting Materials",
+		"subcategoryID": "2749",
+		"order": "16",
+		"subcatterm": [{
+			"sterm": "Parenting Materials"
+		}, {
+			"sterm": "Parenting Materials * Disabilities Issues"
+		}, {
+			"sterm": "Parenting Materials * Hispanic/Latino Community"
+		}, {
+			"sterm": "Parenting Materials * Native American Community"
+		}]
+	}, {
+		"subcategory": "Relief Nurseries and Support",
+		"subcategoryID": "2750",
+		"order": "16",
+		"subcatterm": [{
+			"sterm": "Child Abuse Prevention"
+		}, {
+			"sterm": "Child Abuse Prevention * African American Community"
+		}, {
+			"sterm": "Child Abuse Prevention * Hispanic/Latino Community"
+		}, {
+			"sterm": "Children's Out of Home Respite Care"
+		}, {
+			"sterm": "Children's Out of Home Respite Care * At Risk Families"
+		}, {
+			"sterm": "Children's Out of Home Respite Care * Disabilities Issues"
+		}, {
+			"sterm": "Family Support Centers/Outreach"
+		}, {
+			"sterm": "Family Support Centers/Outreach * At Risk Families"
+		}, {
+			"sterm": "Family Support Centers/Outreach * Disabilities Issues"
+		}, {
+			"sterm": "Family Support Centers/Outreach * Teenage Parents"
+		}, {
+			"sterm": "Prenatal/Postnatal Home Visitation Programs"
+		}, {
+			"sterm": "Prenatal/Postnatal Home Visitation Programs * African American Community"
+		}, {
+			"sterm": "Prenatal/Postnatal Home Visitation Programs * At Risk Families"
+		}]
+	}, {
+		"subcategory": "TANF",
+		"subcategoryID": "2751",
+		"order": "16",
+		"subcatterm": [{
+			"sterm": "TANF"
+		}]
+	}, {
+		"subcategory": "WIC",
+		"subcategoryID": "2752",
+		"order": "16",
+		"subcatterm": [{
+			"sterm": "WIC"
+		}]
+	}, {
+		"subcategory": "Gifts and Toys",
+		"subcategoryID": "2753",
+		"order": "16",
+		"subcatterm": [{
+			"sterm": "Holiday Gifts/Toys"
+		}, {
+			"sterm": "Holiday Gifts/Toys * Families of Veterans"
+		}, {
+			"sterm": "Toys/Toy Loan"
+		}]
+	}, {
+		"subcategory": "Teen Parent Resources",
+		"subcategoryID": "2755",
+		"order": "16",
+		"subcatterm": [{
+			"sterm": "Case/Care Management * Teen Pregnancy Issues"
+		}, {
+			"sterm": "Economic Self Sufficiency Programs * Teen Pregnancy Issues"
+		}, {
+			"sterm": "Family Support Centers/Outreach * Teenage Parents"
+		}, {
+			"sterm": "Home Delivered Meals * Families with Children"
+		}, {
+			"sterm": "Housing Search Assistance * Teen Pregnancy Issues"
+		}, {
+			"sterm": "Prenatal/Postnatal Home Visitation Programs"
+		}, {
+			"sterm": "Prenatal/Postnatal Home Visitation Programs * African American Community"
+		}, {
+			"sterm": "Prenatal/Postnatal Home Visitation Programs * At Risk Families"
+		}, {
+			"sterm": "School Based Teen Parent/Pregnant Teen Programs"
+		}, {
+			"sterm": "Teen Expectant/New Parent Assistance"
+		}, {
+			"sterm": "Teen Expectant/New Parent Assistance * At Risk Youth"
+		}, {
+			"sterm": "Teen Family Planning Programs"
+		}]
+	}, {
+		"subcategory": "Home Based Pareting Education",
+		"subcategoryID": "2756",
+		"order": "16",
+		"subcatterm": [{
+			"sterm": "Home Based Parenting Education"
+		}, {
+			"sterm": "Home Based Parenting Education * African American Community"
+		}, {
+			"sterm": "Home Based Parenting Education * African Community"
+		}, {
+			"sterm": "Home Based Parenting Education * Asthma"
+		}, {
+			"sterm": "Home Based Parenting Education * At Risk Families"
+		}, {
+			"sterm": "Home Based Parenting Education * Children and Youth With Disabilities/Health Conditions"
+		}, {
+			"sterm": "Home Based Parenting Education * Domestic Violence Issues"
+		}, {
+			"sterm": "Home Based Parenting Education * Ex-Offenders"
+		}, {
+			"sterm": "Home Based Parenting Education * Hispanic/Latino Community"
+		}, {
+			"sterm": "Home Based Parenting Education * Somali Community"
+		}, {
+			"sterm": "Home Based Parenting Education * South Asian Community"
+		}, {
+			"sterm": "Home Based Parenting Education * TANF Recipients"
+		}]
+	}, {
+		"subcategory": "Disability Related Parenting Programs",
+		"subcategoryID": "2757",
+		"order": "16",
+		"subcatterm": [{
+			"sterm": "Disability Related Parenting Programs"
+		}, {
+			"sterm": "Disability Related Parenting Programs * Autism"
+		}, {
+			"sterm": "Disability Related Parenting Programs * Deafness"
+		}, {
+			"sterm": "Disability Related Parenting Programs * Down Syndrome"
+		}, {
+			"sterm": "Disability Related Parenting Programs * Veteran/Military Personnel Issues"
+		}]
+	}, {
+		"subcategory": "Parent to Parent Networking",
+		"subcategoryID": "2758",
+		"order": "16",
+		"subcatterm": [{
+			"sterm": "Parent to Parent Networking"
+		}, {
+			"sterm": "Parent to Parent Networking * African American Community"
+		}, {
+			"sterm": "Parent to Parent Networking * Autism"
+		}, {
+			"sterm": "Parent to Parent Networking * Blindness"
+		}, {
+			"sterm": "Parent to Parent Networking * Diabetes"
+		}, {
+			"sterm": "Parent to Parent Networking * Disabilities Issues"
+		}, {
+			"sterm": "Parent to Parent Networking * Down Syndrome"
+		}, {
+			"sterm": "Parent to Parent Networking * Fathers"
+		}, {
+			"sterm": "Parent to Parent Networking * Foster Parents"
+		}, {
+			"sterm": "Parent to Parent Networking * Partial Sightedness"
+		}, {
+			"sterm": "Parent to Parent Networking * Perinatal/Postpartum Depression"
+		}, {
+			"sterm": "Parent to Parent Networking * Substance Use Disorder Issues"
+		}]
+	}, {
+		"subcategory": "Maternity Clothing",
+		"subcategoryID": "2759",
+		"order": "16",
+		"subcatterm": [{
+			"sterm": "Maternity Clothing"
+		}, {
+			"sterm": "Nursing Clothing"
+		}]
+	}]
+}, {
+	"category": "LGBTQ+",
+	"categoryID": "2614",
+	"order": "14",
+	"subcat": [{
+		"subcategory": "Social Clubs",
+		"subcategoryID": "2760",
+		"order": "17",
+		"subcatterm": [{
+			"sterm": "Gay/Lesbian/Bisexual/Transgender Community Centers"
+		}, {
+			"sterm": "Gay/Lesbian/Bisexual/Transgender Community Centers * GLBT Youth"
+		}, {
+			"sterm": "Gay/Lesbian/Bisexual/Transgender Community Centers * Older Adults"
+		}, {
+			"sterm": "Gay/Lesbian/Bisexual/Transgender Social Clubs"
+		}, {
+			"sterm": "Specialized Information and Referral * Gay/Lesbian/Bisexual/Transgender Issues"
+		}]
+	}, {
+		"subcategory": "Support Groups",
+		"subcategoryID": "2761",
+		"order": "17",
+		"subcatterm": [{
+			"sterm": "Domestic Violence Support Groups * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "Gay/Lesbian/Bisexual/Transgender Support Groups"
+		}, {
+			"sterm": "Gay/Lesbian/Bisexual/Transgender Support Groups * GLBT Youth"
+		}, {
+			"sterm": "Internet Information Resources * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "Specialized Information and Referral * Gay/Lesbian/Bisexual/Transgender Issues"
+		}]
+	}, {
+		"subcategory": "Resources for Families",
+		"subcategoryID": "2762",
+		"order": "17",
+		"subcatterm": [{
+			"sterm": "Specialized Information and Referral * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "Workshops/Symposiums * Gay/Lesbian/Bisexual/Transgender Issues"
+		}]
+	}, {
+		"subcategory": "LGBTQ Crisis Hotlines",
+		"subcategoryID": "2763",
+		"order": "17",
+		"subcatterm": [{
+			"sterm": "Domestic Violence Support Groups * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "General Crisis Intervention Hotlines * Transsexual/Transgender Individuals"
+		}, {
+			"sterm": "GLBTQ Helplines"
+		}, {
+			"sterm": "GLBTQ Helplines * GLBT Youth"
+		}, {
+			"sterm": "GLBTQ Helplines * Older Adults"
+		}, {
+			"sterm": "GLBTQ Helplines * Transsexual/Transgender Individuals"
+		}, {
+			"sterm": "Suicide Prevention Hotlines * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "Suicide Prevention Hotlines * Transsexual/Transgender Individuals"
+		}]
+	}, {
+		"subcategory": "Individual and Family Counseling",
+		"subcategoryID": "2764",
+		"order": "17",
+		"subcatterm": [{
+			"sterm": "Individual Counseling * AIDS/HIV Issues"
+		}, {
+			"sterm": "Individual Counseling * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "Mental Health Evaluation * AIDS/HIV Issues"
+		}, {
+			"sterm": "Mental Health Evaluation * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "Specialized Information and Referral * Gay/Lesbian/Bisexual/Transgender Issues"
+		}]
+	}, {
+		"subcategory": "Gender Affirming Counseling",
+		"subcategoryID": "2765",
+		"order": "17",
+		"subcatterm": [{
+			"sterm": "Gender Identity Counseling"
+		}]
+	}, {
+		"subcategory": "Transgender Health Care Programs",
+		"subcategoryID": "2766",
+		"order": "17",
+		"subcatterm": [{
+			"sterm": "Community Clinics * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "General Medical Care * Transsexual/Transgender Individuals"
+		}, {
+			"sterm": "HIV Testing * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "HIV Testing * Transsexual/Transgender Individuals"
+		}, {
+			"sterm": "Personal Health Care Advocate Services * Transsexual/Transgender Individuals"
+		}, {
+			"sterm": "Physician Referrals * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "Transgender Hormone Therapy"
+		}, {
+			"sterm": "Transgender Hormone Therapy * Children"
+		}]
+	}, {
+		"subcategory": "ID/Records Assistance",
+		"subcategoryID": "2767",
+		"order": "17",
+		"subcatterm": [{
+			"sterm": "Certificates/Forms Assistance * Transsexual/Transgender Individuals"
+		}, {
+			"sterm": "Identification Cards"
+		}, {
+			"sterm": "Records/Licenses/Permits Fee Payment Assistance * Transsexual/Transgender Individuals"
+		}]
+	}, {
+		"subcategory": "LGBTQ Advocacy and Civil Rights Groups",
+		"subcategoryID": "2768",
+		"order": "17",
+		"subcatterm": [{
+			"sterm": "Gay/Lesbian/Bisexual/Transgender Advocacy Groups"
+		}, {
+			"sterm": "Gay/Lesbian/Bisexual/Transgender Advocacy Groups * Older Adult/Aging Issues"
+		}, {
+			"sterm": "Legal Information Lines * AIDS/HIV Issues"
+		}, {
+			"sterm": "Legal Information Lines * Gay/Lesbian/Bisexual/Transgender Issues"
+		}]
+	}]
+}, {
+	"category": "Youth Services",
+	"categoryID": "2622",
+	"order": "15",
+	"subcat": [{
+		"subcategory": "After School Programs and Activities",
+		"subcategoryID": "2784",
+		"order": "19",
+		"subcatterm": [{
+			"sterm": "Arts and Crafts Instruction * At Risk Youth"
+		}, {
+			"sterm": "Boys/Girls Clubs"
+		}, {
+			"sterm": "Camps"
+		}, {
+			"sterm": "Camps * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Camps * African American Community"
+		}, {
+			"sterm": "Camps * AIDS/HIV"
+		}, {
+			"sterm": "Camps * Autism"
+		}, {
+			"sterm": "Camps * Bereaved Individuals"
+		}, {
+			"sterm": "Camps * Disabilities Issues"
+		}, {
+			"sterm": "Camps * Families/Friends of People with Cancer"
+		}, {
+			"sterm": "Camps * Former Foster Children"
+		}, {
+			"sterm": "Camps * Foster Children"
+		}, {
+			"sterm": "Camps * Hispanic/Latino Community"
+		}, {
+			"sterm": "Camps * Muscular Dystrophy"
+		}, {
+			"sterm": "Camps * Native American Community"
+		}, {
+			"sterm": "Driver Licenses"
+		}, {
+			"sterm": "Driver Training"
+		}, {
+			"sterm": "Driving Safety Education"
+		}, {
+			"sterm": "General Recreational Activities/Sports"
+		}, {
+			"sterm": "Mentoring Programs"
+		}, {
+			"sterm": "Mentoring Programs * Disabilities Issues"
+		}, {
+			"sterm": "Mentoring Programs * Epilepsy"
+		}, {
+			"sterm": "Mentoring Programs * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "Mentoring Programs * Hispanic/Latino Community"
+		}, {
+			"sterm": "Mentoring Programs * Homeless Youth"
+		}, {
+			"sterm": "Outdoor Environmental Education"
+		}, {
+			"sterm": "Scouting Programs"
+		}, {
+			"sterm": "Team Sports/Leagues"
+		}, {
+			"sterm": "Team Sports/Leagues * Native American Community"
+		}, {
+			"sterm": "Y Facilities"
+		}, {
+			"sterm": "Youth Centers"
+		}, {
+			"sterm": "Youth Community Service Programs"
+		}, {
+			"sterm": "Youth Enrichment Programs"
+		}, {
+			"sterm": "Youth Enrichment Programs * African American Community"
+		}, {
+			"sterm": "Youth Enrichment Programs * Disabilities Issues"
+		}, {
+			"sterm": "Youth Enrichment Programs * Hispanic/Latino Community"
+		}, {
+			"sterm": "Youth Enrichment Programs * Native American Community"
+		}]
+	}, {
+		"subcategory": "Homeless Youth Housing/Shelter",
+		"subcategoryID": "2783",
+		"order": "20",
+		"subcatterm": [{
+			"sterm": "At Risk/Homeless Housing Related Assistance Programs * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Extreme Cold Weather Shelters * Homeless Youth"
+		}, {
+			"sterm": "Housing Search Assistance * Homeless Youth"
+		}, {
+			"sterm": "Rent Payment Assistance * Homeless Youth"
+		}, {
+			"sterm": "Rental Deposit Assistance * Homeless Youth"
+		}, {
+			"sterm": "Return to Point of Origin * Homeless Youth"
+		}, {
+			"sterm": "Runaway/Youth Shelters"
+		}, {
+			"sterm": "Shared Housing Facilities * High School Students"
+		}, {
+			"sterm": "Street Outreach Programs * Homeless Youth"
+		}, {
+			"sterm": "Temporary Mailing Address * Homeless Youth"
+		}, {
+			"sterm": "Transitional Housing/Shelter * Homeless Youth"
+		}, {
+			"sterm": "Youth Centers"
+		}]
+	}, {
+		"subcategory": "LGBTQ Youth",
+		"subcategoryID": "2844",
+		"order": "21",
+		"subcatterm": [{
+			"sterm": "Gay/Lesbian/Bisexual/Transgender Community Centers * GLBT Youth"
+		}, {
+			"sterm": "Gay/Lesbian/Bisexual/Transgender Support Groups * GLBT Youth"
+		}, {
+			"sterm": "GLBTQ Helplines * GLBT Youth"
+		}]
+	}, {
+		"subcategory": "Teen Parent Resources",
+		"subcategoryID": "2754",
+		"order": "22",
+		"subcatterm": [{
+			"sterm": "Childbirth Education"
+		}, {
+			"sterm": "Economic Self Sufficiency Programs * Teen Pregnancy Issues"
+		}, {
+			"sterm": "Home Delivered Meals * Families with Children"
+		}, {
+			"sterm": "Postpartum Care"
+		}, {
+			"sterm": "Prenatal Care"
+		}, {
+			"sterm": "Prenatal/Postnatal Home Visitation Programs"
+		}, {
+			"sterm": "Prenatal/Postnatal Home Visitation Programs * African American Community"
+		}, {
+			"sterm": "Prenatal/Postnatal Home Visitation Programs * At Risk Families"
+		}, {
+			"sterm": "School Based Teen Parent/Pregnant Teen Programs"
+		}, {
+			"sterm": "Teen Expectant/New Parent Assistance"
+		}, {
+			"sterm": "Teen Expectant/New Parent Assistance * At Risk Youth"
+		}, {
+			"sterm": "Teen Family Planning Programs"
+		}, {
+			"sterm": "Teen Pregnancy Prevention"
+		}]
+	}, {
+		"subcategory": "Truancy/Dropout Prevention",
+		"subcategoryID": "2847",
+		"order": "23",
+		"subcatterm": [{
+			"sterm": "Dropout Programs"
+		}, {
+			"sterm": "School Based Integrated Services"
+		}, {
+			"sterm": "School Based Integrated Services * Hispanic/Latino Community"
+		}, {
+			"sterm": "Wraparound Facilitation/Community Support"
+		}, {
+			"sterm": "Wraparound Facilitation/Community Support * Hispanic/Latino Community"
+		}, {
+			"sterm": "Wraparound Facilitation/Community Support * Medicaid Recipients"
+		}, {
+			"sterm": "Wraparound Facilitation/Community Support * Native American Community"
+		}]
+	}, {
+		"subcategory": "After School/Summer Meals",
+		"subcategoryID": "2785",
+		"order": "25",
+		"subcatterm": [{
+			"sterm": "After School Meal Programs"
+		}, {
+			"sterm": "Children's Play Groups"
+		}, {
+			"sterm": "Children's Play Groups * Deafness"
+		}, {
+			"sterm": "Children's Play Groups * Disabilities Issues"
+		}, {
+			"sterm": "Summer Food Service Programs"
+		}]
+	}, {
+		"subcategory": "Youth Counseling",
+		"subcategoryID": "2788",
+		"order": "26",
+		"subcatterm": [{
+			"sterm": "Adolescent/Youth Counseling"
+		}, {
+			"sterm": "Adolescent/Youth Counseling * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Adolescent/Youth Counseling * At Risk Youth"
+		}, {
+			"sterm": "Adolescent/Youth Counseling * Child/Adolescent Sex Offenders"
+		}, {
+			"sterm": "Adolescent/Youth Counseling * Hispanic/Latino Community"
+		}, {
+			"sterm": "Adolescent/Youth Counseling * Immigration Issues"
+		}, {
+			"sterm": "Adolescent/Youth Counseling * Korean Community"
+		}, {
+			"sterm": "Adolescent/Youth Counseling * Native American Community"
+		}, {
+			"sterm": "Behavioral Learning Therapy * Infants/Toddlers"
+		}, {
+			"sterm": "Bereaved Child Support Groups"
+		}, {
+			"sterm": "Child Guidance"
+		}, {
+			"sterm": "Child Guidance * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Child Guidance * Child/Adolescent Sex Offenders"
+		}, {
+			"sterm": "Child Guidance * Mental Health Issues"
+		}, {
+			"sterm": "Child Sexual Abuse Counseling"
+		}, {
+			"sterm": "Diversion Programs * Adolescents"
+		}, {
+			"sterm": "Parent Child Interactive Therapy"
+		}, {
+			"sterm": "Runaway/Homeless Youth Counseling"
+		}, {
+			"sterm": "Street Outreach Programs * Homeless Youth"
+		}, {
+			"sterm": "Therapy Referrals * Child Abuse Issues"
+		}, {
+			"sterm": "Youth/Student Support Groups"
+		}]
+	}, {
+		"subcategory": "Youth Crisis Hotlines",
+		"subcategoryID": "2782",
+		"order": "27",
+		"subcatterm": [{
+			"sterm": "Bullying Helplines"
+		}, {
+			"sterm": "General Crisis Intervention Hotlines * Youth Issues"
+		}, {
+			"sterm": "Runaway/Homeless Youth Helplines"
+		}, {
+			"sterm": "Youth Issues Lines"
+		}]
+	}, {
+		"subcategory": "Youth Employment Programs",
+		"subcategoryID": "2729",
+		"order": "28",
+		"subcatterm": [{
+			"sterm": "Youth Business Programs"
+		}]
+	}, {
+		"subcategory": "Youth Issues Information and Education",
+		"subcategoryID": "2791",
+		"order": "29",
+		"subcatterm": [{
+			"sterm": "Specialized Information and Referral * Children and Youth With Disabilities/Health Conditions"
+		}, {
+			"sterm": "Specialized Information and Referral * Youth Issues"
+		}, {
+			"sterm": "Workshops/Symposiums * Youth Issues"
+		}, {
+			"sterm": "Youth Violence Prevention"
+		}]
+	}, {
+		"subcategory": "Youth Legal Resources",
+		"subcategoryID": "2845",
+		"order": "30",
+		"subcatterm": [{
+			"sterm": "Certificates/Forms Assistance * Homeless Youth"
+		}, {
+			"sterm": "Children's Rights Groups"
+		}, {
+			"sterm": "Children's Rights Groups * Disabilities Issues"
+		}, {
+			"sterm": "Children's Rights Groups * Native American Community"
+		}]
+	}, {
+		"subcategory": "Youth Mental Health Assessment or Intervention",
+		"subcategoryID": "2790",
+		"order": "31",
+		"subcatterm": [{
+			"sterm": "Developmental Assessment"
+		}, {
+			"sterm": "Developmental Assessment * Autism"
+		}, {
+			"sterm": "Developmental Screening"
+		}, {
+			"sterm": "Developmental Screening * Native American Community"
+		}, {
+			"sterm": "Early Intervention for Children with Disabilities/Delays"
+		}, {
+			"sterm": "Early Intervention for Children with Disabilities/Delays * African American Community"
+		}, {
+			"sterm": "Early Intervention for Children with Disabilities/Delays * Autism"
+		}, {
+			"sterm": "Early Intervention for Children with Disabilities/Delays * Deafness"
+		}, {
+			"sterm": "Early Intervention for Children with Disabilities/Delays * Language Impairments"
+		}, {
+			"sterm": "Early Intervention for Mental Illness"
+		}, {
+			"sterm": "Involuntary Psychiatric Intervention"
+		}, {
+			"sterm": "Mental Health Evaluation * Adolescents"
+		}, {
+			"sterm": "Mental Health Evaluation * All Grade School Students"
+		}, {
+			"sterm": "Mental Health Evaluation * Children"
+		}, {
+			"sterm": "Mental Health Evaluation * Infants/Toddlers"
+		}]
+	}, {
+		"subcategory": "Youth Mental Health Residential Programs",
+		"subcategoryID": "2789",
+		"order": "32",
+		"subcatterm": [{
+			"sterm": "Children's/Adolescent Residential Treatment Facilities"
+		}, {
+			"sterm": "Crisis Residential Treatment * Disorders of Infancy/Childhood"
+		}]
+	}, {
+		"subcategory": "Youth Substance Abuse Inpatient Programs",
+		"subcategoryID": "2786",
+		"order": "33",
+		"subcatterm": [{
+			"sterm": "Residential Substance Use Disorder Treatment Facilities * Adolescents"
+		}]
+	}, {
+		"subcategory": "Youth Substance Abuse Outpatient/Day Treatment Programs",
+		"subcategoryID": "2787",
+		"order": "34",
+		"subcatterm": [{
+			"sterm": "Assessment for Substance Use Disorders * Adolescents"
+		}, {
+			"sterm": "Comprehensive Outpatient Substance Use Disorder Treatment"
+		}, {
+			"sterm": "Smoking Cessation * Adolescents"
+		}, {
+			"sterm": "Substance Use Disorder Day Treatment * Adolescents"
+		}, {
+			"sterm": "Substance Use Disorder Intervention Programs * Adolescents"
+		}]
+	}]
+}, {
+	"category": "Legal/Public Safety",
+	"categoryID": "2613",
+	"order": "16",
+	"subcat": [{
+		"subcategory": "Legal Representation & Information",
+		"subcategoryID": "2662",
+		"order": "12",
+		"subcatterm": [{
+			"sterm": "General Legal Aid"
+		}, {
+			"sterm": "General Legal Aid * Agricultural Laborers"
+		}, {
+			"sterm": "General Legal Aid * Migrants"
+		}, {
+			"sterm": "General Legal Aid * Native American Community"
+		}, {
+			"sterm": "General Legal Aid * Sexual Assault Issues"
+		}, {
+			"sterm": "General Legal Aid * Veteran/Military Personnel Issues"
+		}, {
+			"sterm": "Lawyer Referral Services"
+		}, {
+			"sterm": "Lawyer Referral Services * Adolescents"
+		}, {
+			"sterm": "Lawyer Referral Services * Human Trafficking Issues"
+		}, {
+			"sterm": "Lawyer Referral Services * Veteran/Military Personnel Issues"
+		}, {
+			"sterm": "Legal Counseling"
+		}, {
+			"sterm": "Legal Counseling * Business Issues"
+		}, {
+			"sterm": "Legal Counseling * Disabilities Issues"
+		}, {
+			"sterm": "Legal Counseling * Ex-Offenders"
+		}, {
+			"sterm": "Legal Counseling * Human Trafficking Issues"
+		}, {
+			"sterm": "Legal Counseling * Nonprofit Organization Issues"
+		}, {
+			"sterm": "Legal Counseling * Seasonal Workers"
+		}, {
+			"sterm": "Legal Information Lines"
+		}, {
+			"sterm": "Legal Information Lines * AIDS/HIV Issues"
+		}, {
+			"sterm": "Legal Information Lines * Gay/Lesbian/Bisexual/Transgender Issues"
+		}, {
+			"sterm": "Native American/Tribal Law"
+		}]
+	}, {
+		"subcategory": "Eviction Prevention",
+		"subcategoryID": "2663",
+		"order": "12",
+		"subcatterm": [{
+			"sterm": "Eviction Prevention Legal Assistance"
+		}, {
+			"sterm": "Eviction Prevention Legal Assistance * Agricultural Laborers"
+		}, {
+			"sterm": "Eviction Prevention Legal Assistance * AIDS/HIV"
+		}, {
+			"sterm": "Landlord Rights Information/Counseling"
+		}, {
+			"sterm": "Landlord Rights Information/Counseling * Mobile Home Park Residents"
+		}, {
+			"sterm": "Landlord/Tenant Dispute Resolution"
+		}, {
+			"sterm": "Landlord/Tenant Dispute Resolution * Mobile Home Park Residents"
+		}, {
+			"sterm": "Tenant Rights Information/Counseling"
+		}, {
+			"sterm": "Tenant Rights Information/Counseling * Domestic Violence Issues"
+		}, {
+			"sterm": "Tenant Rights Information/Counseling * Mobile Home Park Residents"
+		}]
+	}, {
+		"subcategory": "Custody & Child Support",
+		"subcategoryID": "2664",
+		"order": "12",
+		"subcatterm": [{
+			"sterm": "Child Custody Orders"
+		}, {
+			"sterm": "Child Welfare/Family Services Associations"
+		}, {
+			"sterm": "Family Law"
+		}, {
+			"sterm": "Family Law * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Family Law * Domestic Violence Issues"
+		}, {
+			"sterm": "Family Law * Juvenile Offenders"
+		}, {
+			"sterm": "Family Law * Native American Community"
+		}, {
+			"sterm": "Family Law * Sexual Assault Issues"
+		}, {
+			"sterm": "Family Preservation Programs"
+		}, {
+			"sterm": "Family Preservation Programs * Native American Community"
+		}, {
+			"sterm": "Family Preservation Programs * Substance Use Disorder Issues"
+		}, {
+			"sterm": "Guardianship Assistance"
+		}, {
+			"sterm": "Intensive Family Reunification Services"
+		}, {
+			"sterm": "Intensive Family Reunification Services * Native American Community"
+		}, {
+			"sterm": "Intensive Family Reunification Services * Substance Use Disorder Issues"
+		}, {
+			"sterm": "Parent Rights Classes"
+		}, {
+			"sterm": "Parent Rights Classes * Deadbeat Parents"
+		}, {
+			"sterm": "Parental Visitation Facilitation"
+		}, {
+			"sterm": "Wage Assignment Assistance"
+		}]
+	}, {
+		"subcategory": "Restraining Orders",
+		"subcategoryID": "2665",
+		"order": "12",
+		"subcatterm": [{
+			"sterm": "Protective/Restraining Orders"
+		}]
+	}, {
+		"subcategory": "Immigration",
+		"subcategoryID": "2666",
+		"order": "12",
+		"subcatterm": [{
+			"sterm": "Immigrant Rights Groups"
+		}, {
+			"sterm": "Immigration Detention Centers"
+		}, {
+			"sterm": "Immigration/Naturalization Adjudication Offices"
+		}, {
+			"sterm": "Immigration/Naturalization Adjudication Services"
+		}, {
+			"sterm": "Immigration/Naturalization Adjudication Services * Sexual Assault Issues"
+		}, {
+			"sterm": "Immigration/Naturalization Legal Services"
+		}, {
+			"sterm": "Immigration/Naturalization Legal Services * Cuban Community"
+		}, {
+			"sterm": "Immigration/Naturalization Legal Services * Domestic Violence Issues"
+		}, {
+			"sterm": "Immigration/Naturalization Legal Services * Haitian Community"
+		}, {
+			"sterm": "Immigration/Naturalization Legal Services * Human Trafficking Issues"
+		}, {
+			"sterm": "Immigration/Naturalization Legal Services * Older Adults"
+		}, {
+			"sterm": "Immigration/Naturalization Legal Services * Russian Community"
+		}, {
+			"sterm": "Immigration/Naturalization Legal Services * Sexual Assault Issues"
+		}]
+	}, {
+		"subcategory": "Employment & Labor Disputes",
+		"subcategoryID": "2667",
+		"order": "12",
+		"subcatterm": [{
+			"sterm": "Employment Discrimination Assistance"
+		}, {
+			"sterm": "Employment Discrimination Assistance * Agricultural Laborers"
+		}, {
+			"sterm": "Employment Discrimination Assistance * Sexual Assault Issues"
+		}, {
+			"sterm": "Labor and Employment Law"
+		}, {
+			"sterm": "Labor and Employment Law * Agricultural Laborers"
+		}, {
+			"sterm": "Labor and Employment Law * Day Laborers"
+		}, {
+			"sterm": "Labor Standards and Practices"
+		}]
+	}, {
+		"subcategory": "Foreclosure Assistance",
+		"subcategoryID": "2668",
+		"order": "12",
+		"subcatterm": [{
+			"sterm": "HUD Approved Counseling Agencies"
+		}, {
+			"sterm": "HUD Approved Counseling Agencies * Native American Community"
+		}, {
+			"sterm": "Mortgage Delinquency and Default Counseling"
+		}, {
+			"sterm": "Mortgage Payment Assistance"
+		}]
+	}, {
+		"subcategory": "Civil Rights",
+		"subcategoryID": "2669",
+		"order": "12",
+		"subcatterm": [{
+			"sterm": "Constitutional/Civil Rights Groups"
+		}, {
+			"sterm": "Constitutional/Civil Rights Groups * Muslim Community"
+		}, {
+			"sterm": "Education Discrimination Assistance"
+		}, {
+			"sterm": "Employment Discrimination Assistance"
+		}, {
+			"sterm": "Employment Discrimination Assistance * Agricultural Laborers"
+		}, {
+			"sterm": "Employment Discrimination Assistance * Sexual Assault Issues"
+		}, {
+			"sterm": "Hate Crimes Reporting"
+		}, {
+			"sterm": "Health Care Discrimination Assistance"
+		}, {
+			"sterm": "Health Care Discrimination Assistance * Hispanic/Latino Community"
+		}, {
+			"sterm": "Housing Discrimination Assistance"
+		}, {
+			"sterm": "Housing Discrimination Assistance * Agricultural Laborers"
+		}, {
+			"sterm": "Housing Discrimination Assistance * Sexual Assault Issues"
+		}, {
+			"sterm": "Native American/Tribal Law"
+		}]
+	}, {
+		"subcategory": "Government Information Lines",
+		"subcategoryID": "2829",
+		"order": "12",
+		"subcatterm": [{
+			"sterm": "Government Complaints/Government Ombudsman Offices"
+		}, {
+			"sterm": "Government Complaints/Government Ombudsman Offices * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Government Complaints/Government Ombudsman Offices * Birth Parents"
+		}, {
+			"sterm": "Government Complaints/Government Ombudsman Offices * Disability Benefit Recipients"
+		}, {
+			"sterm": "Government Complaints/Government Ombudsman Offices * Food Stamps/SNAP Recipients"
+		}, {
+			"sterm": "Government Complaints/Government Ombudsman Offices * Former Foster Children"
+		}, {
+			"sterm": "Government Complaints/Government Ombudsman Offices * Foster Children"
+		}, {
+			"sterm": "Government Complaints/Government Ombudsman Offices * Foster Families"
+		}, {
+			"sterm": "Government Complaints/Government Ombudsman Offices * Medicaid Recipients"
+		}, {
+			"sterm": "Government Complaints/Government Ombudsman Offices * Parents of Children in Foster Care"
+		}, {
+			"sterm": "Government Complaints/Government Ombudsman Offices * TANF Recipients"
+		}, {
+			"sterm": "Government Information Lines"
+		}, {
+			"sterm": "Government Information Lines * Environmental Issues"
+		}, {
+			"sterm": "Tribal Council Offices"
+		}]
+	}, {
+		"subcategory": "Mediation",
+		"subcategoryID": "2830",
+		"order": "12",
+		"subcatterm": [{
+			"sterm": "Mediation"
+		}, {
+			"sterm": "Mediation * Disabilities Issues"
+		}, {
+			"sterm": "Mediation * Divorce/Custody/Support Issues"
+		}, {
+			"sterm": "Mediation * Muslim Community"
+		}, {
+			"sterm": "Victim/Offender Mediation Programs"
+		}]
+	}, {
+		"subcategory": "Consumer Complaints",
+		"subcategoryID": "2832",
+		"order": "12",
+		"subcatterm": [{
+			"sterm": "General Consumer Complaints"
+		}]
+	}, {
+		"subcategory": "Fair Housing Complaints",
+		"subcategoryID": "2833",
+		"order": "12",
+		"subcatterm": [{
+			"sterm": "Housing Complaints"
+		}, {
+			"sterm": "Housing Complaints * Mobile Home Park Residents"
+		}, {
+			"sterm": "Housing Complaints * Public Housing Residents"
+		}, {
+			"sterm": "Housing Complaints * Section 8 Housing Residents"
+		}, {
+			"sterm": "Housing Discrimination Assistance"
+		}, {
+			"sterm": "Housing Discrimination Assistance * Agricultural Laborers"
+		}, {
+			"sterm": "Housing Discrimination Assistance * Sexual Assault Issues"
+		}, {
+			"sterm": "Shelter Complaints"
+		}, {
+			"sterm": "Tenant Rights Information/Counseling"
+		}, {
+			"sterm": "Tenant Rights Information/Counseling * Domestic Violence Issues"
+		}, {
+			"sterm": "Tenant Rights Information/Counseling * Mobile Home Park Residents"
+		}]
+	}, {
+		"subcategory": "Health Service Complaints",
+		"subcategoryID": "2834",
+		"order": "12",
+		"subcatterm": [{
+			"sterm": "Adult Residential Facility Complaints"
+		}, {
+			"sterm": "Health Care Discrimination Assistance"
+		}, {
+			"sterm": "Health Care Discrimination Assistance * Hispanic/Latino Community"
+		}, {
+			"sterm": "Health Facility Complaints"
+		}, {
+			"sterm": "Insurance Complaints"
+		}, {
+			"sterm": "Practitioner Complaints"
+		}]
+	}, {
+		"subcategory": "Child Care Complaints",
+		"subcategoryID": "2841",
+		"order": "12",
+		"subcatterm": [{
+			"sterm": "Child Care Complaints"
+		}]
+	}, {
+		"subcategory": "Advocacy Groups",
+		"subcategoryID": "2842",
+		"order": "12",
+		"subcatterm": [{
+			"sterm": "Advocacy * African American Community * Domestic Violence Issues"
+		}, {
+			"sterm": "Advocacy * Children and Youth With Disabilities/Health Conditions"
+		}, {
+			"sterm": "Advocacy * Disabilities Issues"
+		}, {
+			"sterm": "Advocacy * Domestic Violence Issues"
+		}, {
+			"sterm": "Advocacy * Food Stamps/SNAP Recipients"
+		}, {
+			"sterm": "Advocacy * Former Foster Children"
+		}, {
+			"sterm": "Advocacy * Foster Children"
+		}, {
+			"sterm": "Advocacy * Hunger/Food Issues"
+		}, {
+			"sterm": "Advocacy * Older Adult/Aging Issues"
+		}, {
+			"sterm": "Advocacy * Sexual Assault Issues"
+		}, {
+			"sterm": "Advocacy * Speech Impairments"
+		}, {
+			"sterm": "Ethnic Advocacy Groups"
+		}, {
+			"sterm": "Ethnic Advocacy Groups * African American Community"
+		}, {
+			"sterm": "Ethnic Advocacy Groups * Hispanic/Latino Community"
+		}, {
+			"sterm": "Ethnic Advocacy Groups * Korean Community"
+		}, {
+			"sterm": "Ethnic Advocacy Groups * Muslim Community"
+		}, {
+			"sterm": "Ethnic Advocacy Groups * Somali Community"
+		}]
+	}]
+}, {
+	"category": "Transportation",
+	"categoryID": "2619",
+	"order": "17",
+	"subcat": [{
+		"subcategory": "Community Ride Programs",
+		"subcategoryID": "2682",
+		"order": "1",
+		"subcatterm": [{
+			"sterm": "Disability Related Transportation"
+		}, {
+			"sterm": "Disability Related Transportation * Veterans"
+		}]
+	}, {
+		"subcategory": "Domestic Violence Transport",
+		"subcategoryID": "2685",
+		"order": "2",
+		"subcatterm": [{
+			"sterm": "Transportation for Endangered People"
+		}, {
+			"sterm": "Transportation for Endangered People * Human Trafficking Issues"
+		}]
+	}, {
+		"subcategory": "Gas Vouchers",
+		"subcategoryID": "2681",
+		"order": "3",
+		"subcatterm": [{
+			"sterm": "Gas Money"
+		}, {
+			"sterm": "Gas Money * Veterans"
+		}]
+	}, {
+		"subcategory": "Homeless/Runaway Youth Transport",
+		"subcategoryID": "2684",
+		"order": "4",
+		"subcatterm": [{
+			"sterm": "Return to Point of Origin * Homeless Youth"
+		}]
+	}, {
+		"subcategory": "Long Distance Travel",
+		"subcategoryID": "2683",
+		"order": "5",
+		"subcatterm": [{
+			"sterm": "Air Fare"
+		}, {
+			"sterm": "Bus Fare"
+		}, {
+			"sterm": "Long Distance Transportation"
+		}, {
+			"sterm": "Return to Point of Origin"
+		}, {
+			"sterm": "Return to Point of Origin * Homeless Youth"
+		}]
+	}, {
+		"subcategory": "Medical Transportation",
+		"subcategoryID": "2686",
+		"order": "6",
+		"subcatterm": [{
+			"sterm": "Medical Appointments Transportation"
+		}, {
+			"sterm": "Medical Appointments Transportation * Adults With Disabilities/Health Conditions"
+		}, {
+			"sterm": "Medical Appointments Transportation * AIDS/HIV"
+		}, {
+			"sterm": "Medical Appointments Transportation * Breast Cancer"
+		}, {
+			"sterm": "Medical Appointments Transportation * Cancer"
+		}, {
+			"sterm": "Medical Appointments Transportation * Medicaid Recipients"
+		}, {
+			"sterm": "Medical Appointments Transportation * Older Adults"
+		}, {
+			"sterm": "Medical Appointments Transportation * Veterans"
+		}, {
+			"sterm": "Mercy Transportation"
+		}, {
+			"sterm": "Taxi Fare"
+		}]
+	}, {
+		"subcategory": "Public Transportation Passes",
+		"subcategoryID": "2680",
+		"order": "7",
+		"subcatterm": [{
+			"sterm": "Public Transit Authorities"
+		}, {
+			"sterm": "Transportation Passes"
+		}, {
+			"sterm": "Transportation Passes * Adults With Disabilities/Health Conditions"
+		}, {
+			"sterm": "Transportation Passes * AIDS/HIV"
+		}, {
+			"sterm": "Transportation Passes * Hispanic/Latino Community"
+		}, {
+			"sterm": "Transportation Passes * Older Adults"
+		}]
+	}]
+}, {
+	"category": "Education",
+	"categoryID": "2607",
+	"order": "18",
+	"subcat": [{
+		"subcategory": "Head Start",
+		"subcategoryID": "2692",
+		"order": "20",
+		"subcatterm": [{
+			"sterm": "Head Start"
+		}, {
+			"sterm": "Head Start * Migrants"
+		}, {
+			"sterm": "Head Start * Native American Community"
+		}]
+	}, {
+		"subcategory": "Early Head Start",
+		"subcategoryID": "2693",
+		"order": "20",
+		"subcatterm": [{
+			"sterm": "Early Head Start"
+		}, {
+			"sterm": "Early Head Start * Migrants"
+		}, {
+			"sterm": "Early Head Start * Native American Community"
+		}, {
+			"sterm": "Preschool Referral Programs"
+		}, {
+			"sterm": "Preschools"
+		}, {
+			"sterm": "Preschools * Disabilities Issues"
+		}, {
+			"sterm": "Preschools * Migrants"
+		}, {
+			"sterm": "School Readiness Programs"
+		}, {
+			"sterm": "School Readiness Programs * Children and Youth With Disabilities/Health Conditions"
+		}, {
+			"sterm": "School Readiness Programs * Hispanic/Latino Community"
+		}, {
+			"sterm": "School Readiness Programs * Refugees/Entrants/Asylees"
+		}]
+	}, {
+		"subcategory": "Tutoring",
+		"subcategoryID": "2719",
+		"order": "20",
+		"subcatterm": [{
+			"sterm": "Tutoring Services"
+		}, {
+			"sterm": "Tutoring Services * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Tutoring Services * Autism"
+		}, {
+			"sterm": "Tutoring Services * Functional Illiteracy"
+		}, {
+			"sterm": "Tutoring Services * Hispanic/Latino Community"
+		}, {
+			"sterm": "Tutoring Services * Native American Community"
+		}]
+	}, {
+		"subcategory": "Homeless Student Resources",
+		"subcategoryID": "2720",
+		"order": "20",
+		"subcatterm": [{
+			"sterm": "Homeless School Transition Programs"
+		}, {
+			"sterm": "School Based Teen Parent/Pregnant Teen Programs"
+		}, {
+			"sterm": "School Supplies * Homeless Youth"
+		}]
+	}, {
+		"subcategory": "Truancy/Dropout Prevention",
+		"subcategoryID": "2721",
+		"order": "20",
+		"subcatterm": [{
+			"sterm": "Dropout Programs"
+		}, {
+			"sterm": "School Based Integrated Services"
+		}, {
+			"sterm": "School Based Integrated Services * Hispanic/Latino Community"
+		}, {
+			"sterm": "Wraparound Facilitation/Community Support"
+		}, {
+			"sterm": "Wraparound Facilitation/Community Support * Hispanic/Latino Community"
+		}, {
+			"sterm": "Wraparound Facilitation/Community Support * Medicaid Recipients"
+		}, {
+			"sterm": "Wraparound Facilitation/Community Support * Native American Community"
+		}]
+	}, {
+		"subcategory": "GED Completion Programs",
+		"subcategoryID": "2722",
+		"order": "20",
+		"subcatterm": [{
+			"sterm": "Adult Basic Education"
+		}, {
+			"sterm": "Adult Basic Education * Hispanic/Latino Community"
+		}, {
+			"sterm": "Continuing Education"
+		}, {
+			"sterm": "Continuing Education * Chronic/Severe Mental Illness"
+		}, {
+			"sterm": "Dropout Programs"
+		}, {
+			"sterm": "GED/High School Equivalency Test Instruction"
+		}, {
+			"sterm": "GED/High School Equivalency Test Instruction * Functional Illiteracy"
+		}, {
+			"sterm": "GED/High School Equivalency Test Instruction * Hispanic/Latino Community"
+		}, {
+			"sterm": "GED/High School Equivalency Test Instruction * Immigration Issues"
+		}, {
+			"sterm": "GED/High School Equivalency Test Instruction * TANF Recipients"
+		}, {
+			"sterm": "GED/High School Equivalency Test Sites"
+		}, {
+			"sterm": "Literacy Programs"
+		}, {
+			"sterm": "Literacy Programs * African American Community"
+		}, {
+			"sterm": "Literacy Programs * Hispanic/Latino Community"
+		}]
+	}, {
+		"subcategory": "Student Financial Aid",
+		"subcategoryID": "2723",
+		"order": "20",
+		"subcatterm": [{
+			"sterm": "College/University Entrance Support"
+		}, {
+			"sterm": "College/University Entrance Support * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "College/University Entrance Support * Hispanic/Latino Community"
+		}, {
+			"sterm": "Student Financial Aid"
+		}, {
+			"sterm": "Student Financial Aid * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Student Financial Aid * African American Community"
+		}, {
+			"sterm": "Student Financial Aid * Blindness"
+		}, {
+			"sterm": "Student Financial Aid * Veteran/Military Personnel Issues"
+		}]
+	}, {
+		"subcategory": "English Literacy",
+		"subcategoryID": "2724",
+		"order": "20",
+		"subcatterm": [{
+			"sterm": "English as a Second Language"
+		}, {
+			"sterm": "English as a Second Language * Day Laborers"
+		}, {
+			"sterm": "English as a Second Language * Functional Illiteracy"
+		}, {
+			"sterm": "English as a Second Language * Hispanic/Latino Community"
+		}, {
+			"sterm": "English as a Second Language * Hispanic/Latino Community * Adults With Disabilities/Health Conditions"
+		}, {
+			"sterm": "English as a Second Language * Human Trafficking Issues"
+		}, {
+			"sterm": "English as a Second Language * Korean Community"
+		}, {
+			"sterm": "English as a Second Language * Refugees/Entrants/Asylees"
+		}, {
+			"sterm": "Literacy Programs"
+		}, {
+			"sterm": "Literacy Programs * African American Community"
+		}, {
+			"sterm": "Literacy Programs * Hispanic/Latino Community"
+		}, {
+			"sterm": "Vocational English as a Second Language"
+		}]
+	}, {
+		"subcategory": "School Supplies",
+		"subcategoryID": "2725",
+		"order": "20",
+		"subcatterm": [{
+			"sterm": "School Supplies"
+		}, {
+			"sterm": "School Supplies * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "School Supplies * Families of Military Personnel/Veterans"
+		}, {
+			"sterm": "School Supplies * Homeless Youth"
+		}]
+	}, {
+		"subcategory": "Vocational Education",
+		"subcategoryID": "2814",
+		"order": "20",
+		"subcatterm": [{
+			"sterm": "Vocational Education"
+		}, {
+			"sterm": "Vocational Education * Chronic/Severe Mental Illness"
+		}, {
+			"sterm": "Vocational Education * Deafness"
+		}]
+	}]
+}, {
+	"category": "Employment",
+	"categoryID": "2608",
+	"order": "19",
+	"subcat": [{
+		"subcategory": "Job Search Assistance",
+		"subcategoryID": "2726",
+		"order": "21",
+		"subcatterm": [{
+			"sterm": "Comprehensive Job Assistance Centers"
+		}, {
+			"sterm": "Comprehensive Job Assistance Centers * African American Community"
+		}, {
+			"sterm": "Comprehensive Job Assistance Centers * Hispanic/Latino Community"
+		}, {
+			"sterm": "Job Finding Assistance"
+		}, {
+			"sterm": "Job Finding Assistance * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "Job Finding Assistance * Adults With Disabilities/Health Conditions"
+		}, {
+			"sterm": "Job Finding Assistance * African American Community"
+		}, {
+			"sterm": "Job Finding Assistance * Chronic/Severe Mental Illness"
+		}, {
+			"sterm": "Job Finding Assistance * Hispanic/Latino Community"
+		}, {
+			"sterm": "Job Finding Assistance * Homelessness Issues"
+		}, {
+			"sterm": "Job Finding Assistance * Human Trafficking Issues"
+		}, {
+			"sterm": "Job Finding Assistance * Seasonal Workers"
+		}, {
+			"sterm": "Job Finding Assistance * Substance Use Disorder Issues"
+		}, {
+			"sterm": "Job Finding Assistance * Veterans"
+		}, {
+			"sterm": "Job Situations"
+		}, {
+			"sterm": "Prejob Guidance"
+		}, {
+			"sterm": "Prejob Guidance * Adults With Disabilities/Health Conditions"
+		}, {
+			"sterm": "Prejob Guidance * African American Community"
+		}, {
+			"sterm": "Prejob Guidance * Hispanic/Latino Community"
+		}, {
+			"sterm": "Prejob Guidance * Native American Community"
+		}, {
+			"sterm": "Prejob Guidance * Teenage Parents"
+		}, {
+			"sterm": "Prejob Guidance * Women"
+		}]
+	}, {
+		"subcategory": "General Employment Programs",
+		"subcategoryID": "2727",
+		"order": "21",
+		"subcatterm": [{
+			"sterm": "Career Counseling"
+		}, {
+			"sterm": "Career Counseling * Blindness"
+		}, {
+			"sterm": "Career Counseling * Women"
+		}, {
+			"sterm": "Career Exploration"
+		}, {
+			"sterm": "Career Exploration * African American Community"
+		}, {
+			"sterm": "Prejob Guidance"
+		}, {
+			"sterm": "Prejob Guidance * Adults With Disabilities/Health Conditions"
+		}, {
+			"sterm": "Prejob Guidance * African American Community"
+		}, {
+			"sterm": "Prejob Guidance * Hispanic/Latino Community"
+		}, {
+			"sterm": "Prejob Guidance * Native American Community"
+		}, {
+			"sterm": "Prejob Guidance * Teenage Parents"
+		}, {
+			"sterm": "Prejob Guidance * Women"
+		}, {
+			"sterm": "Welfare to Work Programs"
+		}, {
+			"sterm": "Welfare to Work Programs * African American Community"
+		}, {
+			"sterm": "Welfare to Work Programs * Hispanic/Latino Community"
+		}]
+	}, {
+		"subcategory": "Youth Employment Programs",
+		"subcategoryID": "2728",
+		"order": "21",
+		"subcatterm": [{
+			"sterm": "Apprenticeship Preparation"
+		}, {
+			"sterm": "Apprenticeship Preparation * Women"
+		}, {
+			"sterm": "Youth Employment Programs"
+		}, {
+			"sterm": "Youth Employment Programs * African American Community"
+		}, {
+			"sterm": "Youth Employment Programs * Homeless Youth"
+		}, {
+			"sterm": "Youth Employment Programs * Native American Community"
+		}, {
+			"sterm": "Youth Employment Programs * TANF Recipients"
+		}]
+	}, {
+		"subcategory": "Work Clothing",
+		"subcategoryID": "2730",
+		"order": "21",
+		"subcatterm": [{
+			"sterm": "Work Clothing"
+		}, {
+			"sterm": "Work Clothing * Homeless Youth"
+		}, {
+			"sterm": "Work Clothing * Women"
+		}]
+	}, {
+		"subcategory": "Training and Job Readiness",
+		"subcategoryID": "2815",
+		"order": "21",
+		"subcatterm": [{
+			"sterm": "Apprenticeship Preparation"
+		}, {
+			"sterm": "Apprenticeship Preparation * Women"
+		}, {
+			"sterm": "Disability Related Center Based Employment"
+		}, {
+			"sterm": "Disability Related Center Based Employment * Chronic/Severe Mental Illness"
+		}, {
+			"sterm": "Job Training Expense Assistance"
+		}, {
+			"sterm": "Job Training Formats"
+		}, {
+			"sterm": "Job Training Formats * Adults With Disabilities/Health Conditions"
+		}, {
+			"sterm": "Job Training Formats * African American Community"
+		}, {
+			"sterm": "Job Training Formats * Chronic/Severe Mental Illness"
+		}, {
+			"sterm": "Job Training Formats * Women"
+		}, {
+			"sterm": "Vocational Rehabilitation"
+		}, {
+			"sterm": "Vocational Rehabilitation * Blindness"
+		}, {
+			"sterm": "Vocational Rehabilitation * Chronic/Severe Mental Illness"
+		}]
+	}, {
+		"subcategory": "Ex-Offender Employment Programs",
+		"subcategoryID": "2816",
+		"order": "21",
+		"subcatterm": [{
+			"sterm": "Ex-Offender Employment Programs"
+		}, {
+			"sterm": "Ex-Offender Reentry Programs"
+		}, {
+			"sterm": "Ex-Offender Reentry Programs * Fathers"
+		}, {
+			"sterm": "Ex-Offender Reentry Programs * Men"
+		}, {
+			"sterm": "Ex-Offender Reentry Programs * Native American Community"
+		}, {
+			"sterm": "Ex-Offender Reentry Programs * Women"
+		}]
+	}]
+}, {
+	"category": "Seasonal Resources",
+	"categoryID": "2617",
+	"order": "20",
+	"subcat": [{
+		"subcategory": "Tax Preparation Assistance",
+		"subcategoryID": "2671",
+		"order": "21",
+		"subcatterm": [{
+			"sterm": "Federal Income Tax Information"
+		}, {
+			"sterm": "Local Income Tax Information"
+		}, {
+			"sterm": "State Income Tax Information"
+		}, {
+			"sterm": "Tax Appeals/Audit Assistance"
+		}, {
+			"sterm": "Tax Forms"
+		}, {
+			"sterm": "Tax Preparation Assistance"
+		}, {
+			"sterm": "Tax Preparation Assistance * Hispanic/Latino Community"
+		}]
+	}, {
+		"subcategory": "Holiday Programs",
+		"subcategoryID": "2672",
+		"order": "21",
+		"subcatterm": [{
+			"sterm": "Christmas Baskets"
+		}, {
+			"sterm": "Christmas Baskets * Cancer"
+		}, {
+			"sterm": "Christmas Baskets * Families of Veterans"
+		}, {
+			"sterm": "Christmas Festivals"
+		}, {
+			"sterm": "Christmas Meals"
+		}, {
+			"sterm": "Christmas Meals * Homebound"
+		}, {
+			"sterm": "Christmas Trees"
+		}, {
+			"sterm": "Christmas Trees * Families of Veterans"
+		}, {
+			"sterm": "Easter Programs"
+		}, {
+			"sterm": "Halloween Events"
+		}, {
+			"sterm": "Hanukkah Programs"
+		}, {
+			"sterm": "Holiday Adoption Programs"
+		}, {
+			"sterm": "Holiday Dances/Galas"
+		}, {
+			"sterm": "Holiday Donations"
+		}, {
+			"sterm": "Holiday Gifts/Toys"
+		}, {
+			"sterm": "Holiday Gifts/Toys * Families of Veterans"
+		}, {
+			"sterm": "Kwanzaa Programs"
+		}, {
+			"sterm": "Thanksgiving Baskets"
+		}, {
+			"sterm": "Thanksgiving Meals"
+		}]
+	}, {
+		"subcategory": "School Supplies",
+		"subcategoryID": "2673",
+		"order": "21",
+		"subcatterm": [{
+			"sterm": "School Clothing"
+		}, {
+			"sterm": "School Supplies"
+		}, {
+			"sterm": "School Supplies * Adoption/Foster Care Issues"
+		}, {
+			"sterm": "School Supplies * Families of Military Personnel/Veterans"
+		}, {
+			"sterm": "School Supplies * Homeless Youth"
+		}]
+	}, {
+		"subcategory": "Severe Winter Weather Shelters",
+		"subcategoryID": "2826",
+		"order": "21",
+		"subcatterm": [{
+			"sterm": "Emergency Shelter Clearinghouses"
+		}, {
+			"sterm": "Extreme Cold Warming Centers"
+		}, {
+			"sterm": "Extreme Cold Warming Centers * Homeless Families"
+		}, {
+			"sterm": "Extreme Cold Weather Shelters"
+		}, {
+			"sterm": "Extreme Cold Weather Shelters * Disabilities Issues"
+		}, {
+			"sterm": "Extreme Cold Weather Shelters * Homeless Couples"
+		}, {
+			"sterm": "Extreme Cold Weather Shelters * Homeless Families"
+		}, {
+			"sterm": "Extreme Cold Weather Shelters * Homeless Men"
+		}, {
+			"sterm": "Extreme Cold Weather Shelters * Homeless Veterans"
+		}, {
+			"sterm": "Extreme Cold Weather Shelters * Homeless Women"
+		}, {
+			"sterm": "Extreme Cold Weather Shelters * Homeless Youth"
+		}, {
+			"sterm": "Extreme Cold Weather Shelters * Older Adults"
+		}, {
+			"sterm": "Extreme Cold Weather Shelters * Pregnant Women"
+		}]
+	}, {
+		"subcategory": "Severe Summer Weather Shelters",
+		"subcategoryID": "2827",
+		"order": "21",
+		"subcatterm": [{
+			"sterm": "Emergency Shelter Clearinghouses"
+		}, {
+			"sterm": "Extreme Heat Advisories/Warnings"
+		}]
+	}]
+}]
+}

@@ -1,0 +1,323 @@
+{
+  "modules": {
+    "onboarding": {
+      "name": "onboarding",
+      "shortName": "Onboarding",
+      "topLevel": 1,
+      "type": "questions",
+      "active": 1,
+      "options": [
+        "questions"
+      ],
+      "text": {
+        "en": "Onboarding"
+      },
+      "elements": [
+        {
+          "type": "intro",
+          "name": "intro_1",
+          "img": "img1",
+          "header": {
+            "en": "Intro 1"
+          },
+          "subheader": {
+            "en": "Subheader"
+          },
+          "detail": {
+            "en": "Detail"
+          },
+          "active": 1
+        },
+        {
+          "type": "intro",
+          "name": "intro_2",
+          "img": "img2",
+          "header": {
+            "en": "Intro 2"
+          },
+          "subheader": {
+            "en": "Subheader"
+          },
+          "detail": {
+            "en": "Detail"
+          },
+          "active": 1
+        }
+      ]
+    },
+    "assessment": {
+      "name": "assessment",
+      "shortName": "Assessment",
+      "topLevel": 1,
+      "type": "questions",
+      "active": 1,
+      "options": [
+        "questions"
+      ],
+      "text": {
+        "en": "Assessment"
+      },
+      "elements": [
+         {
+          "type": "radio",
+          "name": "AUDIENCE",
+          "audience" : {
+			 "self" : {
+				 "text": {
+					"en": "Are you using this app for yourself or someone else?"
+				  },
+				 
+			 },
+			 "other" :{
+				 
+				 "text": {
+						"en": "Are you using this app for yourself or someone else?"
+					  },
+				 
+			 }
+		  },			
+          "active": 1,
+          "choices": [
+            {
+              "value": 1,
+              "active": 1,
+              "text": {
+                "en": "Myself",
+				"es": "Myself"
+              }
+            },
+            {
+              "value": 2,
+              "active": 1,
+              "text": {
+                "en": "Someone else",
+				"es": "Someone else"
+              }
+            }
+          ],
+		 
+        },
+		  {
+          "type": "radio",
+          "name": "SAFE",
+          "audience" : {
+			 "self" : {
+				 "text": {
+					"en": "Are you safe right now?"
+				  },
+				 
+			 },
+			 "other" :{
+				 
+				 "text": {
+						"en": "Are you safe right now?"
+					  },
+				 
+			 }
+		  },			
+          "active": 1,
+          "choices": [
+            {
+              "value": 1,
+              "active": 1,
+              "text": {
+                "en": "Yes",
+				"es": "Si"
+              }
+            },
+            {
+              "value": 2,
+              "active": 1,
+              "text": {
+                "en": "No",
+				"es": "No"
+              }
+            }
+          ],
+		 
+        },
+        {
+          "type": "radio",
+          "name": "ROLE",
+          "audience" : {
+			 "self" : {
+				 "text": {
+					"en": "What is your role?"
+				  },
+				 
+			 },
+			 "other" :{
+				 
+				 "text": {
+						"en": "What is your role?"
+					  },
+				 
+			 }
+		  },
+          "active": 1,
+          "choices": [
+            {
+              "value": 1,
+              "active": 1,
+              "text": {
+                "en": "Employee",
+				"es": "Empl"
+              }
+            },
+            {
+              "value": 2,
+              "active": 1,
+              "text": {
+                "en": "Faculty",
+				"es": "Fac"
+              }
+            },
+            {
+              "value": 3,
+              "active": 1,
+              "text": {
+                "en": "Student",
+				"es": "Stu"
+              }
+            }
+          ]
+        },
+		  {
+          "type": "radio",
+          "name": "ROLE_OTHER",
+          "audience" : {
+			 "self" : {
+				 "text": {
+					"en": "What is their role?"
+				  },
+				 
+			 },
+			 "other" :{
+				 
+				 "text": {
+						"en": "What is their role?"
+					  },
+				 
+			 }
+		  },
+          "active": 1,
+          "choices": [
+            {
+              "value": 1,
+              "active": 1,
+              "text": {
+                "en": "Employee",
+				"es": "Empl"
+              }
+            },
+            {
+              "value": 2,
+              "active": 1,
+              "text": {
+                "en": "Faculty",
+				"es": "Fac"
+              }
+            },
+            {
+              "value": 3,
+              "active": 1,
+              "text": {
+                "en": "Student",
+				"es": "Stu"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "messages": {
+      "name": "messages",
+      "shortName": "Messages",
+      "topLevel": 1,
+      "type": "messages",
+      "active": 1,
+      "options": [
+        "strategies"
+      ],
+      "text": {
+        "en": "Messages"
+      },
+      "elements": [
+        {
+          "type": "format1",
+          "name": "MSG_CRISIS",
+          "text": {
+            "en": "Crisis"
+          },
+          "description": {
+            "en": "If you're in crisis now, you should..."
+          },
+          "active": 1,
+          
+        },
+		 {"type": "format1",
+          "name": "MSG_CALL",
+          "text": {
+            "en": "Call"
+          },
+          "description": {
+            "en": "Call 911 if you need.."
+          },
+          "active": 1,
+          
+        },
+        {
+          "type": "format1",
+          "name": "MSG_SERVICES",
+          "text": {
+            "en": "Services"
+          },
+          "description": {
+            "en": "There are several people available..."
+          },
+          "active": 1,
+          "choices": [
+            {
+              "value": "MSG_SERVICES_CAP",
+              "active": 1,
+              "text": {
+                "en": "CAP"
+              }
+            },
+            {
+              "value": "MSG_SERVICES_HEALTH",
+              "active": 1,
+              "text": {
+                "en": "Student Health"
+              }
+            }
+          ]
+        },
+        {
+          "type": "format2",
+          "name": "MSG_SERVICES_CAP",
+          "text": {
+            "en": "CAP"
+          },
+          "description": {
+            "en": "The Confidential Advocacy Program..."
+          },
+          "active": 1,
+         
+        },
+		  {
+          "type": "format2",
+          "name": "MSG_SERVICES_HEALTH",
+          "text": {
+            "en": "Student Health"
+          },
+          "description": {
+            "en": "The Student Health..."
+          },
+          "active": 1,
+         
+        }
+      ]
+    }
+  }
+}

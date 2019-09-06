@@ -1,0 +1,1167 @@
+﻿{
+  "tabs": [
+    "assessment",
+    "summary",
+    "share"
+  ],
+  "modules": {
+    "onboarding": {
+      "name": "onboarding",
+      "shortName": "Onboardings",
+      "topLevel": 1,
+      "type": "questions",
+      "active": 1,
+      "options": [
+        "questions"
+      ],
+      "text": {
+        "en": "Onboarding"
+      },
+      "elements": [
+        {
+          "type": "intro",
+          "name": "intro_1",
+          "img": "1",
+          "header": {
+            "en": "For"
+          },
+          "subheader": {
+            "en": "OHSU Staff, Faculty, Students"
+          },
+          "detail": {
+            "en": "This app is designed for OHSU staff, students, and faculty in mind."
+          },
+          "active": 1
+        },
+        {
+          "type": "intro",
+          "name": "intro_2",
+          "img": "2",
+          "header": {
+            "en": "What"
+          },
+          "subheader": {
+            "en": "Help for sexual misconduct"
+          },
+          "detail": {
+            "en": "Sexual misconduct and harassment can occur in many forms.  This app will help to define those and provide you with options."
+          },
+          "active": 1
+        }
+      ]
+    },
+    "assessment": {
+      "name": "assessment",
+      "shortName": "Assessment",
+      "topLevel": 1,
+      "type": "questions",
+      "container": "questions.html",
+      "active": 1,
+      "options": [
+        "questions"
+      ],
+      "text": {
+        "en": "Assessment"
+      },
+      "elements": [
+        {
+          "type": "radio",
+          "name": "AUDIENCE",
+          "section": "about",
+          "audience": {
+            "self": {
+              "text": {
+                "en": "Are you using this app for yourself or someone else?"
+              }
+            },
+            "other": {
+              "text": {
+                "en": "Are you using this app for yourself or someone else?"
+              }
+            }
+          },
+          "active": 1,
+          "choices": [
+            {
+              "value": 1,
+              "active": 1,
+              "text": {
+                "en": "Myself",
+                "es": "Myself"
+              }
+            },
+            {
+              "value": 2,
+              "active": 1,
+              "text": {
+                "en": "Someone else",
+                "es": "Someone else"
+              }
+            }
+          ]
+        },
+        {
+          "type": "radio",
+          "name": "SAFE",
+          "section": "about",
+          "audience": {
+            "self": {
+              "text": {
+                "en": "Are you safe right now?"
+              }
+            },
+            "other": {
+              "text": {
+                "en": "Are you safe right now?"
+              }
+            }
+          },
+          "active": 1,
+          "choices": [
+            {
+              "value": 1,
+              "active": 1,
+              "text": {
+                "en": "Yes",
+                "es": "Si"
+              }
+            },
+            {
+              "value": 2,
+              "active": 1,
+              "text": {
+                "en": "No",
+                "es": "No"
+              },
+              "message": "MSG_SAFE"
+            }
+          ]
+        },
+        {
+          "type": "radio",
+          "name": "CRISIS",
+          "section": "about",
+          "audience": {
+            "self": {
+              "text": {
+                "en": "Are you in crisis?"
+              }
+            },
+            "other": {
+              "text": {
+                "en": "Are you in crisis?"
+              }
+            }
+          },
+          "active": 1,
+          "choices": [
+            {
+              "value": 1,
+              "active": 1,
+              "text": {
+                "en": "Yes",
+                "es": "Si"
+              },
+              "message": "MSG_CRISIS"
+            },
+            {
+              "value": 2,
+              "active": 1,
+              "text": {
+                "en": "No",
+                "es": "No"
+              }
+            }
+          ]
+        },
+        {
+          "type": "radio",
+          "name": "ROLE",
+          "section": "about",
+          "audience": {
+            "self": {
+              "text": {
+                "en": "What is your role?"
+              }
+            },
+            "other": {
+              "text": {
+                "en": "What is their role?"
+              }
+            }
+          },
+          "active": 1,
+          "choices": [
+            {
+              "value": 1,
+              "active": 1,
+              "text": {
+                "en": "Employee",
+                "es": "Empl"
+              }
+            },
+            {
+              "value": 2,
+              "active": 1,
+              "text": {
+                "en": "Faculty",
+                "es": "Fac"
+              }
+            },
+            {
+              "value": 3,
+              "active": 1,
+              "text": {
+                "en": "Student",
+                "es": "Stu"
+              }
+            }
+          ]
+        },
+        {
+          "type": "radio",
+          "name": "ROLE_OTHER",
+          "section": "about",
+          "audience": {
+            "self": {
+              "text": {
+                "en": "What is their role?"
+              }
+            },
+            "other": {
+              "text": {
+                "en": "What is your role?"
+              }
+            }
+          },
+          "active": 1,
+          "choices": [
+            {
+              "value": 1,
+              "active": 1,
+              "text": {
+                "en": "Employee",
+                "es": "Empl"
+              }
+            },
+            {
+              "value": 2,
+              "active": 1,
+              "text": {
+                "en": "Faculty",
+                "es": "Fac"
+              }
+            },
+            {
+              "value": 3,
+              "active": 1,
+              "text": {
+                "en": "Student",
+                "es": "Stu"
+              }
+            }
+          ]
+        },
+        {
+          "type": "radio",
+          "name": "REQUIRED_REPORTER",
+          "section": "about",
+          "audience": {
+            "self": {
+              "text": {
+                "en": "You may be required to report. Let's define reporting types."
+              }
+            },
+            "other": {
+              "text": {
+                "en": "You may be required to report. Let's define reporting types."
+              }
+            }
+          },
+          "active": 1,
+          "choices": [
+            {
+              "value": 1,
+              "active": 1,
+              "text": {
+                "en": "Mandatory Reporter",
+                "es": "Si"
+              },
+              "message": "MSG_REQUIRED_MANDATORY"
+            },
+            {
+              "value": 2,
+              "active": 1,
+              "text": {
+                "en": "Responsible Employee",
+                "es": "No"
+              },
+              "message": "MSG_REQUIRED_RESPONSIBLE"
+            },
+            {
+              "value": 3,
+              "active": 1,
+              "text": {
+                "en": "Campus Security Authority",
+                "es": "No"
+              },
+              "message": "MSG_REQUIRED_AUTHORITY"
+            }
+          ]
+        },
+        {
+          "type": "radio",
+          "name": "CAMPUS",
+          "section": "about",
+          "audience": {
+            "self": {
+              "text": {
+                "en": "What campus are you closest to?"
+              }
+            },
+            "other": {
+              "text": {
+                "en": "What campus are they closest to?"
+              }
+            }
+          },
+          "active": 1,
+          "choices": [
+            {
+              "value": 1,
+              "active": 1,
+              "text": {
+                "en": "Portland / West Campus",
+                "es": "Si"
+              }
+            },
+            {
+              "value": 2,
+              "active": 1,
+              "text": {
+                "en": "LaGrande",
+                "es": "No"
+              }
+            },
+            {
+              "value": 3,
+              "active": 1,
+              "text": {
+                "en": "Ashland",
+                "es": "No"
+              }
+            },
+            {
+              "value": 4,
+              "active": 1,
+              "text": {
+                "en": "Monmouth",
+                "es": "No"
+              }
+            },
+            {
+              "value": 5,
+              "active": 1,
+              "text": {
+                "en": "Klamath Falls",
+                "es": "No"
+              }
+            }
+          ]
+        },
+        {
+          "type": "radio",
+          "name": "FAC_SOM",
+          "section": "about",
+          "audience": {
+            "self": {
+              "text": {
+                "en": "Are you primary faculty > 0.5 FTE in the School of Medicine?"
+              }
+            },
+            "other": {
+              "text": {
+                "en": "Are they primary facult > 0.5 FTE in the School of Medicine?"
+              }
+            }
+          },
+          "active": 1,
+          "choices": [
+            {
+              "value": 1,
+              "active": 1,
+              "text": {
+                "en": "Yes",
+                "es": "Si"
+              },
+              "message": "MSG_FAC_RESOURCES"
+            },
+            {
+              "value": 2,
+              "active": 1,
+              "text": {
+                "en": "No",
+                "es": "No"
+              }
+            }
+          ]
+        },
+        {
+          "type": "radio",
+          "name": "STAFF_MED_FELLOW",
+          "section": "about",
+          "audience": {
+            "self": {
+              "text": {
+                "en": "Are you a resident or medical/surgical fellow?"
+              }
+            },
+            "other": {
+              "text": {
+                "en": "Are they a resident or medical/surgical fellow?"
+              }
+            }
+          },
+          "active": 1,
+          "choices": [
+            {
+              "value": 1,
+              "active": 1,
+              "text": {
+                "en": "Yes",
+                "es": "Si"
+              },
+              "message": "MSG_FAC_RESOURCES"
+            },
+            {
+              "value": 2,
+              "active": 1,
+              "text": {
+                "en": "No",
+                "es": "No"
+              }
+            }
+          ]
+        },
+        {
+          "type": "radio",
+          "name": "STAFF_POSTDOC_FELLOW",
+          "section": "about",
+          "audience": {
+            "self": {
+              "text": {
+                "en": "Are you a post-doctoral fellow?"
+              }
+            },
+            "other": {
+              "text": {
+                "en": "Are they a post-doctoral fellow?"
+              }
+            }
+          },
+          "active": 1,
+          "choices": [
+            {
+              "value": 1,
+              "active": 1,
+              "text": {
+                "en": "Yes",
+                "es": "Si"
+              },
+              "message": "MSG_FAC_RESOURCES"
+            },
+            {
+              "value": 2,
+              "active": 1,
+              "text": {
+                "en": "No",
+                "es": "No"
+              }
+            }
+          ]
+        },
+        {
+          "type": "radio",
+          "name": "STUDENT_PSU",
+          "section": "about",
+          "audience": {
+            "self": {
+              "text": {
+                "en": "Are you a PSU public health, business or pharmacology student?"
+              }
+            },
+            "other": {
+              "text": {
+                "en": "Are they a public health, business or pharmacology student?"
+              }
+            }
+          },
+          "active": 1,
+          "choices": [
+            {
+              "value": 1,
+              "active": 1,
+              "text": {
+                "en": "Yes",
+                "es": "Si"
+              },
+              "message": "MSG_FAC_RESOURCES"
+            },
+            {
+              "value": 2,
+              "active": 1,
+              "text": {
+                "en": "No",
+                "es": "No"
+              }
+            }
+          ]
+        },
+        {
+          "type": "label",
+          "name": "INCIDENT_INTRO",
+          "section": "incident",
+          "audience": {
+            "self": {
+              "text": {
+                "en": "Next will be some questions and information about types of incidents, reporting options, and services available to you"
+              }
+            },
+            "other": {
+              "text": {
+                "en": "Next will be some questions and information about the types of incidents, reporting options, and services available."
+              }
+            }
+          },
+          "active": 1
+        },
+        {
+          "type": "checkbox",
+          "name": "INCIDENT_LIST",
+          "section": "incident",
+          "audience": {
+            "self": {
+              "text": {
+                "en": "Did any of these incidents occur? (check all that apply)"
+              }
+            },
+            "other": {
+              "text": {
+                "en": "Yes"
+              }
+            }
+          },
+          "active": 1,
+          "choices": [
+            {
+              "value": 1,
+              "active": 1,
+              "text": {
+                "en": "Sex / Gender Discrimination",
+                "es": "Si"
+              },
+              "message": "MSG_INCIDENT_DISC"
+            },
+            {
+              "value": 2,
+              "active": 1,
+              "message": "MSG_INCIDENT_ASSAULT",
+              "text": {
+                "en": "Sexual Assault",
+                "es": "No"
+              }
+            },
+            {
+              "value": 3,
+              "active": 1,
+              "message": "MSG_INCIDENT_HARASSMENT",
+              "text": {
+                "en": "Sexual Harassment",
+                "es": "No"
+              }
+            },
+            {
+              "value": 4,
+              "active": 1,
+              "message": "MSG_INCIDENT_STALKING",
+              "text": {
+                "en": "Stalking",
+                "es": "No"
+              }
+            },
+            {
+              "value": 5,
+              "active": 1,
+              "message": "MSG_INCIDENT_IPV",
+              "text": {
+                "en": "Relationship Violence",
+                "es": "No"
+              }
+            },
+            {
+              "value": 6,
+              "active": 1,
+              "message": "MSG_INCIDENT_OTHER",
+              "text": {
+                "en": "Other",
+                "es": "No"
+              }
+            }
+          ]
+        },
+        {
+          "type": "radio",
+          "name": "OPTIONS",
+          "section": "incident",
+          "audience": {
+            "self": {
+              "text": {
+                "en": "Let’s find the next step for you.  You can seek helpful services, file a report or both. Explore your options below."
+              }
+            },
+            "other": {
+              "text": {
+                "en": "OHSU has a number of options for reporting and for providing services.  Explore the options available below."
+              }
+            }
+          },
+          "active": 1,
+          "choices": [
+            {
+              "value": 1,
+              "active": 1,
+              "text": {
+                "en": "Reporting",
+                "es": "Si"
+              },
+              "message": "MSG_REPORTING"
+            },
+            {
+              "value": 2,
+              "active": 1,
+              "text": {
+                "en": "Services",
+                "es": "No"
+              },
+              "message": "MSG_SERVICES"
+            }
+          ]
+        },
+        {
+          "type": "radio",
+          "name": "REPORT_INCIDENT",
+          "section": "incident",
+          "audience": {
+            "self": {
+              "text": {
+                "en": "Would you like to report your incident(s)?"
+              }
+            },
+            "other": {
+              "text": {
+                "en": "Would you like to report the incident(s)?"
+              }
+            }
+          },
+          "active": 1,
+          "choices": [
+            {
+              "value": 1,
+              "active": 1,
+              "text": {
+                "en": "Yes",
+                "es": "Si"
+              },
+              "message": "MSG_REPORTING"
+            },
+            {
+              "value": 2,
+              "active": 1,
+              "text": {
+                "en": "No",
+                "es": "No"
+              }
+            }
+          ]
+        },
+        {
+          "type": "radio",
+          "name": "MED_CARE",
+          "section": "incident",
+          "audience": {
+            "self": {
+              "text": {
+                "en": "Are you in need of medical care?"
+              }
+            },
+            "other": {
+              "text": {
+                "en": "Are they in need of medical care?"
+              }
+            }
+          },
+          "active": 1,
+          "choices": [
+            {
+              "value": 1,
+              "active": 1,
+              "text": {
+                "en": "Yes",
+                "es": "Si"
+              },
+              "message": "MSG_MED_CARE"
+            },
+            {
+              "value": 2,
+              "active": 1,
+              "text": {
+                "en": "No",
+                "es": "No"
+              }
+            }
+          ]
+        },
+        {
+          "type": "radio",
+          "name": "MED_CARE_OFF",
+          "section": "incident",
+          "audience": {
+            "self": {
+              "text": {
+                "en": "Would you like to see off campus medical care options?"
+              }
+            },
+            "other": {
+              "text": {
+                "en": "Would they like to see off campus medical care options?"
+              }
+            }
+          },
+          "active": 1,
+          "choices": [
+            {
+              "value": 1,
+              "active": 1,
+              "message": "MSG_COMM_RESOURCES",
+              "text": {
+                "en": "Yes",
+                "es": "Si"
+              }
+            },
+            {
+              "value": 2,
+              "active": 1,
+              "text": {
+                "en": "No",
+                "es": "No"
+              }
+            }
+          ]
+        },
+        {
+          "type": "radio",
+          "name": "COUNSELING",
+          "section": "incident",
+          "audience": {
+            "self": {
+              "text": {
+                "en": "Are you in need of counseling services?"
+              }
+            },
+            "other": {
+              "text": {
+                "en": "Are they in need of counseling services?"
+              }
+            }
+          },
+          "active": 1,
+          "choices": [
+            {
+              "value": 1,
+              "active": 1,
+              "text": {
+                "en": "Yes",
+                "es": "Si"
+              }
+            },
+            {
+              "value": 2,
+              "active": 1,
+              "text": {
+                "en": "No",
+                "es": "No"
+              }
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "COMMUNITY_RESOURCES",
+          "section": "incident",
+          "audience": {
+            "self": {
+              "text": {
+                "en": "Community resources can be found off campus.  Are you in need of any community resources? (check all that apply)"
+              }
+            },
+            "other": {
+              "text": {
+                "en": "Community resources can be found off campus.  Are they in need of any community resources? (check all that apply)"
+              }
+            }
+          },
+          "active": 1,
+          "choices": [
+            {
+              "value": 1,
+              "active": 1,
+              "text": {
+                "en": "No",
+                "es": "Si"
+              }
+            },
+            {
+              "value": 2,
+              "active": 1,
+              "text": {
+                "en": "Yes, housing",
+                "es": "No"
+              }
+            },
+            {
+              "value": 3,
+              "active": 1,
+              "text": {
+                "en": "Yes, medical care",
+                "es": "No"
+              }
+            },
+            {
+              "value": 4,
+              "active": 1,
+              "text": {
+                "en": "Yes, transporation",
+                "es": "No"
+              }
+            },
+            {
+              "value": 5,
+              "active": 1,
+              "text": {
+                "en": "Yes, legal",
+                "es": "No"
+              }
+            },
+            {
+              "value": 6,
+              "active": 1,
+              "text": {
+                "en": "Yes, food",
+                "es": "No"
+              }
+            }
+          ]
+        },
+        {
+          "type": "input",
+          "name": "ZIPCODE",
+          "section": "incident",
+          "audience": {
+            "self": {
+              "text": {
+                "en": "You indicated that you would like community resources.  Please provide your zipcode so we can add resources specific to you."
+              }
+            },
+            "other": {
+              "text": {
+                "en": "Community resources can be found off campus.  Are they in need of any community resources? (check all that apply)"
+              }
+            }
+          },
+          "active": 1,
+          "choices": []
+        },
+        {
+          "type": "label",
+          "name": "ASSESSMENT_FINISHED",
+          "section": "incident",
+          "audience": {
+            "self": {
+              "text": {
+                "en": "Assessment completed.  We've generated a tailored summary for you in the Summary section of the app. This will contain a summary of the info you provided along any resources you may have selected. If you would like to share your summary with CAP, please use the Share section of the app."
+              }
+            },
+            "other": {
+              "text": {
+                "en": "Community resources can be found off campus.  Are they in need of any community resources? (check all that apply)"
+              }
+            }
+          },
+          "active": 1,
+          "choices": []
+        }
+      ]
+    },
+    "messages": {
+      "name": "messages",
+      "shortName": "Messages",
+      "topLevel": 1,
+      "type": "messages",
+      "container": "message.html",
+      "active": 1,
+      "options": [
+        "strategies"
+      ],
+      "text": {
+        "en": "Messages"
+      },
+      "elements": [
+        {
+          "name": "MSG_SAFE",
+          "text": {
+            "en": "Not Safe"
+          },
+          "description": {
+            "en": "This app is intended to help you figure out reporting and service options, if you are in crisis, we can provide resources for you immediately."
+          },
+          "active": 1
+        },
+        {
+          "name": "MSG_CRISIS",
+          "text": {
+            "en": "Crisis"
+          },
+          "description": {
+            "en": "If you're in crisis now, you should take appropriate action to get help.  Here are some options:"
+          },
+          "active": 1,
+          "choices": [
+            {
+              "value": "MSG_CALL_911",
+              "active": 1,
+              "text": {
+                "en": "Call 911"
+              }
+            },
+            {
+              "value": "MSG_CALL_PS",
+              "active": 1,
+              "text": {
+                "en": "Call Public Safety"
+              }
+            }
+          ]
+        },
+        {
+          "name": "MSG_CALL_911",
+          "text": {
+            "en": "Call 911"
+          },
+          "description": {
+            "en": "Call 911 if you need immediate emergency help"
+          },
+          "active": 1
+        },
+        {
+          "name": "MSG_CALL_PS",
+          "text": {
+            "en": "Call Public Safety"
+          },
+          "description": {
+            "en": "Call Public Safety if you are on campus and need immediate assistance"
+          },
+          "active": 1
+        },
+        {
+          "name": "MSG_SERVICES",
+          "text": {
+            "en": "Services"
+          },
+          "description": {
+            "en": "There are several people available..."
+          },
+          "active": 1,
+          "choices": [
+            {
+              "value": "MSG_SERVICES_CAP",
+              "active": 1,
+              "text": {
+                "en": "CAP"
+              }
+            },
+            {
+              "value": "MSG_SERVICES_HEALTH",
+              "active": 1,
+              "text": {
+                "en": "Student Health"
+              }
+            }
+          ]
+        },
+        {
+          "name": "MSG_SERVICES_CAP",
+          "text": {
+            "en": "CAP"
+          },
+          "description": {
+            "en": "The Confidential Advocacy Program..."
+          },
+          "active": 1
+        },
+        {
+          "name": "MSG_SERVICES_HEALTH",
+          "text": {
+            "en": "Student Health"
+          },
+          "description": {
+            "en": "The Student Health..."
+          },
+          "active": 1
+        },
+        {
+          "name": "MSG_REPORTING",
+          "text": {
+            "en": "Reporting Options"
+          },
+          "description": {
+            "en": "There are three options on campus for reporting an incident."
+          },
+          "active": 1,
+          "choices": [
+            {
+              "value": "MSG_REPORTING_IX",
+              "active": 1,
+              "text": {
+                "en": "Title IX"
+              }
+            },
+            {
+              "value": "MSG_REPORTING_PS",
+              "active": 1,
+              "text": {
+                "en": "Public Safety"
+              }
+            },
+            {
+              "value": "MSG_REPORTING_IL",
+              "active": 1,
+              "text": {
+                "en": "Integrity Line"
+              }
+            }
+          ]
+        },
+        {
+          "name": "MSG_REPORTING_IX",
+          "text": {
+            "en": "Title IX"
+          },
+          "description": {
+            "en": "The Title IX office..."
+          },
+          "active": 1
+        },
+        {
+          "name": "MSG_REPORTING_PS",
+          "text": {
+            "en": "Public Safety"
+          },
+          "description": {
+            "en": "Public Safety..."
+          },
+          "active": 1
+        },
+        {
+          "name": "MSG_REPORTING_IL",
+          "text": {
+            "en": "Integrity Line"
+          },
+          "description": {
+            "en": "The Integrity Line..."
+          },
+          "active": 1
+        },
+        {
+          "name": "MSG_INCIDENT_DISC",
+          "text": {
+            "en": "Sex / Gender Discrimination"
+          },
+          "description": {
+            "en": "Sex / Gender Discrimination..."
+          },
+          "active": 1
+        },
+        {
+          "name": "MSG_INCIDENT_ASSAULT",
+          "text": {
+            "en": "Sexual Assault"
+          },
+          "description": {
+            "en": "Sexual Assault..."
+          },
+          "active": 1
+        },
+        {
+          "name": "MSG_INCIDENT_HARASSMENT",
+          "text": {
+            "en": "Sexual Harassment"
+          },
+          "description": {
+            "en": "Sexual Harassment..."
+          },
+          "active": 1
+        },
+        {
+          "name": "MSG_INCIDENT_STALKING",
+          "text": {
+            "en": "Stalking"
+          },
+          "description": {
+            "en": "Stalking..."
+          },
+          "active": 1
+        },
+        {
+          "name": "MSG_INCIDENT_IPV",
+          "text": {
+            "en": "IPV"
+          },
+          "description": {
+            "en": "IPV..."
+          },
+          "active": 1
+        },
+        {
+          "name": "MSG_INCIDENT_OTHER",
+          "text": {
+            "en": "Other"
+          },
+          "description": {
+            "en": "Other..."
+          },
+          "active": 1
+        },
+        {
+          "name": "MSG_FAC_RESOURCES",
+          "text": {
+            "en": "There are resources at the following campuses:"
+          },
+          "description": {
+            "en": "There are resources..."
+          },
+          "active": 1
+        },
+        {
+          "name": "MSG_COM_RESOURCES",
+          "text": {
+            "en": "There are community resources..."
+          },
+          "description": {
+            "en": "There are resources..."
+          },
+          "active": 1
+        }
+      ]
+    }
+  }
+}

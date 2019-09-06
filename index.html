@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no;viewport-fit=cover">
+  <link rel="stylesheet" href="lib/onsen-2-10-4/css/onsenui.css">
+  <link rel="stylesheet" href="lib/onsen-2-10-4/css/onsen-css-components.min.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/onsen-css-components.min.css">
+  <link rel="stylesheet" href="css/onsen-custom.css">
+  <link rel="stylesheet" href="css/custom.css">
+  
+<link href="https://fonts.googleapis.com/css?family=Lato:100,400|Montserrat|Open+Sans+Condensed:300|Roboto+Condensed:300&display=swap" rel="stylesheet">
+  
+  
+  
+  <script src="lib/onsen-2-10-4/js/onsenui.min.js"></script>
+  <script src="lib/jquery/jquery-1.11.3.min.js"></script>
+  <script src="lib/handlebars-v4.0.11.js"></script>
+  <!--<script src="js/helpers.js"></script>-->
+
+<script src="js/app.js"></script>
+<script src="js/api.js"></script>
+<script src="js/appLogic.js"></script>
+<script src="js/jsonq.min.js"></script>
+</head>
+<body style="max-width:500px; margin:0 auto;background: rgb(42, 42, 42);">
+ 
+			<div id="feedback-counter">0</div>
+			<ons-fab modifier="mini" position="top left" class="feedback-fab">
+				<!--<ons-icon icon="ion-user"></ons-icon>-->
+				<ons-icon icon="ion-edit" class="exit-icon" style="color:#000000;"></ons-icon>
+			 </ons-fab>
+			 
+			 <div id="feedback-window" style="display:none;">
+			   
+			 	<div class="font-4 large-font" style="font-weight: 600;">Feedback for <span id="feedback-page"></span></div>
+			 	<ons-input type="text" class="feedback-name font-1" id="feedback-name" name="feedback-name" placeholder="Your Name"></ons-input>
+			 	<textarea class="textarea feedback-text font-1" id="feedback-text" name="feedback-text"  rows="6" placeholder="Your Feedback"></textarea>
+			 	<div>
+			 		<ons-button class="button button-close-fab">
+					Cancel
+					</ons-button>
+					<ons-button class="button button-save-fab">
+					Save
+					</ons-button>
+			 	</div>
+			 </div>
+			<!-- #################################################################### -->
+			<!-- NAVIGATION UNITS ---> 
+
+			<!-- PANEL MENU OR SPLITTER -->
+			<ons-splitter>
+			  <ons-splitter-side id="menu" side="right" width="220px" collapse swipeable>
+				<ons-page>
+				  <ons-list>
+					<ons-list-item onclick="app.menu.load('assessment')" tappable>
+					  Assessment
+					</ons-list-item>
+					<ons-list-item onclick="app.menu.load('summary')"  tappable>
+					  Summary
+					</ons-list-item>
+				    <ons-list-item onclick="app.routing.push('reset_session.html','lift')"  tappable>
+					  Reset
+					</ons-list-item>
+
+				  </ons-list>
+				</ons-page>
+			  </ons-splitter-side>
+			  <ons-splitter-content>
+				<ons-navigator id="myNavigator" page="navbar.html"></ons-navigator>
+			  </ons-splitter-content>
+			</ons-splitter>
+
+
+		   <!-- #################################################################### -->
+			<!-- ONBORDING MODAL CAROUSEL ---> 
+			<ons-modal id="onboarding-modal" animation="none" direction="up" class="primary-background">
+				<ons-carousel swipeable fullscreen id="carousel-onboarding">
+					<div id="carousel-onboarding-inner" class="ons-swiper-target"></div> 
+				</ons-carousel>
+			</ons-modal>
+
+		
+		
+		
+			<!-- #################################################################### -->
+			<!-- CORE PAGE -->
+			<template id="navbar.html">
+				<ons-page id="navbar-page">
+
+						<ons-toolbar>
+							  <div id="toolbar-main" class="center large-font">Assessment</div>
+							  <div class="right">
+								<ons-toolbar-button onclick="app.menu.show()">
+								  <ons-icon icon="md-menu"></ons-icon>
+								</ons-toolbar-button>
+							  </div>
+					   </ons-toolbar>
+
+
+
+					   <ons-tabbar position="auto" id="myTabbar">
+						  <ons-tab icon="md-chart" label="Assessment" class="nav-tab" data-value="assessment" page="assessment.html" active></ons-tab>
+						  <ons-tab icon="md-folder-special" label="Summary" class="nav-tab" data-value="summary"  page="summary.html"></ons-tab>
+						  
+
+					   </ons-tabbar>
+
+					
+				</ons-page>
+			</template>
+			<!-- #################################################################### -->
+			<!-- START AUDIENCE PAGE -->
+			<template id="start.html">
+			  <ons-page name="start">
+
+				<div class="title xxlarge-font font-4 module-header">Before You Begin</div>
+			
+						
+						 <div class="question-container primary-text-color">
+						 
+						 <div class="question-label large-font font-2">
+							<label for="">
+								Are you using this app for yourself or someone else?
+							</label>
+						</div>
+
+					
+							 <ons-list>
+									
+								<div class="question-responses">
+
+
+										   <ons-list-item class="question-event question-response">
+											
+												 <!-- INPUT FIELD -->
+												<label class="checkbox">
+													<ons-radio input-id="start-1" name="AUDIENCE" data-type="question" data-field-type="radio" value="1"></ons-radio>
+												</label>
+												<label for="start-1" class="medium-font font-2" style="width:100%; display:inline-block; margin-left: 24px; margin-top: -24px;">
+													Myself
+												  </label>
+
+									 	  </ons-list-item>
+									 	  <ons-list-item class="question-event question-response">
+											
+												 <!-- INPUT FIELD -->
+												<label class="checkbox">
+													<ons-radio input-id="start-2" name="AUDIENCE" data-type="question" data-field-type="radio" value="2"></ons-radio>
+												</label>
+												<label for="start-2" class="medium-font font-2" style="width:100%; display:inline-block; margin-left: 24px; margin-top: -24px;">
+													Someone else (not loaded yet)
+												  </label>
+
+									 	  </ons-list-item>
+								 </div>
+								
+							</ons-list>
+						
+
+					</div>
+				
+			  </ons-page>
+			</template>
+			<!-- #################################################################### -->
+			<!-- SELF PAGE -->
+			<template id="self.html">
+			  <ons-page name="safety_self">
+					<div class="page__background" style="background: #b89a9a;"></div>
+					<div class="title xxlarge-font font-4 module-header">Before You Begin - Your Safety</div>
+					
+					<div class="before-body primary-text-color font-1">
+							<ons-card class="primary-text-color font-1 card-intro-1">
+								
+								<ons-row class="intro-row">
+										 <ons-col width="30px"><ons-icon icon="ion-person" class="xlarge-font"></ons-icon></ons-col>
+										 <ons-col class="large-font">This app is intended to be used when you are in a safe place and not in immediate danger. If you are not safe consider calling 911 or use the myPlan app to devise a safety plan.  </ons-col>
+								</ons-row>
+							</ons-card>
+							<ons-card class="primary-text-color font-1 card-intro-1">
+								<ons-row class="intro-row">
+										 <ons-col width="30px"><ons-icon icon="ion-android-warning" class="xlarge-font"></ons-icon></ons-col>
+										 <ons-col class="large-font"> Please use caution when using this app as activity can be monitored by an abuser. To leave this app quickly, click on the X at the bottom of the page. </ons-col>
+								</ons-row>
+							</ons-card>
+							
+					</div>
+
+				
+				 <div class="button-container">
+					<div class="button-container-inner">
+							<ons-button class="button-nav-back button-clear" onclick="app.routing.pop();">
+							Back
+						  </ons-button>
+						  <ons-button class="button-nav-next button-clear" onclick="app.routing.push('pin.html','right');">
+							Next
+						  </ons-button>
+					  </div>
+				  </div>
+				   <ons-fab modifier="mini" position="bottom center" class="e-exit">
+					<!--<ons-icon icon="ion-user"></ons-icon>-->
+					<ons-icon icon="ion-close" class="exit-icon"></ons-icon>
+				  </ons-fab>
+			  </ons-page>
+			</template>
+			<!-- #################################################################### -->
+			<!-- PIN PAGE -->
+			<template id="pin.html">
+			  <ons-page name="pin">
+				<div class="page__background" style="background: #9ab8b3;"></div>
+				<div class="title xxlarge-font font-4 module-header">Before You Begin - Your PIN</div>
+			
+						
+						<div class="before-body primary-text-color font-1">
+						 
+						
+							<ons-card class="primary-text-color font-1 card-intro-2" id="pin-1-card">
+								 <ons-row class="intro-row">
+									 <ons-col width="30px"><ons-icon icon="ion-lock-combination" class="xlarge-font"></ons-icon></ons-col>
+									 <ons-col class="large-font">Let's keep your session secure and private.  Set a 4 digit PIN to keep the app locked when not in use. When you return to the app you'll be asked for this PIN in order to continue. </ons-col>
+								</ons-row>
+							</ons-card>
+							<ons-card class="primary-text-color font-1 card-intro-2" style="display:none;" id="pin-2-card">
+								 <ons-row class="intro-row">
+									 <ons-col width="30px"><ons-icon icon="ion-locked" class="xlarge-font"></ons-icon></ons-col>
+									 <ons-col class="large-font">For your safety, if you are ever forced to put in your PIN by an abuser, you can use the bypass PIN of 0000 which will unlock the app, but only show a list of OHSU resources and none of your data. </ons-col>
+								</ons-row>
+							</ons-card>
+							<ons-card class="primary-text-color font-1 card-intro-2"  style="display:none;" id="pin-3-card">
+								 <ons-row class="intro-row">
+									 <ons-col width="30px"><ons-icon icon="ion-checkmark" class="xlarge-font" style="color:green;"></ons-icon></ons-col>
+									 <ons-col class="large-font">PIN Set </ons-col>
+								</ons-row>
+							</ons-card>	 
+							 <div class="mp-center-block">
+                              <input type="text" name="pinField" id="pin-field" value="" maxlength="4" readonly />
+                             
+                              
+                                  <table class="mp-center-block mp-margin-bottom-20" id="pin-keypad" width="100%">
+                                    <tr>
+                                       <td><a class="numero pin-field">1</a></td>
+                                       <td><a class="numero pin-field shorten">2</a></td>
+                                       <td><a class="numero pin-field shorten">3</a></td>
+                                    </tr>
+                                    <tr>
+                                      <td><a class="numero pin-field">4</a></td>
+                                       <td><a class="numero pin-field shorten">5</a></td>
+                                       <td><a class="numero pin-field shorten">6</a></td>
+                                    </tr>
+                                    <tr>
+                                      <td><a class="numero pin-field">7</a></td>
+                                       <td><a class="numero pin-field shorten">8</a></td>
+                                       <td><a class="numero pin-field shorten">9</a></td>
+                                    </tr>
+                        
+                                     <tr>
+                                        <td><a class="numero pin-field">0</a></td>
+                                     
+                                      <td colspan="2"><a class="numero pin-clear">CLEAR</a></td>
+                        
+                                    </tr> 
+                
+                                 </table>
+                               
+                                 
+                                 
+                        	 </div>
+
+						</div>
+				 <div class="button-container">
+					<div class="button-container-inner">
+							<ons-button class="button-nav-back button-clear" onclick="app.routing.pop();">
+							Back
+						  </ons-button>
+						  <ons-button class="button-nav-next button-clear" id="pin-button-next" style="display:none;" onclick="app.routing.push('data.html','right');">
+							Next
+						  </ons-button>
+					  </div>
+				  </div>
+				   <ons-fab modifier="mini" position="bottom center" class="e-exit">
+					<!--<ons-icon icon="ion-user"></ons-icon>-->
+					<ons-icon icon="ion-close" class="exit-icon"></ons-icon>
+				  </ons-fab>
+			  </ons-page>
+			</template>
+			<!-- #################################################################### -->
+			<!-- DATA PAGE -->
+			<template id="data.html">
+			  <ons-page name="data">
+						<div class="page__background" style="background: #b8b19a;"></div>
+						<div class="title xxlarge-font font-4 module-header">Before You Begin - Your Data</div>
+			
+						
+						<div class="before-body primary-text-color font-1">
+						 
+						
+							<ons-card class="primary-text-color font-1 card-intro-3">
+								 <ons-row class="intro-row">
+									 <ons-col width="30px"><ons-icon icon="ion-document" class="xlarge-font"></ons-icon></ons-col>
+									 <ons-col class="large-font">Your data only resides on the server and not on your device.  The only way to retrieve your data is to enter your PIN which allows the app to then retrieve your data. </ons-col>
+								</ons-row>
+							</ons-card>
+							<ons-card class="primary-text-color font-1 card-intro-3">
+								 <ons-row class="intro-row">
+									 <ons-col width="30px"><ons-icon icon="ion-android-delete" class="xlarge-font"></ons-icon></ons-col>
+									 <ons-col class="large-font">You can always clear your data by using the Reset option under the Menu (<ons-icon icon="md-menu"></ons-icon>) or by simply deleting the app if on a mobile device. A copy of your data will still persist on the server, but you or your device will never be able to retrieve it.</ons-col>
+								</ons-row>
+							</ons-card>
+								 
+					
+
+					</div>
+				 <div class="button-container">
+					<div class="button-container-inner">
+							<ons-button class="button-nav-back button-clear" onclick="app.routing.pop();">
+							Back
+						  </ons-button>
+						  <ons-button class="button-nav-next button-clear" onclick="app.routing.push('assessment.html','right');">
+							Next
+						  </ons-button>
+					  </div>
+				  </div>
+				   <ons-fab modifier="mini" position="bottom center" class="e-exit">
+					<!--<ons-icon icon="ion-user"></ons-icon>-->
+					<ons-icon icon="ion-close" class="exit-icon"></ons-icon>
+				  </ons-fab>
+			  </ons-page>
+			</template>
+			
+			<!-- #################################################################### -->
+			<!-- DATA PAGE -->
+			<template id="reset.html">
+			  <ons-page name="data">
+						<div class="page__background" style="background: #b8b19a;"></div>
+						<div class="title xxlarge-font font-4 module-header">Before You Begin - Your Data</div>
+			
+						
+						<div class="before-body primary-text-color font-1">
+						 
+						
+							<ons-card class="primary-text-color font-1 card-intro-3">
+								 <ons-row class="intro-row">
+									 <ons-col width="30px"><ons-icon icon="ion-person" class="xlarge-font"></ons-icon></ons-col>
+									 <ons-col class="large-font">Your data only resides on the server and not your device. The data you provide is retrieved when you open the app.</ons-col>
+								</ons-row>
+							</ons-card>
+							<ons-card class="primary-text-color font-1 card-intro-3">
+								 <ons-row class="intro-row">
+									 <ons-col width="30px"><ons-icon icon="ion-person" class="xlarge-font"></ons-icon></ons-col>
+									 <ons-col class="large-font">You can always clear your data by using the Reset option under the Menu (<ons-icon icon="md-menu"></ons-icon>) or by simply deleting the app if on a mobile device. A copy of your data will still persist on the server, but you or your device will never be able to retrieve it.</ons-col>
+								</ons-row>
+							</ons-card>
+								 
+					
+
+					</div>
+				 <div class="button-container">
+					<div class="button-container-inner">
+							<ons-button class="button-nav-back button-clear" onclick="app.routing.pop();">
+							Back
+						  </ons-button>
+						  <ons-button class="button-nav-next button-clear" onclick="app.routing.push('assessment.html','right');">
+							Next
+						  </ons-button>
+					  </div>
+				  </div>
+				   <ons-fab modifier="mini" position="bottom center" class="e-exit">
+					<!--<ons-icon icon="ion-user"></ons-icon>-->
+					<ons-icon icon="ion-close" class="exit-icon"></ons-icon>
+				  </ons-fab>
+			  </ons-page>
+			</template>
+			<!-- #################################################################### -->
+			<!-- QUESTIONS PAGE -->
+			<template id="questions.html">
+				<ons-page id="questions" name="questions">
+
+
+				<ons-toolbar>
+				  <div class="left">
+					<ons-back-button>Back</ons-back-button>
+				  </div>
+				  <div class="center large-font"></div>
+				  <div class="right">
+					<ons-toolbar-button onclick="app.menu.show()">
+					  <ons-icon icon="md-menu"></ons-icon>
+					</ons-toolbar-button>
+				  </div>
+				</ons-toolbar>
+
+
+
+				<div class="progress-bar-container secondary-background tertiary-text-color">
+					<ons-row>
+						<ons-col class="progress-bar-item" data-value="about">
+							<div class="progress-bar-title medium-font">About You</div>
+							<div class="progress-bar-bubble"><div class="progress-bar-bubble-inner"></div></div>
+						</ons-col>
+						<ons-col class="progress-bar-item" data-value="incident">
+							<div class="progress-bar-title medium-font">Incident</div>
+							<div class="progress-bar-bubble"><div class="progress-bar-bubble-inner"></div></div>
+						</ons-col>
+						<ons-col class="progress-bar-item" data-value="resources">
+							<div class="progress-bar-title medium-font">Resources</div>
+							<div class="progress-bar-bubble"><div class="progress-bar-bubble-inner"></div></div>
+						</ons-col>
+					</ons-row>
+				</div>
+
+				  <div class="page-content primary-background"></div>
+
+
+				  <!--<h1>Custom Page</h1>
+				  <p>
+					<ons-input modifier="underbar" placeholder="Title" float></ons-input>
+				  </p>-->
+				  <div class="button-container">
+					<div class="button-container-inner">
+							<ons-button class="button-nav-back button-clear" onclick="app.nav.check('back')">
+							Back
+						  </ons-button>
+						  <ons-button class="button-nav-next button-clear" onclick="app.nav.check('forward')">
+							Next
+						  </ons-button>
+					  </div>
+				  </div>
+				 <ons-fab modifier="mini" position="bottom center" class="e-exit">
+					<!--<ons-icon icon="ion-user"></ons-icon>-->
+					<ons-icon icon="ion-close" class="exit-icon"></ons-icon>
+				  </ons-fab>
+
+
+
+
+
+				</ons-page>
+			</template>
+
+			
+			
+			
+			
+			
+			<!-- #################################################################### -->
+			<!-- SUMMARY PAGE -->
+			<template id="summary.html">
+			  <ons-page name="summary">
+			  	<!--<div class="summary-image-outer">
+			  		 <div class="question-image image-summary">
+
+					 </div>
+			  		
+			  	</div>-->
+				
+
+
+						
+  			<div class="page__background" style="background: #7384cd;"></div>
+						<div class="summary-options">
+							 <ons-card  class="card-primary">
+								 <div class="title xxlarge-font font-4 summary-header"><ons-icon icon="ion-location" class="summary-icon"></ons-icon>Resources</div>
+								 <ons-row>
+									 <ons-col>
+											<ons-card class="card-secondary" data-value="resources-ohsu">
+												<img src="images/image_onboarding_1.jpg" alt="OHSU" style="width: 100%">
+												<div class="title font-2 large-font">
+												  OHSU
+												</div>
+											 </ons-card>
+									 </ons-col>
+									 <ons-col>
+									 		 <ons-card class="card-secondary" data-value="resources-comm">
+												<img src="images/image_resources.jpg" alt="Community" style="width: 100%">
+												<div class="title font-2 large-font">
+												  Community
+												</div>
+											 </ons-card>
+						
+									 </ons-col>
+								</ons-row>
+							 </ons-card> 
+								
+					   </div>
+						
+						<div class="summary-options">
+							 <ons-card  class="card-primary">
+								 <div class="title xxlarge-font font-4 summary-header"><ons-icon icon="ion-share" class="summary-icon"></ons-icon>Follow Up</div>
+								 <ons-row>
+									 <ons-col>
+											<ons-card  class="card-secondary" data-value="share">
+												<img src="images/image_intro.jpg" alt="Share" style="width: 100%">
+												<div class="title font-2 large-font">
+												 Share with CAP
+												</div>
+											 </ons-card>
+									</ons-col>
+									 <ons-col>
+									 		 <ons-card class="card-secondary"  data-value="feedback">
+												<img src="images/image_feedback.jpg" alt="Feedback" style="width: 100%">
+												<div class="title font-2 large-font">
+												 Feedback
+												</div>
+											 </ons-card>
+						
+									 </ons-col>
+								</ons-row>
+							 </ons-card> 
+								
+					   </div>
+					 <ons-fab modifier="mini" position="bottom center" class="e-exit">
+					<!--<ons-icon icon="ion-user"></ons-icon>-->
+					<ons-icon icon="ion-close" class="exit-icon"></ons-icon>
+				  </ons-fab>
+				   
+				   
+				
+
+			  </ons-page>
+			</template>
+
+
+			<!-- SUMMARY ITEM -->
+			<template id="summary-item.html">
+				<ons-page id="summary">
+
+
+				<ons-toolbar>
+				  <div class="left">
+					<ons-back-button>Back</ons-back-button>
+				  </div>
+				  <div class="center large-font"></div>
+				  <div class="right">
+					<ons-toolbar-button onclick="app.menu.show()">
+					  <ons-icon icon="md-menu"></ons-icon>
+					</ons-toolbar-button>
+				  </div>
+				</ons-toolbar>
+
+
+
+				  <div class="page-content primary-background"></div>
+					
+					
+					<div class="button-container">
+						<div class="button-container-inner">
+							<ons-button class="button-nav-back button-clear" onclick="app.nav.check('back')">
+							Back
+						  </ons-button>
+						  <ons-button class="button-nav-next button-clear" onclick="app.nav.check('forward')">
+							Next
+						  </ons-button>
+					  </div>
+				  </div>
+				</ons-page>
+			</template>
+
+
+
+		
+		
+		
+			
+			<!-- #################################################################### -->
+			<!--  ACCESSORY PAGES -->
+			<!-- #################################################################### -->
+			<!-- ASSESSMENT INTRO -->
+			
+		  
+		  <template id="assessment.html">
+			  <ons-page name="assessment_start">
+
+				<div class="title xxlarge-font font-4 module-header">Ready to Start - Assessment</div>
+				<div class="before-body primary-text-color font-1">
+					<ons-card class="primary-text-color font-1">
+						<ons-row class="intro-row">
+							 <ons-col width="30px"><ons-icon icon="ion-person" class="xlarge-font"></ons-icon></ons-col>
+							 <ons-col class="large-font">In order to provide you with a tailored Summary, first answer some questions <span class="highlight-color-3">about you</span> and the <span class="highlight-color-3">incident</span>.</ons-col>
+						</ons-row>
+					</ons-card>
+					<ons-card class="primary-text-color font-1">
+						<ons-row class="intro-row">
+							 <ons-col width="30px"><ons-icon icon="ion-clock"  class="xlarge-font"></ons-icon></ons-col>
+							 <ons-col class="large-font">The Asssessment will take about <span class="highlight-color-3">5 minutes</span> to complete.</ons-col>
+						</ons-row>
+					</ons-card>
+					<ons-card class="primary-text-color font-1">
+						<ons-row class="intro-row">
+							 <ons-col width="30px"><ons-icon icon="ion-android-locate"  class="xlarge-font"></ons-icon></ons-col>
+							<ons-col class="large-font">The only <span class="highlight-color-3">personal identifying information</span> collected is your zipcode so that you can get resources in your area. However, this is optional. </ons-col>
+						</ons-row>
+					</ons-card>
+
+				</div>
+
+				<div class="button-container">
+						<div class="button-container-inner">
+							<ons-button class="button-nav-back button-clear" onclick="app.routing.pop()">
+							Back
+						  </ons-button>
+						  <ons-button class="button-nav-next button-clear" onclick="app.nav.check('forward')">
+							Next
+						  </ons-button>
+					  </div>
+				  </div>
+
+				 <ons-fab modifier="mini" position="bottom center" class="e-exit">
+					<!--<ons-icon icon="ion-user"></ons-icon>-->
+					<ons-icon icon="ion-close" class="exit-icon"></ons-icon>
+				  </ons-fab>
+			  </ons-page>
+			</template>
+			
+			<!-- ASSESSMENT END -->
+			<template id="assessment_finished.html">
+			  <ons-page name="assessment_finished">
+
+					<!--<div class="image-outer" style="border-top:none;">
+						<!-- INNER COLOR 
+						<div class="image-inner-1">-->
+						<!-- INNER IMAGE 
+							<div class="image-inner-2 onboarding-image image-intro"></div>
+
+						</div>
+					</div>-->
+
+
+				<div class="title xxlarge-font font-4 module-header">Assessment Finished</div>
+				<div class="before-body primary-text-color font-1">
+					<ons-card class="primary-text-color font-1">
+						 <ons-row class="intro-row">
+							 <ons-col width="30px"><ons-icon icon="ion-person" class="xlarge-font"></ons-icon></ons-col>
+							 <ons-col class="large-font">A tailored summary has been created for you in the Summary section which you will be directed to next.</ons-col>
+						</ons-row>
+					</ons-card>
+					<ons-card class="primary-text-color font-1">
+						 <ons-row class="intro-row">
+							 <ons-col width="30px"><ons-icon icon="ion-location" class="xlarge-font"></ons-icon></ons-col>
+							 <ons-col class="large-font">You'll be able to provide your zip code in the Community section of your Summary to get resources in your area.</ons-col>
+						</ons-row>
+					</ons-card>
+					<ons-card class="primary-text-color font-1">
+						 <ons-row class="intro-row">
+							 <ons-col width="30px"><ons-icon icon="ion-share" class="xlarge-font"></ons-icon></ons-col>
+							<ons-col class="large-font">Sharing your summary with CAP is optional, but they can provide you with a confidential advocate.</ons-col>
+						</ons-row>
+					</ons-card>
+					<ons-card class="primary-text-color font-1">
+						 <ons-row class="intro-row">
+							 <ons-col width="30px"><ons-icon icon="ion-thumbsup" class="xlarge-font"></ons-icon></ons-col>
+							<ons-col class="large-font">Please provide us with feedback in the Feedback section of your Summary.</ons-col>
+						</ons-row>
+					</ons-card>
+
+				</div>
+				
+				
+				
+				<div class="button-container">
+						<div class="button-container-inner">
+							
+						  <ons-button class="button-nav-next button-clear" onclick="app.routing.refresh('summary')">
+							View Summary
+						  </ons-button>
+					  </div>
+				  </div>
+	
+
+				<!--<div class="center-container">
+					<ons-button class="font-2" onclick="app.routing.refresh('summary')">
+						View Summary
+					</ons-button>
+				</div>-->
+
+				 <ons-fab modifier="mini" position="bottom center" class="e-exit">
+					<!--<ons-icon icon="ion-user"></ons-icon>-->
+					<ons-icon icon="ion-close" class="exit-icon"></ons-icon>
+				  </ons-fab>
+			  </ons-page>
+			</template>
+
+			<!-- #################################################################### -->
+			<!-- MESSAGES -->
+			
+				<!-- MESSAGE 1 FORMAT -->
+				<template id="message1.html">
+				  <ons-page id="message" class="message-page-1">
+
+					<div class="page-content"></div>
+					<button onclick="myNavigator.popPage();" class="button-message-bottom highlight-color-2 medium-font primary-text-color">
+						Close
+
+						<ons-icon icon="ion-arrow-down-b" class="message-close-icon"></ons-icon>
+					</button>
+				  </ons-page>
+				</template>
+				
+				<!-- MESSAGE 2 FORMAT -->
+				<template id="message2.html">
+				  <ons-page id="message2" class="message-page-2">
+
+					<div class="page-content"></div>
+					
+				  </ons-page>
+				</template>
+				
+			<!-- #################################################################### -->
+			<!-- RESOURCES  - BASED ON MESSAGES FORMAT-->	
+				
+			  <!-- RESOURCE 1 FORMAT-->
+			  <template id="resource1.html">
+				  <ons-page id="resource1" class="message-page-1">
+
+					<div class="page-content"></div>
+					<button onclick="myNavigator.popPage();" class="button-message-bottom highlight-color-2 medium-font primary-text-color">
+						Close
+
+						<ons-icon icon="ion-arrow-down-b" class="message-close-icon"></ons-icon>
+					</button>
+				  </ons-page>
+				</template>
+				
+				<!-- RESOURCE 2 FORMAT-->
+				<template id="resource2.html">
+				  <ons-page id="resource2" class="message-page-2">
+
+					<div class="page-content"></div>
+					
+				  </ons-page>
+				</template>
+
+
+
+		<!-- MESSAGE 1 FORMAT -->
+				<template id="reset_session.html">
+				  <ons-page id="reset_session" class="message-page-1">
+
+					<div class="page-content">Reset?</div>
+					<button onclick="myNavigator.popPage();" class="button-message-bottom highlight-color-2 medium-font primary-text-color">
+						Close
+
+						<ons-icon icon="ion-arrow-down-b" class="message-close-icon"></ons-icon>
+					</button>
+				  </ons-page>
+				</template>
+			
+		
+		
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+{ "elements":
+ [
+	{
+		"name":"housing",
+		 "text":{
+			 "en": "Housing",
+			 "es": "Housing"
+		 },
+		  "id": [2612]
+	 },
+	 	{
+		"name":"medical",
+		 "text":{
+			 "en": "Medical Care",
+			 "es": "Medical Care"
+		 },
+		  "id": [2611] 
+	 },
+	 {
+		"name":"transportation",
+		 "text":{
+			 "en": "Transportation",
+			 "es": "Transportation"
+		 },
+		  "id": [2619]
+	 }
+ ]
+}

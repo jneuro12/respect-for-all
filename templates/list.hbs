@@ -1,0 +1,9 @@
+
+ <div class="message-options">
+		 <ons-list>
+			{{#each choices}}  <!-- iterate over the list elements array and use file node up one notation (../type) to get attributes from the parent-->
+				<ons-list-item tappable class='large-font font-2' name="{{../name}}" onclick="app.message.createMessage(event,'message2','{{value}}')">{{lookup text ../language}}<ons-icon icon="ion-arrow-right-b" class="message-list-icon"></ons-icon></ons-list-item>
+			 {{/each}}
+
+		 </ons-list>
+   </div>

@@ -1,0 +1,19 @@
+ <div class="message-card">
+      <div class="title xxxlarge-font font-4">Community Resources</div>
+      <div class="content font-2">
+		  <div class="question-responses">
+			<ons-input id="zipcode_input" name="zipcode_input" data-type="question" placeholder="Please enter your zipcode" value=""></ons-input>
+			<ons-button id="button-zipcode" class="font-2 button">Go</ons-button>
+		  </div>   
+      </div>
+ </div>
+ 
+ 
+ <div class="list-options message-options">
+		 <ons-list>
+			{{#each elements}}  <!-- iterate over the list elements array and use file node up one notation (../type) to get attributes from the parent-->
+				<ons-list-item tappable class='large-font font-2' name="{{name}}" onclick="app.resourcePage.createPage('resource2','{{name}}')">{{lookup text ../language}}<ons-icon icon="ion-arrow-right-b" class="message-list-icon"></ons-icon></ons-list-item>
+			 {{/each}}
+
+		 </ons-list>
+   </div>

@@ -1,0 +1,164 @@
+ <div class="question-image image-{{section}}">
+ 	<div class="question-image-header font-4 xxxlarge-font">{{sectionHeader}}</div>
+ 	
+ </div>
+ <div class="question-container primary-text-color">
+	
+	<!-- SECTION ITEMS -->
+	<!-- ######################################################### -->
+	{{#if sectionIntro}}
+	
+		 <div class="title xxlarge-font font-4 module-header">{{sectionTitle}}</div>
+		 <div class="onboarding-body primary-text-color font-1">
+		
+				{{label}} 
+		
+		</div>
+		
+		
+	<!-- LABEL ONLY VIEW -->
+	<!-- ######################################################### -->
+	{{else if labelOnly}}	
+	
+		<div class="question-label large-font font-2">
+			
+				{{{label}}}
+			
+		</div>
+		
+	
+	
+	
+	<!-- BUTTON VIEW -->
+	<!-- ######################################################### -->
+	{{else if buttonView}}
+	
+		<div class="question-label large-font font-2">
+			<label for="{{id}}">
+				{{label}} 
+			</label>
+		</div>
+		
+		<div class="list-options main-options">
+       		 <ons-list>
+					{{#each choices}}  <!-- iterate over the choices array and use file node up one notation (../type) to get attributes from the parent-->
+			
+			    
+					
+						 <ons-list-item tappable class="button-view large-font font-2" name="{{../name}}" data-type="message" data-message="{{message}}">	
+								<div class="left">
+									<img class="list-item__thumbnail" src="images/{{image}}">
+								  </div>
+								  <div class="center">
+									<span class="list-item__title">{{lookup text ../language}}</span><span class="list-item__subtitle">{{lookup subtext ../language}}</span>
+								  </div>
+								 
+						 		 <ons-icon icon="ion-arrow-right-b" class="message-list-icon"></ons-icon>
+						</ons-list-item>
+			
+	   				{{/each}}
+	   		</ons-list>
+		 </div>
+		
+	
+	<!-- QUESTIONS - RADIO AND CHECKBOX ITEMS -->
+	<!-- ######################################################### -->
+	{{else}}
+	
+		<div class="question-label large-font font-2">
+			<label for="{{id}}">
+				{{{label}}}
+			</label>
+		</div>
+
+		 {{#if choices}}
+			<ons-list>
+				<div class="question-responses">
+
+
+
+						{{#each choices}}  <!-- iterate over the choices array and use file node up one notation (../type) to get attributes from the parent-->
+						   
+						   	{{#ifCond active 1}}	
+							   <ons-list-item class="question-event question-response{{#if ../infoView}} info-view-parent{{/if}}" data-value="{{../name}}" >
+										{{#if ../infoView}}
+											<div class="info-view" data-message="{{message}}">
+												<div class="info-view-inner"><ons-icon icon="ion-information" class=""></ons-icon></div>
+											</div>
+										{{/if}}
+										
+										 <!-- INPUT FIELD -->
+										<label class="checkbox">
+												{{#ifCond ../type 'radio'}}
+													<ons-radio name="{{../name}}" input-id="{{../name}}-{{@index}}"  
+														{{#if message}}
+															data-type="message" data-message="{{message}}" data-field-type="checkbox"
+														{{else}} 
+															data-type="question" data-field-type="radio"
+														{{/if}} 
+														value="{{value}}" {{checked}}>
+													</ons-radio>
+												{{else}}
+													
+														<ons-checkbox name="{{../name}}_{{value}}" input-id="{{../name}}-{{@index}}"  
+															{{#if message}}
+																{{#if ../infoView}}
+																	data-type="question" data-field-type="checkbox"
+																{{else}}
+																	data-type="message" data-message="{{message}}" data-field-type="checkbox"
+																{{/if}}
+																
+															{{else}} 
+																data-type="question" data-field-type="checkbox"
+															{{/if}} 
+															value="{{value}}" {{checked}}>
+														</ons-checkbox>
+												
+													
+												{{/ifCond}}
+										  </label>
+
+										  <!-- LABEL -->
+										  <label for="{{../name}}-{{@index}}" class="medium-font font-2" style="width:100%; display:inline-block; margin-left: 24px; margin-top: -24px;">
+											{{lookup text ../language}}
+										  </label>
+
+							   </ons-list-item>
+							{{/ifCond}}
+						 {{/each}}
+				</div>
+
+			</ons-list>  
+			
+			
+		<!-- QUESTIONS - TEXT ITEMS -->
+		<!-- ######################################################### -->
+		{{else}}
+			<div class="question-responses">
+				{{#if input}}
+						<ons-{{type}} name="{{name}}" input-id="{{name}}"  
+							{{#if message}}
+								data-type="message" data-message="{{message}}"
+							{{else}} 
+								data-type="question"
+							{{/if}} 
+							value="{{value}}" {{checked}}>
+						</ons-{{type}}>
+				{{/if}}
+				{{#if textarea}}
+						<textarea class="textarea" name="{{name}}" input-id="{{name}}" data-type="question" rows="3" >{{value}}</textarea>
+						
+				{{/if}}
+
+				
+		 </div>
+
+		 {{/if}}	  
+	{{/if}}
+
+
+  </div>
+
+
+	 
+	 
