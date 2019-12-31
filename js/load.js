@@ -5,7 +5,7 @@ $(document).ready(function() {
 	if(navigator.onLine){
 		showLoading();
 		getSource();
-		loadAppLocal();
+		loadApp();
 	
 	}
 	// OFFLINE
