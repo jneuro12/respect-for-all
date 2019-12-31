@@ -1,6 +1,7 @@
 { "elements":
  [
 	{
+		"retrieved" : 0,
 		"name":"housing",
 		 "text":{
 			 "en": "Housing",
@@ -9,6 +10,7 @@
 		  "id": [2612]
 	 },
 	 	{
+		"retrieved" : 0,
 		"name":"medical",
 		 "text":{
 			 "en": "Medical Care",
@@ -17,6 +19,7 @@
 		  "id": [2611] 
 	 },
 	 {
+		"retrieved" : 0,
 		"name":"transportation",
 		 "text":{
 			 "en": "Transportation",

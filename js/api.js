@@ -87,6 +87,7 @@ function resourceAPIInit(){
 				
 				
 				if(setValid == 1){
+					console.log('start request:' + this.attributes.catIndex);
 					console.log(request);
 					this.request(request);
 				}
@@ -102,6 +103,7 @@ function resourceAPIInit(){
 						contentType: 'application/json; charset=utf-8',
 						processData: false,
 						success :	function(data){
+							
 							resapi.postRequest(data);
 						},
 						data: JSON.stringify(request.parameters)
@@ -124,8 +126,24 @@ function resourceAPIInit(){
 						
 					break;
 					case 'services':
+						console.log('endRequest:' + this.attributes.catIndex);
+						resapi.attributes.categories.elements[this.attributes.catIndex].retrieved = 1;
+						// SAVE TO LS
+						var d = JSON.stringify(data);
+						window.app.storage.data.resources.elements[this.attributes.catIndex].data = JSON.parse(d);
+						
+						
 						// SAVE THE DATA OBJECT TO THE CATEGORIES OBJ
 						this.attributes.categories.elements[this.attributes.catIndex].data = data;
+						
+						
+						
+						
+					
+					
+						window.app.storage.update();
+						window.app.summary.resources.updateCounter();
+						console.log('postRequest updateStorage:' + this.attributes.catIndex);
 						this.getServices();
 						
 						//window.app.summary.resources.get();
@@ -134,32 +152,65 @@ function resourceAPIInit(){
 			},
 			// GET ALL AVAILABLE RESOURCE DATA FOR ALL CATEGORIES
 			getServices : function(){
+				
+				var res = 1;
+				for(var category in  resapi.attributes.categories.elements){
+					if( resapi.attributes.categories.elements[category].retrieved == 0){
+						res = 0;
+						this.attributes.catIndex = category;
+						this.attributes.catName =  resapi.attributes.categories.elements[category].name;
+						this.attributes.catid = resapi.attributes.categories.elements[category].id[0];
+						
+						break;
+					}
+				}
+				// ALL DONE RETRIEVING
+				if(res == 0){
+					this.getService();
+				}
+				// ALL DONE RETRIEVING
+				if(res == 1){
+					window.app.summary.resources.update();
+				}
+				
+				/*
 				//for(var category in  resapi.attributes.categories.elements){
 				if(this.attributes.catIndex == -1){
 					this.attributes.catIndex = 0;
 				}
 				else{
 					this.attributes.catIndex++;
+					console.log('getServices nextIndex:' + this.attributes.catIndex);
 				}
 				
+				// IF DATA ALREADY RETRIEVED, REMOVE THEN RUN AGAIN
 				if(resapi.attributes.categories.elements[this.attributes.catIndex] != undefined){
-					var cat =  resapi.attributes.categories.elements[this.attributes.catIndex];
-					if( cat.data != undefined){
-						delete cat.data;
+					
+					var cat = resapi.attributes.categories.elements[this.attributes.catIndex];
+				
+					//var cat =  JSON.stringify(resapi.attributes.categories.elements[this.attributes.catIndex]);
+					//cat = JSON.parse(cat);
+					if( resapi.attributes.categories.elements[this.attributes.catIndex].data != undefined){
+						console.log('delete resource data');
+						//delete resapi.attributes.categories.elements[this.attributes.catIndex].data;
+						//delete window.app.storage.data.resources.categories.elements[this.attributes.catIndex].data;
 					}
 					
 					this.attributes.catName = cat.name;
 					this.attributes.catid = cat.id[0];
-
-					// GET SERVICE
+					console.log('getServices:' + this.attributes.catIndex);
+					console.log(resapi.attributes.categories.elements[this.attributes.catIndex]);
+					// GET NEXT SERVICE
 					this.getService();
-					
+				
 					
 				}
+				
 				else{
-					app.summary.resources.spinner('remove');
+					console.log('no more services');
+					app.summary.resources.update();
 					this.attributes.catIndex = -1;
-				}
+				}*/
 				
 				
 					

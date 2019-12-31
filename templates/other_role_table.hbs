@@ -1,0 +1,86 @@
+{{setVar "yes" "<i class='fas fa-circle success-circle'></i>"}}
+{{setVar "no" "<i class='fas fa-circle cancel-circle'></i>"}}
+{{setVar "yesR" "<i class='fas fa-check-circle success-circle green-check'></i>"}}
+{{setVar "noR" "<i class='fas fa-times-circle cancel-circle'></i>"}}		
+		
+	
+	
+		
+			<div class="summary-report">
+				<div class="large-font font-2 summary-report-title">Summary of Your Mandatory Responsibility</div>
+				<div style="position:relative;">
+						<div class="report-page">Page 2</div>
+
+						<div class="medium-font font-2 report-header">Responsibility by category</div>
+						
+
+					<div class="report-sub-header font-4 large-font">Your job role <div class="report-highlight">{{title}}</div></div>
+
+
+
+						<div class="table-scrollable table-scrollable-borderless">
+							<table class="report-table" width="100%" cellspacing="0" cellpadding="0">
+								<thead>
+									<tr class="report-table-headers report-table-headers-light">
+										<th colspan="7" class="small-font" style="text-align:center"><i class="fas fa-info-circle" style="margin-right:5px;"></i>Select a row to learn more</th>
+									</tr>
+									<tr class="report-table-headers">
+										<th style="width:50%;padding-left: 4px;"></th>
+										<th style="width:10%"></th>
+										{{#each levelDisplay}}
+											<th style="width:10%;text-align:center;padding: 2px 5px 2px 5px;">
+
+													<div class="report-image report-image-header info-view" data-message="{{message}}" touch-action="none">
+														<!--{{#ifCond responsible 1}}{{{../yesR}}}{{else}}{{{../noR}}}{{/ifCond}}-->
+														{{abbreviation}} <!--<img src="images/{{image}}" />-->
+													</div>
+
+											</th>
+										{{/each}}
+									</tr>
+									
+								</thead>
+								<tbody>
+
+									{{#each table}}
+									<tr>
+										<td><ons-list class="small-list">
+												<ons-list-item tappable class='font-2'>
+													<div class="info-view" data-message="{{message}}" touch-action="none">
+
+															<i class="fas fa-info-circle" style="margin-right:5px;"></i>{{title}}
+													</div>
+												</ons-list-item>
+											</ons-list></td>
+										<td></td>
+										<td style="width:10%;text-align:center;">
+											<div class="small-info-view" data-message="{{message}}" touch-action="none">{{#ifCond mr 1}}{{{../yes}}}{{else}}{{{../no}}}{{/ifCond}}</div>
+										</td>
+										<td style="width:10%;text-align:center;">
+											<div class="small-info-view" data-message="{{message}}" touch-action="none">{{#ifCond re 1}}{{{../yes}}}{{else}}{{{../no}}}{{/ifCond}}</div>
+										</td>
+										<td style="width:10%;text-align:center;">
+											<div class="small-info-view" data-message="{{message}}" touch-action="none">{{#ifCond csa 1}}{{{../yes}}}{{else}}{{{../no}}}{{/ifCond}}</div>
+										</td>
+										<td style="width:10%;text-align:center;">
+											<div class="small-info-view" data-message="{{message}}" touch-action="none">{{#ifCond wv 1}}{{{../yes}}}{{else}}{{{../no}}}{{/ifCond}}</div>
+										</td>
+
+									</tr>
+
+									{{/each}}
+
+
+								</tbody>
+							</table>
+
+
+
+						</div>
+					<div class="report-callout"><i class='fas fa-circle success-circle'></i> Yes, must report  <i class='fas fa-circle cancel-circle' style="margin-left:10px;"></i> No duty to report</div>
+
+							
+					
+				</div>
+		</div>
+		

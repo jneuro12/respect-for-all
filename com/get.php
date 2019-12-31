@@ -3,20 +3,13 @@ include('../../cms/includes/db.php');
 header('Content-Type: application/json');
 
 $_POST = array_map_r("strip_tags", $_POST);
-$data = json_decode($_POST['data']);
 
-if($data->id == 0){
-	DB::insert('screenings',
-						 array('dataPacket'=>json_encode($data)));	
+
+if($_POST['id'] != 0){
+	$data = DB::queryFirstField('select dataPacket from screenings where id=%i',$_POST['id']);	
 	
-	$id = DB::insertId();
+	echo $data;
 }
-else{
-	DB::update('screenings',
-			  		array('dataPacket'=>json_encode($data)), "id=%i", $data->id);
-	$id = $data->id;
-}
-echo $id;
 
 
 

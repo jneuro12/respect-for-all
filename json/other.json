@@ -1,0 +1,1147 @@
+{
+	"name": "other",
+	"tabs": ["assessment", "summary"],
+	"order": ["onboarding", "messages", "assessment", "share", "feedback"],
+	"modules": {
+		"share": {
+			"name": "share",
+			"text": {
+				"en": "Help from CAP"
+			},
+			"type": "questions",
+			"active": 1,
+			"options": [],
+			"elements": [{
+				"name": "SHARE_INTRO",
+				"text": {
+					"en": "<p>OHSU has a new Confidential Advocacy Program (CAP) that is specifically here to provide those in our community who have experienced these types of things with information, emotional support, and assistance in finding and accessing resources that work best for each persons individual needs and situation.</p><ons-card class=\"tertiary-text-color font-1 card card-list\" style=\"background:#ffffff;\"><ons-list><ons-list-item><div class=\"left\"><ons-icon icon=\"ion-ios-telephone-outline\" class=\"xlarge-font base-color\"></ons-icon></div><div class=\"center\">1-833-495-CAPS</div><div class=\"right\"><ons-button class=\"button-rev\"><a href=\"tel:1-833-495-CAPS\">Call</a></ons-button> </div></ons-list-item><ons-list-item><div class=\"left\"><ons-icon icon=\"ion-ios-email\" class=\"xlarge-font base-color\"></ons-icon></div><div class=\"center\">capsupport@ohsu.edu</div><div class=\"right\"><ons-button class=\"button-rev\"><a href=\"mailto:capsupport@ohsu.edu\">Email</a></ons-button> </div></ons-list-item></ons-list></ons-card>"
+				},
+				"type": "label",
+				"active": 1,
+				"choices": [],
+				"section": "share"
+			}],
+			"sections": [{
+				"name": "share",
+				"text": {
+					"en": "Help from CAP",
+					"es": "Help from CAP"
+				}
+			}],
+			"topLevel": 1,
+			"container": "summary-item.html",
+			"shortName": "Share"
+		},
+		"feedback": {
+			"name": "feedback",
+			"text": {
+				"en": "Feedback"
+			},
+			"type": "questions",
+			"active": 1,
+			"options": [],
+			"elements": [{
+				"name": "FEEDBACK_1",
+				"text": {
+					"en": "How useful/helpful this app was to you?"
+				},
+				"type": "radio",
+				"active": 1,
+				"choices": [{
+					"text": {
+						"en": "Not useful",
+						"es": "Si"
+					},
+					"value": "1",
+					"active": 1
+				}, {
+					"text": {
+						"en": "Slightly Not Useful",
+						"es": "No"
+					},
+					"value": "2",
+					"active": 1
+				}, {
+					"text": {
+						"en": "Neither Useful nor Not Useful"
+					},
+					"value": "3",
+					"active": 1
+				}, {
+					"text": {
+						"en": "Slightly Useful"
+					},
+					"value": "4",
+					"active": 1
+				}, {
+					"text": {
+						"en": "Extremely Useful"
+					},
+					"value": "5",
+					"active": 1
+				}],
+				"section": "feedback",
+				"language": "en"
+			}, {
+				"name": "FEEDBACK_2",
+				"text": {
+					"en": "Did this app help you learn about available OHSU and community resources and how to access them?"
+				},
+				"type": "radio",
+				"active": 1,
+				"choices": [{
+					"text": {
+						"en": "Yes"
+					},
+					"value": "2",
+					"active": 1
+				}, {
+					"text": {
+						"en": "No"
+					},
+					"value": "1",
+					"active": 1
+				}],
+				"section": "feedback",
+				"language": "en"
+			}, {
+				"name": "FEEDBACK_3",
+				"text": {
+					"en": "How likely are you to recommend this app to a friend/colleague? "
+				},
+				"type": "radio",
+				"active": 1,
+				"choices": [{
+					"text": {
+						"en": "Very Unlikely"
+					},
+					"value": "1",
+					"active": 1
+				}, {
+					"text": {
+						"en": "Somewhat Unlikely"
+					},
+					"value": "2",
+					"active": 1
+				}, {
+					"text": {
+						"en": "Neither Likely nor Unlikely"
+					},
+					"value": "3",
+					"active": 1
+				}, {
+					"text": {
+						"en": "Somewhat Likely"
+					},
+					"value": "4",
+					"active": 1
+				}, {
+					"text": {
+						"en": "Very Likely"
+					},
+					"value": "5",
+					"active": 1
+				}],
+				"section": "feedback",
+				"language": "en"
+			}, {
+				"name": "FEEDBACK_4",
+				"text": {
+					"en": "Rate this app overall (1-5 stars)"
+				},
+				"type": "radio",
+				"active": 1,
+				"choices": [{
+					"text": {
+						"en": "1 star"
+					},
+					"value": "1",
+					"active": 1
+				}, {
+					"text": {
+						"en": "2 stars"
+					},
+					"value": "2",
+					"active": 1
+				}, {
+					"text": {
+						"en": "3 stars"
+					},
+					"value": "3",
+					"active": 1
+				}, {
+					"text": {
+						"en": "4 stars"
+					},
+					"value": "4",
+					"active": 1
+				}, {
+					"text": {
+						"en": "5 stars"
+					},
+					"value": "5",
+					"active": 1
+				}],
+				"section": "feedback",
+				"language": "en"
+			}, {
+				"name": "FEEDBACK_5",
+				"text": {
+					"en": "Please leave any comments for suggestions or improvements here."
+				},
+				"type": "textarea",
+				"active": 1,
+				"choices": [],
+				"section": "feedback"
+			}],
+			"sections": [{
+				"name": "feedback",
+				"text": {
+					"en": "Feedback",
+					"es": "Feedback"
+				}
+			}],
+			"topLevel": 1,
+			"container": "summary-item.html",
+			"shortName": "Feedback"
+		},
+		"messages": {
+			"name": "messages",
+			"text": {
+				"en": "Messages"
+			},
+			"type": "messages",
+			"active": 1,
+			"options": [],
+			"elements": [{
+				"name": "MSG_SERVICES",
+				"text": {
+					"en": "Support Services"
+				},
+				"active": 1,
+				"choices": [{
+					"text": {
+						"en": "Confidential Advocacy Program (CAP)"
+					},
+					"value": "MSG_SERVICES_CAP",
+					"active": 1
+				}, {
+					"text": {
+						"en": "Ombudsman"
+					},
+					"value": "MSG_SERVICES_OMB",
+					"active": 1
+				}, {
+					"text": {
+						"en": "Resident & Faculty Wellness Program"
+					},
+					"value": "MSG_SERVICES_RESIDENT",
+					"active": 1
+				}, {
+					"text": {
+						"en": "Student Health and Wellness Center (SHW)"
+					},
+					"value": "MSG_SERVICES_HEALTH",
+					"active": 1
+				}],
+				"language": "en",
+				"description": {
+					"en": "Included below are people and programs available to hear you and help you figure out next steps."
+				}
+			}, {
+				"name": "MSG_SERVICES_CAP",
+				"text": {
+					"en": "Confidential Advocacy Program (CAP)"
+				},
+				"active": 1,
+				"language": "en",
+				"description": {
+					"en": "<p>The Confidential Advocacy Program (CAP) provides confidential and privileged support to OHSU members who have experienced sexual misconduct or violence, including sexual harassment, sexual assault, intimate partner violence, or stalking.</p><p>CAP advocates can connect you to resources, advocate for your rights, help with safety planning, and help with navigating reporting systems.</p><p>To schedule an appointment with a confidential advocate, call toll-free833-495-2277 or 503-494-3256 (secure and confidential), or email    <a href=\"mailto:capsupport@ohsu.edu\">capsupport@ohsu.edu</a> (not secure    nor confidential).</p><p>    If you choose to talk to a confidential advocate, be sure to know:</p><ul><li>They provide a safe space for you to talk</li><li>They are there to advocate and support you</li></ul>"
+				}
+			}, {
+				"name": "MSG_SERVICES_HEALTH",
+				"text": {
+					"en": "Student Health and Wellness Center (SHW)"
+				},
+				"active": 1,
+				"description": {
+					"en": "<p>    While on the main campus, you have access to the Student Health Center    (JBT). They provide medical care and counseling services for students,    post-doctoral fellows and their adult dependents. To schedule an    appointment with JBT you can call (503-494-8665 option 1) M-F or walk in to    the main office in Baird Hall. You can also make primary care appointments    through MyChart.</p><p>    If you live far away from on campus services, we can recommend off campus    medical care.</p>"
+				}
+			}, {
+				"name": "MSG_SERVICES_OMB",
+				"text": {
+					"en": "Ombudsman"
+				},
+				"active": 1,
+				"language": "en",
+				"description": {
+					"en": "<p>    The ombudsman is a support service available to all OHSU members. The    ombudsman is a confidential resource, except for in cases of physical harm    or child abuse. Their role is to listen, help understand OHSU policy and    lend resources. They will help you decide what next steps you want to take.    They will not take any complaints to the university nor take action without    your consent. The ombudsman is not an advocate, if those services are    needed, you should contact the Confidential Advocacy Program.</p><p>To schedule an appointment with the Ombudsman you can call<a href=\"tel:503-494-5397\">503-494-5397</a> or send an email to    <a href=\"mailto:graybill@ohsu.edu\">graybill@ohsu.edu</a>. For those at WestCampus, you can call contact one of their Ombudsman at    <a href=\"mailto:mwcombudsman@ohsu.edu\">mwcombudsman@ohsu.edu</a>. If you    wish for your correspondence to be confidential, choose the call option.</p><p>    If you choose to talk with an ombudsman, be sure to know:</p><ul><li>They are not judgmental of your situation.</li><li>They are a neutral person simply listening about your incident.</li><li>A decision on next steps will be mutually decided between the two of you.</li></ul>"
+				}
+			}, {
+				"name": "MSG_SERVICES_RESIDENT",
+				"text": {
+					"en": "Resident & Faculty Wellness Program"
+				},
+				"active": 1,
+				"language": "en",
+				"description": {
+					"en": "<p>    The Resident Faculty Wellness Program (RFWP) is a confidential service    available to OHSU residents, fellows and School of Medicine faculty 0.5 FTE    and above. These highly experienced psychologists and psychiatrists are    located on Marquam Hill and provide a wide range of services including    professional coaching, counseling and medication assessment. No information    is shared with anyone, no complaints are shared with the university, and no    action taken without your consent.</p><p>    <u>Please Note</u>    : The RFWP team is required to intervene when there is imminent risk of    danger to self or others or when a clinician is impaired and unsafe to    practice.</p><p>    To schedule an appointment, directly contact any clinician via email orpager:</p><ul><li> <a href=\"mailto:eys@ohsu.edu\">eys@ohsu.edu</a> (pager 12191)</li><li><a href=\"mailto:moffitm@ohsu.edu\">moffitm@ohsu.edu</a> (pager: 12047)</li><li><a href=\"mailto:soller@ohsu.edu\">soller@ohsu.edu</a> (pager 10767) </li><li>   <a href=\"mailto:valdezm@ohsu.edu\">valdezm@ohsu.edu</a> (pager: 14234)</li></ul><p>    If you need is urgent, call pager 10975 from 9 am to 6 pm, 7 days a week.</p><p>    If you choose to talk with the program, be sure to know:</p><ul><li>They will address any of your problems or concerns.</li><li>Concerns do not have to be work related.</li><li>    You should go as early as possible, don’t wait!</li></ul>"
+				}
+			}, {
+				"name": "MSG_REPORTING",
+				"text": {
+					"en": "Reporting Options"
+				},
+				"active": 1,
+				"choices": [{
+					"text": {
+						"en": "Human Resources (HR)"
+					},
+					"value": "MSG_REPORTING_HR",
+					"active": 1
+				}, {
+					"text": {
+						"en": "Integrity Line"
+					},
+					"value": "MSG_REPORTING_IL",
+					"active": 1
+				}, {
+					"text": {
+						"en": "Public Safety"
+					},
+					"value": "MSG_REPORTING_PS",
+					"active": 1
+				}, {
+					"text": {
+						"en": "Title IX"
+					},
+					"value": "MSG_REPORTING_IX",
+					"active": 1
+				}],
+				"language": "en",
+				"description": {
+					"en": "There are a number of options on campus for reporting an incident(s)."
+				}
+			}, {
+				"name": "MSG_REPORTING_IX",
+				"text": {
+					"en": "Title IX/AAEO"
+				},
+				"active": 1,
+				"description": {
+					"en": "<p>    The Title IX Coordinator is housed under the Affirmative Action and Equal    Opportunity (AAEO) office. The office takes in all reports, including ones    concerning discrimination. The AAEO Department and Title IX Coordinator are    private reporting resources available to every OHSU member. Note this    resource is non-confidential, meaning they must report certain incidents.    Reports can be made online or in person at Marquam Plaza (downtown) duringbusiness hours (9 am – 5 pm). Appointments can be made by phone (<a href=\"tel:503-494-5148\">503-494-5148</a>) or email (<a href=\"mailto:aaeo@ohsu.edu\">aaeo@ohsu.edu</a> or    <a href=\"mailto:titleix@ohsu.edu\">titleix@ohsu.edu</a>).</p><p>    Regardless of how you make a report, the AAEO Department will follow up    with you to discuss your concerns. During this initial meeting or    conversation, you may be asked questions (who, what, when and where)    concerning your report and asked how you might want to resolve your concern    (including formal or informal resolution) .</p><p>    If you decide to pursue formal investigation or the Title IX Coordinator    determines that the safety of the university requires OHSU to proceed with    formal investigation, the office will initiate an investigation into the    report and determine next steps, for example, deciding who to interview and    determining what evidence may need to be obtained. The information you    voluntarily provide to the office will only be shared on a need to know    basis.</p><p>    Anonymous reporting can not be made to AAEO or the Title IX Coordinator,    however, they can discuss options with you, provided you do not reveal    identifying information. The reporting process is entirely voluntarily and    at any time, you may choose to withdraw your complaint or choose not to    participate in the process.</p>"
+				}
+			}, {
+				"name": "MSG_REPORTING_PS",
+				"text": {
+					"en": "Public Safety"
+				},
+				"active": 1,
+				"description": {
+					"en": "<p>    Public Safety is a reporting resource available to all OHSU members. Fornon-emergency assistance for all OHSU members please call    <a href=\"tel:503-494-7744\">503-494-7744</a>. Emergency Assistance on OHSU’smain campuses (Marquam Hill &amp; South Waterfront)    <a href=\"tel:503-494-4444\">503-494-4444</a>. For emergency assistance on    all other OHSU locations please call <a href=\"tel:9911\">9-911</a> (from an    OHSU phone) or <a href=\"tel:911\">911</a>. If, you have used 911 for    emergency assistance from another police agency, please place a follow-up    call to Public Safety <a href=\"tel:503-494-7744\">503-494-7744</a>.</p><p>    Once Public Safety receives a report, officers will take appropriate    actions which could include the following;</p><ul><li>Assess for criminal acts and assist with filing charges at the discretion    of the reporting party or victim.</li><li>Conduct Threat Assessment – is there a continual and ongoing threat?</li><li>Offer support and provide safety information</li><li>Make referrals to appropriate resources</li></ul><p>    If you choose to report your incident with Integrity Line, make sure you:</p><ul><li>Are as detailed as possible in the report you give.</li><li>Know Public Safety is here for your protection and safety.</li></ul>"
+				}
+			}, {
+				"name": "MSG_REPORTING_IL",
+				"text": {
+					"en": "Integrity Line"
+				},
+				"active": 1,
+				"description": {
+					"en": "<p>    The Integrity Line is reporting resource available to every OHSU member.    Reports can be made online with the Integrity Line Reporting System or    through their hotline. Phone calls are only deemed private, while online    reporting can be done anonymously.</p><p>    Phone calls go through a third-party hotline which acts as a note taker.    These notes are then given to the Integrity Line for processing. Online    complaints are automatically passed onto Integrity Line staff. Once a    complaint is made, the incident is triaged and assigned to the appropriate    office/person. If you report through the system online, a key will be given    to track the progress of your report.</p><p>    If you choose to report your incident with Integrity Line, make sure you:</p><ul><li>Are as detailed as possible in the report you give.</li><li>Hold onto the key given to access your report online.</li><li>Check back into the system about once a week.</li><li>Log back into the system in case follow up information needed.</li></ul>"
+				}
+			}, {
+				"name": "MSG_REPORTING_HR",
+				"text": {
+					"en": "Human Resources (HR)"
+				},
+				"active": 1,
+				"language": "en",
+				"description": {
+					"en": "<p>    Human Resources (HR) is a reporting resource available to all OHSU members    for any reports concerning employees. Reports can be made by calling 503    494 2500, contacting your department’s or any HR representative at OHSU.</p><p>    One of HR’s primary roles is investigating incidents which may constitute    violations of the Code of Conduct (behavior, attendance and performance    issues). If your incident falls under this description, HR will contact you    concerning your initial report. If your incident does not require the    involvement of HR, they will triage the report to the necessary    department(s) on campus.</p><ul><li>What occurred, when, and who are the involved parties?</li><li>If it involves a Code of Conduct concern, what part of the Code of    Conduct?</li></ul><p>    If you choose to report your incident to HR, make sure you:</p><ul><li>Are as detailed as possible in the report you give.</li><li>Understand that HR is a resource for all employees.</li></ul>"
+				}
+			}, {
+				"name": "MSG_INCIDENT_DISC",
+				"text": {
+					"en": "Sex / Gender Discrimination"
+				},
+				"active": 1,
+				"description": {
+					"en": "<p>    Discrimination is defined as treating someone or a group of people less    favorably or different than another person or group because of their sex or    gender, including gender identity or <a>expression</a> and sexual    orientation.</p>"
+				}
+			}, {
+				"name": "MSG_INCIDENT_ASSAULT",
+				"text": {
+					"en": "Sexual Assault"
+				},
+				"active": 1,
+				"description": {
+					"en": "<p>Actual or attempted sexual contact with another person without that person’s consent, including by force, coercion, or attempted force or coercion.</p>"
+				}
+			}, {
+				"name": "MSG_INCIDENT_HARASSMENT",
+				"text": {
+					"en": "Sexual Harassment"
+				},
+				"active": 1,
+				"description": {
+					"en": "<p>    Sexual harassment is any unwelcome sexual advance, request for sexual    favor, or other behavior of a sexual nature.</p><p>    Source: <a href=\"https://www.ohsu.edu/sites/default/files/2018-10/3-05-035%20Sexual%20Harassment%20010815.pdf\" target=\"_blank\">OHSU Sexual Harassment Policy No. 03-05-035</a></p>"
+				}
+			}, {
+				"name": "MSG_INCIDENT_STALKING",
+				"text": {
+					"en": "Stalking"
+				},
+				"active": 1,
+				"description": {
+					"en": "<p>    Repeated unwanted contacts directed at an individual, or through third    party with intent of affecting the individual, that causes fear or    emotional distress.</p>"
+				}
+			}, {
+				"name": "MSG_INCIDENT_IPV",
+				"text": {
+					"en": "Relationship/Dating/DomesticViolence"
+				},
+				"active": 1,
+				"description": {
+					"en": "<p>    Broadly defined as a pattern of verbal, emotional, financial,    psychological, and/or sexual abuse by one individual against a current or    past partner(s). Also known as intimate partner violence and/or domestic    violence.</p>"
+				}
+			}, {
+				"name": "MSG_INCIDENT_OTHER",
+				"text": {
+					"en": "Other"
+				},
+				"active": 1,
+				"language": "en",
+				"description": {
+					"en": "<p>    Sexual misconduct can occur in many forms not listed here, including    reproductive coercion, nonconsensual image sharing (NCIS), and other acts    of conduct that is without consent or has the effect of threatening or    intimidating someone.</p><p>    <strong>Retaliation</strong>&nbsp;: Retaliation includes intimidation, threats, coercion, or adverse    employment or educational actions taken against an individual because of    the individual’s participation in the reporting, investigation, or    resolution of a complaint. Retaliation can be committed by complainants,    respondents, or any other individual or group of individuals. Attempted or    actual acts of retaliation should be reported to the Title IX Coordinator    or AAEO at 503-494-0258 or by email at titleix@ohsu.edu.</p><p>    Source:    <a href=\"https://www.ohsu.edu/sites/default/files/2018-10/Code-of-Conduct.pdf\">        OHSU Code of Conduct    </a></p><p>    <strong>Consent</strong>    : Consent must be informed, voluntary, and mutually expressed agreement by    all partners, and can be withdrawn at any time. There is no consent when    there is force, expressed or implied, or when coercion, intimidation,    threats, or duress is used. Whether a person has taken advantage of a    position of influence over another person may be a factor in determining    consent. Silence or absence of resistance does not imply consent. Past    consent to sexual activity with another person does not imply ongoing    future consent with that person or consent to that same sexual activity    with another person. If a person is mentally or physically incapacitated or    impaired so that such person cannot understand the fact, nature, or extent    of the sexual situation, there is no consent; this includes impairment or    incapacitation due to alcohol or drug consumption that meets this standard,    or being asleep or unconscious.</p>"
+				}
+			}, {
+				"name": "MSG_INCIDENT_CA",
+				"text": {
+					"en": "Child Abuse"
+				},
+				"active": 1,
+				"description": {
+					"en": "<p>\n    If someone is currently being hurt or is in danger, call Public Safety\n    immediately at <a href=\"tel:503-494-4444\">503-494-4444</a>. </p><p>Child abuse\nmust be reported to the Department of Human Services at<a href=\"tel:855-503-7233\">1-855-503-SAFE (7233)</a> or to Public Safety at    <a href=\"tel:503-494-7744\">503-494-7744</a>.\n</p>\n<p>\n    The State of Oregon defines the following as Child Abuse:\n</p>\n<p><b>\n    Physical Injury</b> - Including an injury that is inflicted by non-accidental\n    means that results in harm.\n</p>\n<p>\n    Examples of Injuries:\n</p>\n\n<ul><li>\n    Be in the shape of the article used (electric cord, belt buckle, etc.).\n</li><li>\n    Not match child’s description of how they occurred (fracture from falling\n    off sofa, etc.).\n</li></ul>\n<p><b>\n    Neglect</b> - Failure through action or omission to provide and maintain food,\n    shelter, medicine, supervision, protection or nurturance to such a degree\n    that a child’s health and safety are endangered.\n</p>\n<p>\n    Examples:\n</p>\n\n\n\n<ul><li>\n    Unlawful exposure of a child to a substance that subjects the child to\n    severe harm.\n</li><li>\n    Serious inattention to a child’s need for affection, support, nurturing or\n    emotional development.\n</li><li>\n    Child left alone with no supervision.\n</li><li>\n    Unmet physical, emotional or medical needs.\n</li></ul>\n<p><b>\n    Sexual Abuse/Exploitation</b> - Any sexual contact in which a child or teen\n    younger than 18 years is used to sexually stimulate another person is\n    illegal. This may be anything from rape to fondling to involving a child in\n    pornography.\n</p>\n<p><b>\n    Threat of Harm</b> - Threat of harm is subjecting a child to severe harm of\n    physical abuse, sexual abuse, neglect, mental injury or other child abuse\n    or neglect.\n</p>\n<p><b>\n    Mental Injury</b> - A continuing pattern of rejecting, terrorizing, ignoring,\n    isolating or corrupting a child, resulting in serious damage to the child.\n</p>\n<p>\n    Examples of behaviors include children:\n</p>\n\n\n\n<ul><li>\n    Having speech or sleep disorders.\n</li><li>\n    Failing to grow normally.\n</li><li>\n    Being very aggressive or withdrawn.\n</li><li>\n    Showing an abnormal need for emotional support.\n</li></ul>\n<p><b>\n    Child Selling</b> - Buying, selling or trading for legal or physical custody of\n    a child.\n</p>\n<p>\n    Source:\n    <a href=\"https://aix-xweb1p.state.or.us/es_xweb/DHSforms/Served/de9010.pdf\">\n        Oregon Department of Human Services\n    </a>\n</p>"
+				}
+			}, {
+				"name": "MSG_INCIDENT_EA",
+				"text": {
+					"en": "Elder Abuse"
+				},
+				"active": 1,
+				"language": "en",
+				"description": {
+					"en": "<p><b>\n    If someone is currently being hurt or is in danger, call Public Safety\n    immediately at <a href=\"tel:503-494-4444\">503-494-4444</a>.\n</b></p>\n<p><b>\n    Elder abuse must be reported to the Department of\nHuman Services (DHS). To help triage your report, call DHS at&nbsp;<a href=\"tel:855-503-7233\">1-855-503-SAFE (7233)</a> or Public Safety at    </b><a href=\"tel:503-494-7744\"><b>50</b>3-494-7744</a>.\n</p>\n<p><b>\n    Physical Abuse</b> - Any physical injury to an adult caused by other than\n    accidental means that may result in bodily injury, physical pain, or\n    impairment.</p>\n<p><b>\n    Neglect</b> - The failure of an individual who is responsible to make a\n    reasonable effort to protect an adult from abuse or to provide the care,\n    supervision, or services necessary to maintain the physical health and\n    emotional well-being of an adult that creates a risk of serious harm or\n    results in physical harm, significant emotional harm or unreasonable\n    discomfort, or serious loss of personal dignity.\n</p>\n<p><b>\n    NOTE: </b>This does not include an elder’s willing participation in treatment\n    by spiritual means through prayer with the practices of the religion.\n</p>\n<p><b>\n    Self-Neglect</b> - The inability of a person to understand the consequences of\n    his or her actions or inaction when that inability leads to or may lead to\n    harm or endangerment to self or others.\n</p>\n<p><b>\n    Abandonment</b> – The desertion or willfully leaving an adult alone by a\n    caregiver that would place the adult in serious risk of harm. It is a\n    specific form of neglect.\n</p>\n<p><b>\n    Verbal/emotional Abuse</b> – The act includes threatening significant physical\n    harm or threatening or causing significant emotional harm to an adult\n    through the use of: derogatory or inappropriate names, insults, verbal\n    assaults, profanity, or ridicule; or harassment, coercion, threats,\n    intimidation, humiliation, mental cruelty, or inappropriate sexual\n    comments.\n</p>\n<p><b>\n    Financial exploitation</b> – Includes wrongfully taking, by means including but\n    not limited to deceit, trickery, subterfuge, coercion, harassment, duress,\n    fraud, or undue influence, the assets, funds, property, or medications\n    belonging to or intended for the use of an adult. Alarming an adult by\n    conveying a threat to wrongfully take or appropriate money or property of\n    the adult if the adult would reasonably believe that the threat conveyed\n    would be carried out. Misappropriating or misusing any money from any\n    account held jointly or singly by an adult. Failing to use income or assets\n    of an adult for the benefit, support, and maintenance of the adult.\n</p>\n<p><b>\n    Sexual Abuse</b> – Includes sexual contact with a non-consenting adult or with\n    an adult considered incapable of consenting to a sexual act. Failure to\n    object does not mean an expression of consent .Sexual harassment or sexual\n    exploitation of an adult, exposing an adult to, or making an adult the\n    subject of sexually explicit material or language. Any sexual contact\n    between an employee or volunteer of a facility or a caregiver and an adult\n    served by the facility or caregiver, unless a pre-existing relationship\n    existed. Sexual abuse does not include consensual sexual contact between an\n    adult and a caregiver who is the spouse or domestic partner of the adult.\n</p>\n<p><b>\n    Involuntary seclusion</b> - Confinement, isolation or restriction of an adult\n    to his or her room or a specific area; or placing restrictions on an\n    adult's ability to associate, interact, or communicate with other\n    individuals.\n</p>\n<p><b>\n    Wrongful Restraint</b> - A wrongful use of a physical or chemical restraint\n    includes situations where:\n</p>\n\n\n<ul><li>\n    A licensed health professional has not conducted a thorough assessment\n    prior to implementing a licensed physician's prescription for restraint;\n</li><li>\n    Less restrictive alternatives have not been evaluated prior to the use of\n    the restraint; or\n</li><li>\n    The restraint is used for convenience or discipline.\n</li></ul>\n<p>\n    Source:\n    <a href=\"https://www.oregon.gov/DHS/SENIORS-DISABILITIES/ADULT-ABUSE/Pages/signs.aspx\">\n        Oregon Department of Human Services\n    </a>\n</p>"
+				}
+			}, {
+				"name": "MSG_INCIDENT_VA",
+				"text": {
+					"en": "Vulnerable Adult Abuse"
+				},
+				"active": 1,
+				"description": {
+					"en": "<p><span style=\"font-weight: bolder;\">If someone is currently being hurt or is in danger, call Public Safety immediately at&nbsp;<a href=\"tel:503-494-4444\">503-494-4444</a>.</span></p><p><span style=\"font-weight: bolder;\">Vulnerable Adult abuse must be reported to the Department of Human Services (DHS). To help triage your report, call DHS at&nbsp;<a href=\"tel:855-503-7233\">1-855-503-SAFE (7233)</a>&nbsp;or Public Safety at&nbsp;</span><a href=\"tel:503-494-7744\"><span style=\"font-weight: bolder;\">50</span>3-494-7744</a>.</p><p><span style=\"font-weight: bolder;\">Physical Abuse</span>&nbsp;- Any physical injury to an adult caused by other than accidental means that may result in bodily injury, physical pain, or impairment.</p><p><span style=\"font-weight: bolder;\">Neglect</span>&nbsp;- The failure of an individual who is responsible to make a reasonable effort to protect an adult from abuse or to provide the care, supervision, or services necessary to maintain the physical health and emotional well-being of an adult that creates a risk of serious harm or results in physical harm, significant emotional harm or unreasonable discomfort, or serious loss of personal dignity.</p><p><span style=\"font-weight: bolder;\">NOTE:&nbsp;</span>This does not include an elder’s willing participation in treatment by spiritual means through prayer with the practices of the religion.</p><p><span style=\"font-weight: bolder;\">Self-Neglect</span>&nbsp;- The inability of a person to understand the consequences of his or her actions or inaction when that inability leads to or may lead to harm or endangerment to self or others.</p><p><span style=\"font-weight: bolder;\">Abandonment</span>&nbsp;– The desertion or willfully leaving an adult alone by a caregiver that would place the adult in serious risk of harm. It is a specific form of neglect.</p><p><span style=\"font-weight: bolder;\">Verbal/emotional Abuse</span>&nbsp;– The act includes threatening significant physical harm or threatening or causing significant emotional harm to an adult through the use of: derogatory or inappropriate names, insults, verbal assaults, profanity, or ridicule; or harassment, coercion, threats, intimidation, humiliation, mental cruelty, or inappropriate sexual comments.</p><p><span style=\"font-weight: bolder;\">Financial exploitation</span>&nbsp;– Includes wrongfully taking, by means including but not limited to deceit, trickery, subterfuge, coercion, harassment, duress, fraud, or undue influence, the assets, funds, property, or medications belonging to or intended for the use of an adult. Alarming an adult by conveying a threat to wrongfully take or appropriate money or property of the adult if the adult would reasonably believe that the threat conveyed would be carried out. Misappropriating or misusing any money from any account held jointly or singly by an adult. Failing to use income or assets of an adult for the benefit, support, and maintenance of the adult.</p><p><span style=\"font-weight: bolder;\">Sexual Abuse</span>&nbsp;– Includes sexual contact with a non-consenting adult or with an adult considered incapable of consenting to a sexual act. Failure to object does not mean an expression of consent .Sexual harassment or sexual exploitation of an adult, exposing an adult to, or making an adult the subject of sexually explicit material or language. Any sexual contact between an employee or volunteer of a facility or a caregiver and an adult served by the facility or caregiver, unless a pre-existing relationship existed. Sexual abuse does not include consensual sexual contact between an adult and a caregiver who is the spouse or domestic partner of the adult.</p><p><span style=\"font-weight: bolder;\">Involuntary seclusion</span>&nbsp;- Confinement, isolation or restriction of an adult to his or her room or a specific area; or placing restrictions on an adult's ability to associate, interact, or communicate with other individuals.</p><p><span style=\"font-weight: bolder;\">Wrongful Restraint</span>&nbsp;- A wrongful use of a physical or chemical restraint includes situations where:</p><ul><li>A licensed health professional has not conducted a thorough assessment prior to implementing a licensed physician's prescription for restraint;</li><li>Less restrictive alternatives have not been evaluated prior to the use of the restraint; or</li><li>The restraint is used for convenience or discipline.</li></ul><p>Source:&nbsp;<a href=\"https://www.oregon.gov/DHS/SENIORS-DISABILITIES/ADULT-ABUSE/Pages/signs.aspx\">Oregon Department of Human Services</a></p>"
+				}
+			}, {
+				"name": "MSG_INCIDENT_WI",
+				"text": {
+					"en": "Treating patients, weapon incident"
+				},
+				"active": 1,
+				"description": {
+					"en": "<p>\n    Any incident involving a weapon, possession of a weapon, or the threat of\n    using a weapon, that causes apprehension for your personal safety or to\n    fear harm.\n</p>"
+				}
+			}, {
+				"name": "MSG_FAC_RESOURCES",
+				"text": {
+					"en": "There are resources at the following campuses:"
+				},
+				"active": 1,
+				"language": "en",
+				"description": {
+					"en": "<p>    If you are a student whose home campus is PSU, please refer to the links    below about resources available to you. If you need to speak with Title IX,please contact Julie Caron, Title IX Coordinator (    <a href=\"mailto:jucaron@pdx.edu\">jucaron@pdx.edu</a>).</p><ul><li>    <a href=\"https://www.pdx.edu/wrc/sexual-and-relationship-violence-response\">        Confidential Advocates at PSU    </a></li><li>    <a href=\"https://psuwrc.youcanbook.me/\">Make an appointment</a>    with a Confidential Advocate at the Women’s Resource Center</li><li>    <a href=\"https://www.pdx.edu/sls/who-we-help\">Student Legal Services</a></li><li>    <a href=\"https://www.pdx.edu/sls/how-to-make-an-appointment\">        Make an appointment    </a>    with Student Legal Services</li><li>    <a href=\"https://docs.google.com/forms/d/e/1FAIpQLScGJ2EsjqRT9MBkEkQCAuaeLfvZBiRDfHztvIEzMyCqO3DVJg/viewform\">        Make a report anonymously    </a></li><li>    <a href=\"https://www.pdx.edu/diversity/title_ix\">        Title IX information and reports    </a></li></ul><p>    If you are a student whose home campus is OSU, please refer to the links    below about resources available to you. If you need to speak with Title IX,    please contact Kim Kirkland, Title IX Coordinator (    <a href=\"mailto:kim.kirkland@orgeonstate.edu\">        kim.kirkland@orgeonstate.edu    </a>    ).</p><p>    For a general overview of resources, click    <a href=\"file:///C:/Users/goueth/Box/App%20Materials/Content/Office%20of%20Equal%20Opportunity%20and%20Access%20-%20Campus%20&amp;%20Community%20Resources%20and%20Rights.pdf\">        here    </a>    .</p><ul><li>    <a href=\"https://studenthealth.oregonstate.edu/sarc\">        Student Advocacy and Resource Center (SARC)    </a>    : Provides all information concerning reporting options, confidential    resources and clinical services.</li><li>    <a href=\"https://asosu.oregonstate.edu/asosu/legalservices\">        Student Legal Services    </a></li></ul>"
+				}
+			}, {
+				"name": "MSG_COM_RESOURCES",
+				"text": {
+					"en": "There are community resources..."
+				},
+				"active": 1,
+				"language": "en",
+				"description": {
+					"en": "<p>    Community resources are ones that can be found off the main OHSU campus.    These resources include:</p><ul><li><b>    Housing</b>: Emergency temporary housing, shelters</li><li><b>    Medical Care</b>: County clinics, urgent care options</li><li><b>    Transportation</b>: Trimet passes given through resource centers</li><li><b>    Legal</b>: Legal consultation for restraining orders, custody &amp; child    support</li><li><b>    Food</b>: Food pantries &amp; boxes, hot meals</li></ul>"
+				}
+			}, {
+				"name": "MSG_REQUIRED_MANDATORY",
+				"text": {
+					"en": "Mandatory Reporters"
+				},
+				"active": 1,
+				"description": {
+					"en": "<p>    Oregon law (ORS 419B.005 (3)) defines many professions as mandatory    reporters. Professions applicable to OHSU include:</p><ul><li>Physician or physician assistant licensed under    <a href=\"https://www.oregonlegislature.gov/bills_laws/ors/ors677.html\">        ORS chapter 677    </a>&nbsp;or naturopathic physician, including any intern or resident;</li><li>Dentists;</li><li>School employee, including an employee of a higher education institution;</li><li>Licensed practical nurse, registered nurse, nurse practitioner, nurse’s    aide, home health aide or employee of an in-home health service;</li><li>Psychologist;</li><li>Regulated social worker;</li><li>Optometrist;    </li>    <li>        Attorney;    </li>    <li>        Licensed professional counselor;    </li>    <li>        Licensed marriage and family therapist;    </li>    <li>        Physical, speech or occupational therapist;    </li>    <li>        Audiologist;    </li>    <li>        Speech-language pathologist;    </li>    <li>        Pharmacist    </li></ul><p>For general reporting guidance, click    <a href=\"https://www.oregon.gov/dhs/abuse/pages/index.aspx\">here</a>.</p><p>    For specific information on how and where to report, refer to the policies    below:</p><ul><li>    Child Abuse:    <a href=\"https://ohsu.ellucid.com/documents/view/401\">        OHSU Policy HC-PC-104-RR    </a></li><li>    Elder Abuse:    <a href=\"https://www.oregon.gov/bspa/Documents/ElderAbuseMandatoryReporting2015.pdf\">        Oregon State Policy on Mandatory Reporting of Elder Abuse    </a></li><li>    Vulnerable Adult Abuse:    <a href=\"http://www.dhs.state.or.us/policy/spd/rules/411_020.pdf\">        Oregon Department of Human Services Rules on Adult Abuse    </a></li></ul><p>If you still have questions, contact Legal (<a href=\"mailto:legal@ohsu.edu\">legal@ohsu.edu</a>/    <a href=\"tel:503-494-5222\">503-494-5222</a>).</p>"
+				}
+			}, {
+				"name": "MSG_REQUIRED_RESPONSIBLE",
+				"text": {
+					"en": "Responsible Employees"
+				},
+				"active": 1,
+				"description": {
+					"en": "<p>    Title IX requires some employees at universities to report certain    incidents of sex/gender discrimination and sexual harassment. Responsible    Employees are defined as: Any employee who has the authority to take action    to redress the harassment, who has the duty to report sexual harassment to    appropriate school officials, or an individual who a student could    reasonably believe has this authority or responsibility. OHSU specifically    defines responsible employees as employees who are:</p><ul><li>    Supervisors</li><li>    Managers</li><li>    Leads</li></ul><p>    Cases that are required to be reported include:</p><ul><li>    Discrimination</li><li>    Violence</li><li>    Harassment</li><li>    Abuse</li></ul><p>    If you are not sure whether you are a Responsible Employee, contact    AAEO/Title IX.</p><p>    Sources:    <a href=\"https://cdn.atixa.org/website-media/atixa.org/wp-content/uploads/2013/08/12194245/Mandated-Reporters.pdf\">        Association of Title IX Administrators    </a></p>"
+				}
+			}, {
+				"name": "MSG_REQUIRED_AUTHORITY",
+				"text": {
+					"en": "Campus Security Authority"
+				},
+				"active": 1,
+				"description": {
+					"en": "<p>    Under the Clery Act of 1990, all universities who receive federal funding    are required to have Campus Security Authorities (CSA). These people are    required to report crimes that occur on campus every year to the proper    department. At OHSU, Public Safety publish these crimes in their Annual    Security Report. Crimes that CSAs must report include:</p><ul>    <li>        Sex Offenses    </li>    <li>        Hate Crimes    </li>    <li>        Dating &amp; Domestic Violence    </li>    <li>        Stalking    </li></ul><p>    If you fall under the following definitions, you could be a CSA:</p><ul><li>A campus police department or a campus security department of an    institution.</li><li>Any individual or individuals who have responsibility for campus security    but who do not constitute a campus police department or a campus security    department.</li><li>Any individual or organization specified in an institution’s statement of    campus security policy as an individual or organization to which students    and employees should report criminal offenses.</li><li>An official of an institution who has significant responsibility for    student and campus activities, including, but not limited to, student    housing, student discipline and campus judicial proceedings. An official is    defined as any person who has the authority and the duty to take action or    respond to particular issues on behalf of the institution.</li></ul><p>    At OHSU, CSAs are designated by Public Safety at the beginning of every    year. If you are unsure whether you are a CSA, contact Public Safety.</p><p>    Sources: OHSU Public Safety Annual Security Report,    <a href=\"https://clerycenter.org/wp-content/uploads/2017/01/Understanding-New-Clery-Statistics.pdf\">        Clery Center    </a></p>"
+				}
+			}, {
+				"name": "MSG_MED_CARE",
+				"text": {
+					"en": "On Campus Medical Care"
+				},
+				"active": 1,
+				"language": "en",
+				"description": {
+					"en": "<p>    While on the main campus, you have access to the Student Health Center    (JBT). They provide medical care and counseling services for students,    post-doctoral fellows and their adult dependents. To schedule anappointment with JBT you can call (    <a href=\"tel:503-494-8665p1\">503-494-8665 option 1</a>) M-F or walk in to    the main office in Baird Hall. You can also make primary care appointments    through MyChart.</p>"
+				}
+			}, {
+				"name": "MSG_COMM_RESOURCES",
+				"text": {
+					"en": "Medical care..."
+				},
+				"active": 1,
+				"language": "en",
+				"description": {
+					"en": "UNDER CONSTRUCTION"
+				}
+			}, {
+				"name": "MSG_COUNSELING",
+				"text": {
+					"en": "Counseling Services"
+				},
+				"active": 1,
+				"language": "en",
+				"description": {
+					"en": "<p><strong>Employee Assistance Program through Spark Work-Life:</strong><br /> The Spark Work-Life program offers many resources to support your well-being, including free, confidential counseling with a master&rsquo;s or doctorate-level, licensed counselor. OHSU members and their family/dependents each get 3 free sessions, per issue, and can continue working with the same counselor for a $25 co-pay per session.</p>\n<p>Appointments are available, in-person, over the phone or via telehealth. <br /> To access, your 3 free sessions click&nbsp;<a href=\"https://www.sparkworklife.com/portal/content/10113272;subject=10004480\">here&nbsp;</a>. Appointments can be made via phone (<a href=\"tel:800-433-2320\">(800) 433-2320</a>) or&nbsp;<a href=\"http://www.cascadecenters.com/index.php?tray=content&amp;tid=top10522&amp;cid=102gp2\">online&nbsp;</a>.</p>\n<p><strong>WholeLife Directions</strong></p>\n<p>Spark Work-Life also offers a free app, called <a href=\"https://cascadecenters.com/WholeLife-Directions\">WholeLife Directions</a>, which measures and provides immediate feedback for nine areas of mental health, connecting you to proven methods of treatment and support.</p>\n<p>WholeLife Directions utilizes a confidential assessment that helps you find new ways to improve the way you feel and supports your efforts in leading a healthier lifestyle. This unique assessment tool not only focuses on physical or mental health but helps you assess all aspects of your life.</p>\n<p>Download the app on the <a href=\"https://apps.apple.com/us/app/wholelife-directions/id1367226005\">Apple Store</a> or <a href=\"https://play.google.com/store/apps/details?id=com.cascadecenters.wholelifedirections.app\">Google Play</a> and when prompted for your employer ID, enter &ldquo;OHSU&rdquo;.</p>"
+				}
+			}, {
+				"name": "MSG_RESOURCES_OHSU",
+				"text": {
+					"en": "OHSU Resources"
+				},
+				"active": 1,
+				"language": "en",
+				"description": {
+					"en": "<p>    <strong><em>Reporting Resources:</em></strong></p><p>    <strong>Confidential Advocacy Program (CAP)</strong>    :</p><ul><li>    Toll-Free Phone: <a href=\"tel:833-495-2277\">833-495-2277</a></li><li>    Phone: <a href=\"tel:503-494-3256\">503-494-3256</a></li><li>    E-mail: <a href=\"mailto:capsupport@ohsu.edu\">capsupport@ohsu.edu</a></li></ul><p>    <strong>Student Health Center (JBT)</strong>    :</p><p>    Available to Students and Post-Doctoral Fellows only</p><ul><li>    Hours: Always open 8 AM – 5 PM, extended hours some days (check website for    current list of hours)</li><li>    Phone: <a href=\"tel:503-494-8665p1\">503-494-8665 option 1</a></li><li>    Website:    <a href=\"https://www.ohsu.edu/education/joseph-b-trainer-health-and-wellness-center\">        https://www.ohsu.edu/education/joseph-b-trainer-health-and-wellness-center    </a></li></ul><p>    <strong>Ombudsman</strong></p><ul><li>    Phone: <a href=\"tel:503-494-5397\">503-494-5397</a></li><li>    E-mail: <a href=\"mailto:graybill@ohsu.edu\">graybill@ohsu.edu</a></li><li>West Campus Ombudsman E-mail:    <a href=\"mailto:mwcombudsman@ohsu.edu\">mwcombudsman@ohsu.edu</a></li></ul><p>    <strong>Resident and Faculty Wellness Program</strong>    :</p><p>    Available to Residents, Medical/Surgical Fellows and School of Medicine    Primary Faculty only</p><p>    Contacts:</p><ul><li>    <a href=\"mailto:eys@ohsu.edu\">eys@ohsu.edu</a>    (pager: 12191)</li><li>    <a href=\"mailto:moffitm@ohsu.edu\">moffitm@ohsu.edu</a>    (pager: 12047)</li><li>    <a href=\"mailto:soller@ohsu.edu\">soller@ohsu.edu</a>    (pager: 10767)</li><li>    <a href=\"mailto:valdezm@ohsu.edu\">valdezm@ohsu.edu</a>    (pager: 14234)</li></ul><p>    Emergency Contact:</p><ul><li>    Hours: 9 AM – 6 PM</li><li>    Pager Number: 10975</li></ul><p>    <strong><em>Support Services:</em></strong></p><p>    <strong>Title IX/AAEO</strong></p><ul><li>    Hours: 9 AM – 5 PM</li><li>    Phone: <a href=\"tel:503-494-5148\">503-494-5148</a></li><li>E-mail: <a href=\"mailto:aaeo@ohsu.edu\">aaeo@ohsu.edu</a> /    <a href=\"mailto:titleix@ohsu.edu\">titleix@ohsu.edu</a></li></ul><p>    <strong>Public Safety</strong></p><ul><li>    Emergency: <a href=\"tel:911\">911</a> / <a href=\"tel:9911\">9-911</a> (on a    campus phone)</li><li>Emergency on Main Campus (Marquam Hill &amp; South Waterfront):    <a href=\"tel:503-494-4444\">503-494-4444</a></li><li>    Non-Emergency Phone: <a href=\"tel:503-494-7744\">503-494-7744</a></li></ul><p>    <strong>Integrity Line</strong></p><ul><li>    Hotline: <a href=\"tel:877-733-8313\">877-733-8313</a></li><li>    Online Reporting:    <a href=\"https://secure.ethicspoint.com/domain/media/en/gui/18915/index.html\">        https://secure.ethicspoint.com/domain/media/en/gui/18915/index.html    </a></li></ul><p>    <strong>Human Resources (HR)</strong></p><ul><li>    Phone: <a href=\"tel:503-494-8060\">503-494-8060</a></li><li>    Website:    <a href=\"https://o2.ohsu.edu/human-resources/\">        https://o2.ohsu.edu/human-resources/    </a></li></ul>"
+				}
+			}, {
+				"name": "MSG_RESOURCES_COMMUNITY",
+				"text": {
+					"en": "Community Resources"
+				},
+				"active": 1,
+				"description": {
+					"en": "<div class=\"question-responses\"><ons-input id=\"zipcode_input\" name=\"zipcode_input\" data-type=\"question\" placeholder=\"Please enter your zipcode\" value=\"\"></ons-input><ons-button id=\"button-zipcode\" class=\"font-2 button\">Go</ons-button></div><div id=\"community_resources_list\"></div>"
+				}
+			}, {
+				"name": "MSG_USE_MPLAN",
+				"text": {
+					"en": "MyPlan"
+				},
+				"type": "message",
+				"active": 1,
+				"choices": [],
+				"language": "en",
+				"description": {
+					"en": "<p>    MyPlan is an application used for safety planning for all kinds of    incidents.</p><a href=\"https://www.myplanapp.org/app/\">Click here</a> to use the application.<p> "
+				},
+				"messageType": "unlinked"
+			}, {
+				"name": "MSG_MANDATORY_REPORTER",
+				"text": {
+					"en": "Mandatory Reporter"
+				},
+				"active": 1,
+				"description": {
+					"en": "<p>    Oregon law (ORS 419B.005 (3)) defines many professions as mandatory    reporters. Professions applicable to OHSU include:</p><ul><li>Physician or physician assistant licensed under    <a href=\"https://www.oregonlegislature.gov/bills_laws/ors/ors677.html\">        ORS chapter 677    </a>&nbsp;or naturopathic physician, including any intern or resident;</li><li>Dentists;</li><li>School employee, including an employee of a higher education institution;</li><li>Licensed practical nurse, registered nurse, nurse practitioner, nurse’s    aide, home health aide or employee of an in-home health service;</li><li>Psychologist;</li><li>Regulated social worker;</li><li>Optometrist;    </li>    <li>        Attorney;    </li>    <li>        Licensed professional counselor;    </li>    <li>        Licensed marriage and family therapist;    </li>    <li>        Physical, speech or occupational therapist;    </li>    <li>        Audiologist;    </li>    <li>        Speech-language pathologist;    </li>    <li>        Pharmacist    </li></ul><p>For general reporting guidance, click    <a href=\"https://www.oregon.gov/dhs/abuse/pages/index.aspx\">here</a>.</p><p>    For specific information on how and where to report, refer to the policies    below:</p><ul><li>    Child Abuse:    <a href=\"https://ohsu.ellucid.com/documents/view/401\">        OHSU Policy HC-PC-104-RR    </a></li><li>    Elder Abuse:    <a href=\"https://www.oregon.gov/bspa/Documents/ElderAbuseMandatoryReporting2015.pdf\">        Oregon State Policy on Mandatory Reporting of Elder Abuse    </a></li><li>    Vulnerable Adult Abuse:    <a href=\"http://www.dhs.state.or.us/policy/spd/rules/411_020.pdf\">        Oregon Department of Human Services Rules on Adult Abuse    </a></li></ul><p>If you still have questions, contact Legal (<a href=\"mailto:legal@ohsu.edu\">legal@ohsu.edu</a>/    <a href=\"tel:503-494-5222\">503-494-5222</a>).</p>"
+				}
+			}, {
+				"name": "MSG_RESPONSIBLE_EMPLOYEE",
+				"text": {
+					"en": "Responsible Employee"
+				},
+				"active": 1,
+				"description": {
+					"en": "<p>    Title IX requires some employees at universities to report certain    incidents of sex/gender discrimination and sexual harassment. Responsible    Employees are defined as: Any employee who has the authority to take action    to redress the harassment, who has the duty to report sexual harassment to    appropriate school officials, or an individual who a student could    reasonably believe has this authority or responsibility. OHSU specifically    defines responsible employees as employees who are:</p><ul><li>    Supervisors</li><li>    Managers</li><li>    Leads</li></ul><p>    Cases that are required to be reported include:</p><ul><li>    Discrimination</li><li>    Violence</li><li>    Harassment</li><li>    Abuse</li></ul><p>    If you are not sure whether you are a Responsible Employee, contact    AAEO/Title IX.</p><p>    Sources:    <a href=\"https://cdn.atixa.org/website-media/atixa.org/wp-content/uploads/2013/08/12194245/Mandated-Reporters.pdf\">        Association of Title IX Administrators    </a></p>"
+				}
+			}, {
+				"name": "MSG_SECURITY_AUTHORITY",
+				"text": {
+					"en": "Campus Security Authority"
+				},
+				"active": 1,
+				"description": {
+					"en": "<p>    Under the Clery Act of 1990, all universities who receive federal funding    are required to have Campus Security Authorities (CSA). These people are    required to report crimes that occur on campus every year to the proper    department. At OHSU, Public Safety publish these crimes in their Annual    Security Report. Crimes that CSAs must report include:</p><ul>    <li>        Sex Offenses    </li>    <li>        Hate Crimes    </li>    <li>        Dating &amp; Domestic Violence    </li>    <li>        Stalking    </li></ul><p>    If you fall under the following definitions, you could be a CSA:</p><ul><li>A campus police department or a campus security department of an    institution.</li><li>Any individual or individuals who have responsibility for campus security    but who do not constitute a campus police department or a campus security    department.</li><li>Any individual or organization specified in an institution’s statement of    campus security policy as an individual or organization to which students    and employees should report criminal offenses.</li><li>An official of an institution who has significant responsibility for    student and campus activities, including, but not limited to, student    housing, student discipline and campus judicial proceedings. An official is    defined as any person who has the authority and the duty to take action or    respond to particular issues on behalf of the institution.</li></ul><p>    At OHSU, CSAs are designated by Public Safety at the beginning of every    year. If you are unsure whether you are a CSA, contact Public Safety.</p><p>    Sources: OHSU Public Safety Annual Security Report,    <a href=\"https://clerycenter.org/wp-content/uploads/2017/01/Understanding-New-Clery-Statistics.pdf\">        Clery Center    </a></p>"
+				}
+			}, {
+				"name": "MSG_WORKPLACE_VIOLENCE",
+				"text": {
+					"en": "Report Workplace Violence"
+				},
+				"active": 1,
+				"choices": [{
+					"text": {
+						"en": "Sexual Assault",
+						"es": "No"
+					},
+					"value": "MSG_INCIDENT_ASSAULT",
+					"active": 1,
+					"message": "MSG_INCIDENT_ASSAULT"
+				}, {
+					"text": {
+						"en": "Stalking",
+						"es": "No"
+					},
+					"value": "MSG_INCIDENT_STALKING",
+					"active": 1,
+					"message": "MSG_INCIDENT_STALKING"
+				}, {
+					"text": {
+						"en": "Relationship Violence",
+						"es": "No"
+					},
+					"value": "MSG_INCIDENT_IPV",
+					"active": 1,
+					"message": "MSG_INCIDENT_IPV"
+				}],
+				"description": {
+					"en": "Everyone at OHSU is required to report workplace violence. Workplace violence includes:"
+				}
+			}],
+			"topLevel": 1,
+			"container": "message.html",
+			"shortName": "Messages"
+		},
+		"assessment": {
+			"name": "assessment",
+			"text": {
+				"en": "Assessment"
+			},
+			"type": "questions",
+			"active": 1,
+			"options": [],
+			"elements": [{
+				"name": "ROLE_THEM",
+				"text": {
+					"en": "What best describes the role of the individual you are assisting?"
+				},
+				"type": "radio",
+				"active": 1,
+				"choices": [{
+					"text": {
+						"en": "Employee/Staff",
+						"es": "Empl"
+					},
+					"value": 1,
+					"active": 1
+				}, {
+					"text": {
+						"en": "Faculty",
+						"es": "Fac"
+					},
+					"value": 2,
+					"active": 1
+				}, {
+					"text": {
+						"en": "Student",
+						"es": "Stu"
+					},
+					"value": 3,
+					"active": 1
+				}],
+				"section": "about"
+			}, {
+				"name": "ROLE",
+				"text": {
+					"en": "What best describes your role?"
+				},
+				"type": "radio",
+				"active": 1,
+				"choices": [{
+					"text": {
+						"en": "Employee/Staff",
+						"es": "Fac"
+					},
+					"value": 1,
+					"active": 1
+				}, {
+					"text": {
+						"en": "Faculty",
+						"es": "Empl"
+					},
+					"value": 2,
+					"active": 1
+				}, {
+					"text": {
+						"en": "Student",
+						"es": "Stu"
+					},
+					"value": 3,
+					"active": 1
+				}],
+				"section": "about",
+				"language": "en"
+			}, {
+				"name": "TIPS_DISCLOSURE",
+				"text": {
+					"en": "<p>Before someone discloses an incident to you, use these tips to protect the reporter and their experience:</p><ons-card><div class=\"font-4 xxlarge-font\">Assess the situation for safety</div>This app is intended to be used when you and the person you are supporting are in a safe place and not in immediate danger. If the person  you are supporting believes they are in immediate danger, consider calling 911 or download the myPlan app to devise a customized safety plan.</ons-card><ons-card><div class=\"font-4 xxlarge-font\">Inform</div>Inform the person you may have a duty to report what they tell you, interrupting their disclosure if necessary. 'I want to support you and ensure you get to decide what happens next, which is why it is important you know that I may be required to report disclosures of harassment, sexual or relationship violence, and other forms of violence.Let's find out what my responsibilities are so you can make an informed choice about what you want me to know and I can find the best support resources to point you to.'</ons-card>"
+				},
+				"type": "label",
+				"active": 1,
+				"choices": [],
+				"section": "about",
+				"language": "en",
+			}, {
+				"name": "TIPS_DISCLOSURE_2",
+				"text": {
+					"en": "<div class=\"font-4 xxlarge-font\">How to support a survivor:</div> <p>Affirm: Thank you for telling me this. This is not your fault. No one deserves to have their choices taken away, no matter what. </p> <p> Believe: I believe you. I am here to support you.</p> <p>Connect: You are not alone. How can I best support you?</p> <p>Direct: You have rights and options at OHSU. Would you like to talk with a confidential advocate at CAP? Let’s brainstorm together what we can do next.</p> <p>Empower: It took a lot of strength to speak up about this. Thank you for sharing this with me.</p> </ons-card>"
+				},
+				"type": "label",
+				"active": 1,
+				"choices": [],
+				"section": "about",
+				"language": "en",
+			}, {
+				"name": "INCIDENT_CAP",
+				"text": {
+					"en": "<p>OHSU has a new Confidential Advocacy Program (CAP) that is specifically here to provide those in our community who have experienced these types of things with information, emotional support, and assistance in finding and accessing resources that work best for each persons individual needs and situation.</p><ons-card class=\"tertiary-text-color font-1 card card-list\" style=\"background:#ffffff;\"><ons-list><ons-list-item><div class=\"left\"><ons-icon icon=\"ion-ios-telephone-outline\" class=\"xlarge-font base-color\"></ons-icon></div><div class=\"center\">1-833-495-CAPS</div><div class=\"right\"><ons-button class=\"button-rev\"><a href=\"tel:1-833-495-CAPS\">Call</a></ons-button> </div></ons-list-item><ons-list-item><div class=\"left\"><ons-icon icon=\"ion-ios-email\" class=\"xlarge-font base-color\"></ons-icon></div><div class=\"center\">capsupport@ohsu.edu</div><div class=\"right\"><ons-button class=\"button-rev\"><a href=\"mailto:capsupport@ohsu.edu\">Email</a></ons-button> </div></ons-list-item></ons-list></ons-card>"
+				},
+				"type": "label",
+				"active": 1,
+				"section": "resources"
+			}, {
+				"name": "FACULTY_VISITING",
+				"text": {
+					"en": "Are you a visiting scholar/researcher?"
+				},
+				"type": "radio",
+				"active": 1,
+				"choices": [{
+					"text": {
+						"en": "Yes",
+						"es": "Si"
+					},
+					"value": 1,
+					"active": 1
+				}, {
+					"text": {
+						"en": "No",
+						"es": "No"
+					},
+					"value": 2,
+					"active": 1
+				}],
+				"section": "about"
+			}, {
+				"name": "EMPLOYEE_MANAGER",
+				"text": {
+					"en": "Are you a manager or supervisor?"
+				},
+				"type": "radio",
+				"active": 1,
+				"choices": [{
+					"text": {
+						"en": "Yes",
+						"es": "Si"
+					},
+					"value": 1,
+					"active": 1
+				}, {
+					"text": {
+						"en": "No",
+						"es": "No"
+					},
+					"value": 2,
+					"active": 1
+				}],
+				"section": "about"
+			}, {
+				"name": "EMPLOYEE_RESIDENT",
+				"text": {
+					"en": "Are you a resident or medical/surgical fellow?"
+				},
+				"type": "radio",
+				"active": 1,
+				"choices": [{
+					"text": {
+						"en": "Yes",
+						"es": "Si"
+					},
+					"value": 1,
+					"active": 1
+				}, {
+					"text": {
+						"en": "No",
+						"es": "No"
+					},
+					"value": 2,
+					"active": 1
+				}],
+				"section": "about"
+			}, {
+				"name": "EMPLOYEE_SUPERVISE",
+				"text": {
+					"en": "Do you supervise over junior residents and faculty?"
+				},
+				"type": "radio",
+				"active": 1,
+				"choices": [{
+					"text": {
+						"en": "Yes",
+						"es": "Si"
+					},
+					"value": 1,
+					"active": 1
+				}, {
+					"text": {
+						"en": "No",
+						"es": "No"
+					},
+					"value": 2,
+					"active": 1
+				}],
+				"section": "about"
+			}, {
+				"name": "EMPLOYEE_POSTDOC",
+				"text": {
+					"en": "Are you a postdoctoral fellow?"
+				},
+				"type": "radio",
+				"active": 1,
+				"choices": [{
+					"text": {
+						"en": "Yes",
+						"es": "Si"
+					},
+					"value": 1,
+					"active": 1
+				}, {
+					"text": {
+						"en": "No",
+						"es": "No"
+					},
+					"value": 2,
+					"active": 1
+				}],
+				"section": "about"
+			}, {
+				"name": "EMPLOYEE_CSA",
+				"text": {
+					"en": "Do you work under one of the following roles/departments?<ul><li>All Full Time Members of the Department of Public Safety</li><li>Office of the Provost</li><li>Academic Affairs</li><li>Student Health</li><li>Student Life – Assistant Vice Provost</li><li>Deans of all OHSU Schools</li><li>Director Ambulatory Services</li><li>Director of Oregon National Primate Research Center</li><li>Directors of HR</li><li>Director Affirmative Action & Equal Opportunity</li><li>Integrity Office/Corporate Compliance</li></ul>"
+				},
+				"type": "radio",
+				"active": 1,
+				"choices": [{
+					"text": {
+						"en": "Yes",
+						"es": "Si"
+					},
+					"value": 1,
+					"active": 1
+				}, {
+					"text": {
+						"en": "No",
+						"es": "No"
+					},
+					"value": 2,
+					"active": 1
+				}],
+				"section": "about"
+			},  {
+				"name": "MANDATORY_INTRO",
+				"text": {
+					"en": ""
+				},
+				"type": "label",
+				"active": 1,
+				"choices": [],
+				"section": "about"
+			}, {
+				"name": "MANDATORY_REPORTING_INTRO",
+				"text": {
+					"en": "Based on your role, you are considered to be: <div class='meta-reporting'></div> You may be required to report an incident per federal laws and/or OHSU policy. Let’s define what kinds of reporters there are and who is one."
+				},
+				"type": "checkbox",
+				"active": 0,
+				"choices": [{
+					"text": {
+						"en": "Mandatory Reporter",
+						"es": "Empl"
+					},
+					"image": "mandatory_reporting.jpg",
+					"value": 1,
+					"active": 1,
+					"message": "MSG_MANDATORY_REPORTER"
+				}, {
+					"text": {
+						"en": "Responsible Employee",
+						"es": "Fac"
+					},
+					"image": "responsible_employee.jpg",
+					"value": 2,
+					"active": 1,
+					"message": "MSG_RESPONSIBLE_EMPLOYEE"
+				}, {
+					"text": {
+						"en": "Campus Security Authority",
+						"es": "Stu"
+					},
+					"image": "campus_security.jpg",
+					"value": 3,
+					"active": 1,
+					"message": "MSG_SECURITY_AUTHORITY"
+				}, {
+					"text": {
+						"en": "Report Workplace Violence",
+						"es": "Stu"
+					},
+					"image": "wv.jpg",
+					"value": 4,
+					"active": 1,
+					"message": "MSG_WORKPLACE_VIOLENCE"
+				}],
+				"section": "about",
+				"buttonView": 1
+			}, {
+				"name": "MANDATORY_REPORTING_INTRO_2",
+				"text": {
+					"en": "Everyone at OHSU is required to report workplace violence. Workplace violence includes:"
+				},
+				"type": "checkbox",
+				"active": 0,
+				"choices": [{
+					"text": {
+						"en": "Sexual Assault",
+						"es": "No"
+					},
+					"value": 1,
+					"active": 1,
+					"message": "MSG_INCIDENT_ASSAULT"
+				}, {
+					"text": {
+						"en": "Stalking",
+						"es": "No"
+					},
+					"value": 2,
+					"active": 1,
+					"message": "MSG_INCIDENT_STALKING"
+				}, {
+					"text": {
+						"en": "Relationship Violence",
+						"es": "No"
+					},
+					"value": 3,
+					"active": 1,
+					"message": "MSG_INCIDENT_IPV"
+				}],
+				"section": "about",
+				"infoView": 1
+			}, {
+				"name": "INCIDENT_LIST",
+				"text": {
+					"en": "Here are types of misconduct that someone may experience. Tap on each to learn more."
+				},
+				"type": "checkbox",
+				"active": 0,
+				"choices": [{
+					"text": {
+						"en": "Sex / Gender Discrimination",
+						"es": "Si"
+					},
+					"value": 1,
+					"active": 1,
+					"message": "MSG_INCIDENT_DISC"
+				}, {
+					"text": {
+						"en": "Sexual Assault",
+						"es": "No"
+					},
+					"value": "2",
+					"active": 1,
+					"message": "MSG_INCIDENT_ASSAULT"
+				}, {
+					"text": {
+						"en": "Sexual Harassment",
+						"es": "No"
+					},
+					"value": "3",
+					"active": 1,
+					"message": "MSG_INCIDENT_HARASSMENT"
+				}, {
+					"text": {
+						"en": "Stalking",
+						"es": "No"
+					},
+					"value": 4,
+					"active": 1,
+					"message": "MSG_INCIDENT_STALKING"
+				}, {
+					"text": {
+						"en": "Relationship Violence",
+						"es": "No"
+					},
+					"value": 5,
+					"active": 1,
+					"message": "MSG_INCIDENT_IPV"
+				}, {
+					"text": {
+						"en": "Child Abuse",
+						"es": "No"
+					},
+					"value": 6,
+					"active": 1,
+					"message": "MSG_INCIDENT_IPV"
+				}, {
+					"text": {
+						"en": "Elder Abuse",
+						"es": "No"
+					},
+					"value": 7,
+					"active": 1,
+					"message": "MSG_INCIDENT_IPV"
+				}, {
+					"text": {
+						"en": "Other Types",
+						"es": "No"
+					},
+					"value": 10,
+					"active": 1,
+					"message": "MSG_INCIDENT_OTHER"
+				}, {
+					"text": {
+						"en": "Weapons Incident"
+					},
+					"value": "9",
+					"active": 1
+				}, {
+					"text": {
+						"en": "Other Types"
+					},
+					"value": "10",
+					"active": 1
+				}],
+				"section": "about",
+				"infoView": 1,
+				"language": "en"
+			}, {
+				"name": "MANDATORY_RESPONSIBILITY_SUMMARY",
+				"text": {
+					"en": "<div class='meta-reporting-table'></div>"
+				},
+				"type": "label",
+				"active": 1,
+				"choices": [],
+				"section": "about"
+			}, {
+				"name": "OTHER_OPTIONS",
+				"text": {
+					"en": "Next we will provide support services and reporting authorities available to the reporter at their choosing."
+				},
+				"type": "checkbox",
+				"active": 0,
+				"choices": [{
+					"text": {
+						"en": "Support Services"
+					},
+					"value": 1,
+					"active": 1,
+					"message": "MSG_SERVICES"
+				}, {
+					"text": {
+						"en": "Reporting Options"
+					},
+					"value": 2,
+					"active": 1,
+					"message": "MSG_REPORTING"
+				}],
+				"section": "resources",
+				"infoView": 1
+			}],
+			"sections": [{
+				"name": "about",
+				"text": {
+					"en": "About You",
+					"es": "About You"
+				}
+			}, {
+				"name": "resources",
+				"text": {
+					"en": "Resources",
+					"es": "Resources"
+				}
+			}],
+			"topLevel": 1,
+			"container": "questions.html",
+			"shortName": "Assessment"
+		},
+		"onboarding": {
+			"name": "onboarding",
+			"text": {
+				"en": "Onboarding"
+			},
+			"type": "onboarding",
+			"active": 1,
+			"options": [],
+			"elements": [{
+				"img": "image-onboarding-1",
+				"name": "intro_1",
+				"type": "intro",
+				"active": 1,
+				"detail": {
+					"en": "This app is designed with OHSU staff, faculty, and students in mind."
+				},
+				"header": {
+					"en": "For"
+				},
+				"language": "en",
+				"subheader": {
+					"en": "OHSU Staff, Faculty, Students"
+				}
+			}, {
+				"img": "image-onboarding-2",
+				"name": "intro_2",
+				"type": "intro",
+				"active": 1,
+				"detail": {
+					"en": "Sexual misconduct can occur in many forms, including dating violence, stalking, harassment, or assault. This app will help define these and provide resources."
+				},
+				"header": {
+					"en": "What"
+				},
+				"subheader": {
+					"en": "Help for sexual misconduct"
+				}
+			}, {
+				"img": "image-onboarding-3",
+				"name": "intro_3",
+				"type": "intro",
+				"active": 1,
+				"detail": {
+					"en": "This app will help you understand your rights, options, and resources, as well as identify responsibilities of OHSU faculty and staff."
+				},
+				"header": {
+					"en": "You"
+				},
+				"subheader": {
+					"en": "Know your rights"
+				}
+			}],
+			"topLevel": 1,
+			"shortName": "Onboarding"
+		}
+	}
+}

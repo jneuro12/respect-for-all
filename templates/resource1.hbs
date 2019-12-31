@@ -1,19 +1,36 @@
- <div class="message-card">
-      <div class="title xxxlarge-font font-4">Community Resources</div>
-      <div class="content font-2">
-		  <div class="question-responses">
-			<ons-input id="zipcode_input" name="zipcode_input" data-type="question" placeholder="Please enter your zipcode" value=""></ons-input>
-			<ons-button id="button-zipcode" class="font-2 button">Go</ons-button>
-		  </div>   
-      </div>
+<div class="question-container primary-text-color">
+	
+      	<div class="question-label large-font font-2">Community Resources</div>
+      	
+      	
+			  <ons-card class="font-1">
+				  	  <div class="font-4 large-font">Enter your zipcode to get community resources</div>
+				  	 
+				  	  
+					  <div class="question-responses" style="margin-bottom:10px;">
+						<ons-input id="zipcode_input" name="zipcode_input" id="zipcoe_input" data-type="question" placeholder="Please enter your zipcode" value=""></ons-input>
+						<ons-button id="button-zipcode" class="font-2 button">Go</ons-button>
+					  </div>
+					  
+				  
+				  <div id="summary-resources-community" style="">
+						 <ons-list>
+							{{#each elements}}  <!-- iterate over the list elements array and use file node up one notation (../type) to get attributes from the parent-->
+								<ons-list-item tappable class='font-2' name="{{name}}" onclick="app.resourcePage.createPage('resource2','{{name}}')">{{lookup text ../language}}<div class="right"><span id="count_{{name}}" style="margin-right:5px;">{{number}}</span><ons-icon icon="ion-arrow-right-b"></ons-icon></div></ons-list-item>
+							 {{/each}}
+
+						 </ons-list>
+					</div>
+			
+
+      	
+			   
+		</ons-card>
+	    <div class="callout font-2">
+			<div><i class="fas fa-sticky-note"></i>Source: 211Info.org</div> 
+	 </div>
+
+
  </div>
  
  
- <div class="list-options message-options">
-		 <ons-list>
-			{{#each elements}}  <!-- iterate over the list elements array and use file node up one notation (../type) to get attributes from the parent-->
-				<ons-list-item tappable class='large-font font-2' name="{{name}}" onclick="app.resourcePage.createPage('resource2','{{name}}')">{{lookup text ../language}}<ons-icon icon="ion-arrow-right-b" class="message-list-icon"></ons-icon></ons-list-item>
-			 {{/each}}
-
-		 </ons-list>
-   </div>

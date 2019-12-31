@@ -1,0 +1,29 @@
+
+
+<div class="title xxlarge-font font-4 module-header">{{lookup text language}}</div>
+	<div class="before-body primary-text-color font-1">
+
+
+		{{#each elements}}
+			<ons-card class="primary-text-color font-1">
+				 <ons-row class="intro-row">
+					 <ons-col width="30px">
+
+					 {{#ifCond iconType 'ion'}}
+						<ons-icon icon="ion-{{icon}}" class="xlarge-font"></ons-icon>
+					 {{/ifCond}}
+
+					  {{#ifCond iconType 'fa'}}
+						<i class="fas fa-{{icon}} xlarge-font"></i>
+					 {{/ifCond}}
+
+					 </ons-col>
+
+					 <ons-col class="large-font">{{{lookup text ../language}}}</ons-col>
+
+				</ons-row>
+			</ons-card>
+		{{/each}}
+</div>
+
+

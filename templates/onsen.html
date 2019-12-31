@@ -1,0 +1,430 @@
+
+			<!-- #################################################################### -->
+			<!-- NAVIGATION UNITS ---> 
+
+			<!-- PANEL MENU OR SPLITTER -->
+			<ons-splitter>
+			  <ons-splitter-side id="menu" side="left" width="220px" collapse swipeable>
+				<ons-page>
+			  
+			  	  <div class="xlarge-font font-4 menu-header">Menu</div>
+				  <ons-list>
+					<ons-list-item class="font-2" onclick="app.menu.close(); app.message.createMessage('message1','MSG_PRIVACY_POLICY')"  tappable>
+					  <div class="left"><i class="fas fa-shield-alt left"></i></div>
+					  <div class="center">Privacy Policy</div>
+					</ons-list-item>
+				    <ons-list-item  class="font-2" onclick="app.menu.close(); app.message.createMessage('message1','MSG_RESET')"  tappable>
+					   <div class="left"><i class="fas fa-trash-alt left"></i></div>
+					   <div class="center">Reset / Delete</div>
+					</ons-list-item>
+
+				  </ons-list>
+				</ons-page>
+			  </ons-splitter-side>
+			  <ons-splitter-content>
+				<ons-navigator id="myNavigator" page="navbar.html"></ons-navigator>
+			  </ons-splitter-content>
+			</ons-splitter>
+
+
+		   <!-- #################################################################### -->
+			<!-- ONBORDING MODAL CAROUSEL ---> 
+			<ons-modal id="onboarding-modal" animation="none" direction="up" class="quartiary-background">
+				<ons-carousel fullscreen swipeable auto-scroll overscrollable id="carousel-onboarding">
+					<div id="carousel-onboarding-inner" class="ons-swiper-target"></div> 
+				</ons-carousel>
+			</ons-modal>
+
+		
+			
+
+			<!-- #################################################################### -->
+			<!-- CORE PAGE -->
+			<template id="navbar.html">
+				<ons-page id="navbar-page">
+
+
+				</ons-page>
+			</template>
+		
+		
+		
+			<!-- #################################################################### -->
+			<!-- PIN PAGE -->
+			<template id="pin.html">
+			  <ons-page name="pin">
+				<div class="page__background quartiary-background"></div>
+				<div class="title xxlarge-font font-4 module-header">Your PIN</div>
+			
+						
+						<div class="before-body primary-text-color font-1">
+						 
+						
+							<ons-card class="primary-text-color font-1 card" id="pin-1-card">
+								 <ons-row class="intro-row">
+									 <ons-col width="30px"><ons-icon icon="ion-lock-combination" class="xlarge-font"></ons-icon></ons-col>
+									 <ons-col class="large-font">Keep your session secure and private.  Set a 4 digit PIN to unlock the app if you leave and return. </ons-col>
+								</ons-row>
+							</ons-card>
+							<ons-card class="primary-text-color font-1 card" style="display:none;" id="pin-2-card">
+								 <ons-row class="intro-row">
+									 <ons-col width="30px"><ons-icon icon="ion-locked" class="xlarge-font"></ons-icon></ons-col>
+									 <ons-col class="large-font">For your safety, if you are ever forced to put in your PIN by an abuser, you can use the bypass PIN of 0000 which will unlock the app, but only show a list of OHSU resources and none of your data. </ons-col>
+								</ons-row>
+							</ons-card>
+							<ons-card class="primary-text-color font-1 card-white"  style="display:none;" id="pin-3-card">
+								 <ons-row class="intro-row">
+									 <ons-col width="30px"><ons-icon icon="ion-checkmark" class="xlarge-font" style="color:green;"></ons-icon></ons-col>
+									 <ons-col class="large-font"  style="color:green;">PIN Set </ons-col>
+								</ons-row>
+							</ons-card>	 
+							 <div class="mp-center-block">
+                              <input type="text" name="pinField" id="pin-field" value="" maxlength="4" readonly />
+                             
+                              
+                                  <table class="mp-center-block mp-margin-bottom-20" id="pin-keypad" width="100%">
+                                    <tr>
+                                       <td><a class="numero pin-field" touch-action="none">1</a></td>
+                                       <td><a class="numero pin-field shorten" touch-action="none">2</a></td>
+                                       <td><a class="numero pin-field shorten" touch-action="none">3</a></td>
+                                    </tr>
+                                    <tr>
+                                      <td><a class="numero pin-field" touch-action="none">4</a></td>
+                                       <td><a class="numero pin-field shorten" touch-action="none">5</a></td>
+                                       <td><a class="numero pin-field shorten" touch-action="none">6</a></td>
+                                    </tr>
+                                    <tr>
+                                      <td><a class="numero pin-field" touch-action="none">7</a></td>
+                                       <td><a class="numero pin-field shorten" touch-action="none">8</a></td>
+                                       <td><a class="numero pin-field shorten" touch-action="none">9</a></td>
+                                    </tr>
+                        
+                                     <tr>
+                                        <td><a class="numero pin-field" touch-action="none">0</a></td>
+                                     
+                                      <td colspan="2"><a class="numero pin-clear" touch-action="none">CLEAR</a></td>
+                        
+                                    </tr> 
+                
+                                 </table>
+                               
+                                 
+                                 
+                        	 </div>
+
+						</div>
+				 <div class="button-container">
+					<div class="button-container-inner">
+							<ons-button class="button-nav-back button-clear"  touch-action="none" onclick="app.routing.pop();">
+							Back
+						  </ons-button>
+						  <ons-button class="button-nav-next button-clear" id="pin-button-next" style="display:none;" onclick="app.routing.push('assessment.html','right');"  touch-action="none">
+							Next
+						  </ons-button>
+					  </div>
+				  </div>
+				   
+			  </ons-page>
+			</template>
+			
+			<!-- #################################################################### -->
+			<!-- PIN ENTER PAGE -->
+			<template id="pinenter.html">
+			  <ons-page name="pin">
+				<div class="page__background quartiary-background"></div>
+				<div class="title xxlarge-font font-4 module-header">Please enter your PIN Code</div>
+			
+						
+						<div class="before-body primary-text-color font-1">
+						 
+						
+							<ons-card class="primary-text-color font-1 card" id="pin-enter-1-card">
+								 <ons-row class="intro-row">
+									 <ons-col width="30px"><ons-icon icon="ion-lock-combination" class="xlarge-font"></ons-icon></ons-col>
+									 <ons-col class="large-font">Please enter your PIN Code you used when you first started. </ons-col>
+								</ons-row>
+							</ons-card>
+							
+							<ons-card class="primary-text-color font-1 card-white"  style="display:none;" id="pin-enter-2-card">
+								 <ons-row class="intro-row">
+									 <ons-col width="30px"><ons-icon icon="ion-checkmark" class="xlarge-font" style="color:green;"></ons-icon></ons-col>
+									 <ons-col class="large-font" style="color:green;">PIN OK </ons-col>
+								</ons-row>
+							</ons-card>	
+							<ons-card class="primary-text-color font-1 card-white"  style="display:none;" id="pin-enter-3-card">
+								 <ons-row class="intro-row">
+									 <ons-col width="30px"><ons-icon icon="ion-checkmark" class="xlarge-font" style="color:red;"></ons-icon></ons-col>
+									 <ons-col class="large-font" style="color:red;">PIN Incorrect </ons-col>
+								</ons-row>
+							</ons-card>	
+							 <div class="mp-center-block">
+                              <input type="text" name="pinField" id="pin-field" value="" maxlength="4" readonly />
+                             
+                              
+                                  <table class="mp-center-block mp-margin-bottom-20" id="pin-keypad" width="100%">
+                                    <tr>
+                                       <td><a class="numero pin-field-enter" touch-action="none">1</a></td>
+                                       <td><a class="numero pin-field-enter shorten" touch-action="none">2</a></td>
+                                       <td><a class="numero pin-field-enter shorten" touch-action="none">3</a></td>
+                                    </tr>
+                                    <tr>
+                                      <td><a class="numero pin-field-enter" touch-action="none">4</a></td>
+                                       <td><a class="numero pin-field-enter shorten" touch-action="none">5</a></td>
+                                       <td><a class="numero pin-field-enter shorten" touch-action="none">6</a></td>
+                                    </tr>
+                                    <tr>
+                                      <td><a class="numero pin-field-enter" touch-action="none">7</a></td>
+                                       <td><a class="numero pin-field-enter shorten" touch-action="none">8</a></td>
+                                       <td><a class="numero pin-field-enter shorten" touch-action="none">9</a></td>
+                                    </tr>
+                        
+                                     <tr>
+                                        <td><a class="numero pin-field-enter" touch-action="none">0</a></td>
+                                     
+                                      <td colspan="2"><a class="numero pin-clear" touch-action="none">CLEAR</a></td>
+                        
+                                    </tr> 
+                
+                                 </table>
+                               
+                               
+                                 
+                        	 </div>
+
+						</div>
+				 <div class="button-container">
+					<div class="button-container-inner">
+						   <ons-button class="button-delete-reset button-clear" onclick="app.routing.reset()">
+										Delete and Reset
+									  </ons-button>
+						   <ons-button onclick="app.message.createMessage('message1','MSG_PIN_CODE');" id="pin-what" class="button-clear button-pin">What PIN?</ons-button>
+						  <ons-button class="button-nav-next button-clear" id="pin-button-next" style="display:none;" onclick="app.routing.returnUser();"  touch-action="none">
+							Next
+						  </ons-button>
+						  
+					  </div>
+				  </div>
+				   
+			  </ons-page>
+			</template>
+			
+			<!-- #################################################################### -->
+			<!-- AUDIENCE PAGE - NO FIXED ELEMENTS -->
+			
+			<template id="flat.html">
+			  <ons-page id="flat" name="flat">
+						<div class="page__background quartiary-background"></div>
+						<div class="page__content"></div>
+
+			  </ons-page>
+			</template>
+			<!-- #################################################################### -->
+			<!-- INTRO PAGES  - ONE FORWARD BUTTON ELEMENT-->
+			
+			<template id="intro.html">
+			  <ons-page id="intro" name="intro">
+						<div class="page__background quartiary-background"></div>
+						<div class="page__content"></div>
+			
+						
+					
+						 <div class="button-container">
+							<div class="button-container-inner">
+
+								  <ons-button class="button-nav-next button-clear" onclick="app.intro.done();">
+									Next
+								  </ons-button>
+							  </div>
+						  </div>
+
+			  </ons-page>
+			</template>
+			<!-- #################################################################### -->
+			<!-- QUESTIONS PAGE  - MENU AND NAV BUTTON ELEMENTS -->
+			<template id="questions.html">
+				<ons-page id="questions" name="questions">
+						<ons-toolbar class="toolbar-white">
+					 
+					  <div class="center xlarge-font font-4" style="margin-left: -20px;">
+					  	<div class="header-logo"><div class="header-logo-title">Respect For All</div></div>
+					  
+					  </div>
+					  <div class="left">
+						<ons-toolbar-button onclick="app.menu.show()">
+						   <i class="fas fa-ellipsis-h"></i>
+						</ons-toolbar-button>
+					  </div>
+					</ons-toolbar>
+
+				 
+				
+				  <div class="page__background"></div>
+				  <div class="page__content"></div>
+
+				<div class="button-container">
+
+						 <div class="button-container-inner">
+								<ons-button class="button-nav-back button-clear" onclick="app.nav.check('back')">
+								Back
+							  </ons-button>
+							  <ons-button class="button-nav-next button-clear" onclick="app.nav.check('forward')">
+								Next
+							  </ons-button>
+						  </div>
+				</div>	  
+
+
+
+				</ons-page>
+			</template>
+
+
+			<!-- #################################################################### -->
+			<!-- SUMMARY PAGE - MENU ELEMENT-->
+			<template id="summary.html">
+				<ons-page id="summary" name="summary">
+
+					<ons-toolbar class="toolbar-white">
+					 
+					  <div class="center xlarge-font font-4" style="    margin-left: -20px;">
+					  	<div class="header-logo"><div class="header-logo-title">Respect For All</div></div>
+					  
+					  </div>
+					  <div class="left">
+						<ons-toolbar-button onclick="app.menu.show()">
+						   <i class="fas fa-ellipsis-h"></i>
+						</ons-toolbar-button>
+					  </div>
+					</ons-toolbar>
+				 
+					
+				  
+				 <!-- <ons-button  class="button-menu" onclick="app.menu.show()">
+					  <ons-icon icon="md-menu"></ons-icon>
+				  </ons-button>-->
+				 
+				
+				  <div class="page__background"></div>
+				  <div class="page__content"></div>
+
+
+
+
+				</ons-page>
+			</template>
+			<!-- #################################################################### -->
+			<!-- SUMMARY ITEM - TOOLBAR AND MENU ELEMNTS-->
+			<template id="summary-item.html">
+				<ons-page id="summary-item" name="summary-item">
+
+
+				<ons-toolbar class="toolbar-white">
+				  <div class="left">
+					<ons-back-button>Back</ons-back-button>
+				  </div>
+				   <div class="center xlarge-font font-4" style="    margin-left: -20px;">
+					  	<div class="header-logo"><div class="header-logo-title">Respect For All</div></div>
+					  
+					  </div>
+				  
+				</ons-toolbar>
+
+				
+				  <div class="page__background quartiary-background"></div>
+				  <div class="page__content"></div>
+					
+					
+					<div class="button-container">
+
+						 <div class="button-container-inner">
+								<ons-button class="button-nav-back button-clear" onclick="app.nav.check('back')">
+								Back
+							  </ons-button>
+							  <ons-button class="button-nav-next button-clear" onclick="app.nav.check('forward')">
+								Next
+							  </ons-button>
+						  </div>
+				</div>	
+				</ons-page>
+			</template>
+
+
+
+		
+	
+		 
+			
+			<!-- #################################################################### -->
+			<!-- MESSAGES -->
+			
+				<!-- MESSAGE 1 FORMAT - FAB ELEMENT -->
+				<template id="message1.html">
+				  <ons-page id="message" class="message-page-1">
+					
+					<div class="page-background"></div>
+					<div class="page-content"></div>
+				   <ons-fab class="message-close highlight-color-2" position="top center" onclick="myNavigator.popPage();">
+					<i class="fas fa-times"></i>
+				   </ons-fab>
+				  </ons-page>
+				
+				</template>
+				
+				<!-- MESSAGE 2 FORMAT -->
+				<template id="message2.html">
+				  <ons-page id="message2" class="message-page-2">
+
+					<div class="page-content"></div>
+					<ons-fab class="message-close highlight-color-2" position="top center" onclick="myNavigator.popPage();">
+					   	<i class="fas fa-times"></i>
+					   </ons-fab>
+				  </ons-page>
+				</template>
+				
+				
+				
+				
+				
+			<!-- #################################################################### -->
+			<!-- RESOURCES  - BASED ON MESSAGES FORMAT-->	
+				
+			  <!-- RESOURCE 1 FORMAT-->
+			  <template id="resource1.html">
+				  <ons-page id="resource1">
+					<ons-toolbar>
+					  <div class="left">
+						<ons-back-button>Back</ons-back-button>
+					  </div>
+					  <div class="center large-font"></div>
+					
+					</ons-toolbar>
+					<div class="page__background quartiary-background"></div>
+					<div class="page__content">
+						
+					</div>
+					
+				  </ons-page>
+				</template>
+					
+			
+				<!-- RESOURCE 2 FORMAT-->
+				<template id="resource2.html">
+				  <ons-page id="resource2"  class="">
+				  
+					<div class="page__background quartiary-background"></div>
+					<div class="page-content">
+			   			<div class="title xxlarge-font font-4 module-header">Please enter your PIN Code</div>
+			   		  </div>
+				   		<ons-fab class="message-close highlight-color-2" position="top center" onclick="myNavigator.popPage();">
+					   	<i class="fas fa-times"></i>
+					   </ons-fab>  
+					  
+					 
+					
+				  </ons-page>
+				</template>
+
+
+
+			
+			

@@ -1,0 +1,195 @@
+{
+	"reporting":
+
+	{
+		"levelsOrder" : ["mr","re","csa","wv"],
+		"levels": {
+
+				
+				"mr": {
+					"title": "Mandatory Reporter",
+					"abbreviation": "MR",
+					"image" : "mandatory_reporting.jpg" ,
+					"message" : "MSG_MANDATORY_REPORTER"
+				},
+			
+			
+				"re": {
+					"title": "Responsible Employee",
+					"abbreviation": "RE",
+					"image" : "responsible_employee.jpg",
+					"message" : "MSG_RESPONSIBLE_EMPLOYEE"
+				},
+			
+			
+				"csa": {
+					"title": "Campus Security Authority",
+					"abbreviation": "CSA",
+					"image" : "campus_security.jpg",
+					"message" : "MSG_SECURITY_AUTHORITY"
+				},
+			
+			
+				"wv": {
+					"title": "Report Workplace Violence",
+					"abbreviation": "WV",
+					"image" : "wv.jpg",
+					"message" : "MSG_WORKPLACE_VIOLENCE"
+				}
+			
+		},
+		"incidentsOrder" : ["sd","sa","sh","st","rv","ca","ea","va","wi","ot"],
+		"incidents": {
+				"sd": {
+					"title": "Sexual Discrimination",
+					"message" : "MSG_INCIDENT_DISC"
+				},
+			
+			
+				"sa": {
+					"title": "Sexual Assault",
+					"message" : "MSG_INCIDENT_ASSAULT"
+				},
+			
+			
+				"sh": {
+					"title": "Sexual Harassment",
+					"message" : "MSG_INCIDENT_HARASSMENT"
+				},
+			
+			
+				"st": {
+					"title": "Stalking",
+					"message" : "MSG_INCIDENT_STALKING"
+				},
+			
+			
+				"rv": {
+					"title": "Relationship/Dating Violence",
+					"message" : "MSG_INCIDENT_IPV"
+				},
+			
+			
+				"ca": {
+					"title": "Child Abuse",
+					"message" : "MSG_INCIDENT_CA"
+				},
+			
+			
+				"ea": {
+					"title": "Elder Abuse",
+					"message" : "MSG_INCIDENT_EA"
+				},
+			
+			
+				"va": {
+					"title": "Vulnerable Adults",
+					"message" : "MSG_INCIDENT_VA"
+				},
+			
+			
+				"wi": {
+					"title": "Treating patients, weapons incident at OHSU",
+					"message" : "MSG_INCIDENT_WI"
+				},
+			
+			
+				"ot": {
+					"title": "Other",
+					"message" : "MSG_INCIDENT_OTHER"
+				}
+			
+		},
+		"csa" : ["sd", "sa", "sh", "st", "rv", "ca", "wi", "ot"],
+		"responsibility": {
+				"employee_super": {
+					"title": "Employee/Staff - Manager or Supervisor",
+					"levels":{
+						"mr": ["ca", "ea", "va", "wi"],
+						"re": ["sd", "sa", "sh", "st", "rv", "ca", "ea", "va"],
+						"csa": [],
+						"wv": ["rv", "sa", "st"]
+					}
+				},
+			
+			
+				"employee": {
+					"title": "Employee/Staff",
+					"levels":{
+						"mr": ["ca", "ea", "va", "wi", "ot"],
+						"re": [],
+						"csa": [],
+						"wv": ["rv", "sa", "st"]
+					}
+				},
+			
+			
+				"post_doc": {
+					"title": "Employee/Staff - Postdoc",
+					"levels":{
+						"mr": ["ca", "ea", "va"],
+						"re": [],
+						"csa": [],
+						"wv": ["rv", "sa", "st"]
+					}
+				},
+			
+			
+				"resident_super": {
+					"title": "Employee/Staff - Resident Supervisor",
+					"levels":{
+						"mr": ["ca", "ea", "va", "wi"],
+						"re": ["sd", "sa", "sh", "st", "rv", "ca", "ea", "va"],
+						"csa": [],
+						"wv": ["rv", "sa", "st"]
+					}
+				},
+			
+			
+				"resident": {
+					"title": "Employee/Staff - Resident",
+					"levels":{
+						"mr": ["ca", "ea", "va"],
+						"re": [],
+						"csa": [],
+						"wv": ["rv", "sa", "st"]
+					}
+				},
+			
+			
+				"faculty_super": {
+					"title": "Faculty",
+					"levels":{
+						"mr": ["ca", "ea", "va"],
+						"re": ["sd", "sa", "sh", "st", "rv", "ca", "ea", "va"],
+						"csa": [],
+						"wv": ["rv", "sa", "st"]
+					}
+				},
+			
+			
+				"faculty": {
+					"title": "Faculty - Visiting Scholar",
+					"levels":{
+						"mr": ["ca", "ea", "va"],
+						"re": [],
+						"csa": [],
+						"wv": ["rv", "sa", "st"]
+					}
+				},
+			
+			
+				"student": {
+					"title": "Student",
+					"levels":{
+						"mr": [],
+						"re": [],
+						"csa": [],
+						"wv": ["rv", "sa", "st"]
+					}
+				}
+			
+		
+	}
+	}
+}

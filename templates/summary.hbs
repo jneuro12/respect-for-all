@@ -1,0 +1,108 @@
+
+<div class="summary-options">
+							
+								
+
+		{{#each elements}}
+			
+	
+		{{#ifCond level 'top'}}
+		
+			
+				<ons-card class="card-top">
+
+					<div class="card-secondary summary-item card-border-{{@index}}" data-value="{{name}}" touch-action="none">
+						<div class="">
+						  	
+						
+						  		<div class="card-icon-bubble">
+									{{#ifCond iconType 'ion'}}
+										<ons-icon icon="ion-{{icon}}" class="xlarge-font"></ons-icon>
+									 {{/ifCond}}
+									 
+									  {{#ifCond iconType 'fa'}}
+										<i class="fas fa-{{icon}} xlarge-font"></i>
+									 {{/ifCond}}
+									 
+									</div>
+							   <div style="display:inline-block;">
+									 
+
+										<div class=" font-2 xlarge-font">
+										  <div>{{lookup text ../language}}</div>
+										</div>
+										<div class="font-4 large-font">
+										  <div>{{lookup description ../language}}</div>
+										</div>
+							</div>
+							
+							
+							{{#ifCond name 'reporting'}}
+								<div class="report-highlight card-left font-4">{{../role}}</div>
+							
+							{{/ifCond}}
+
+						</div>
+					
+
+
+					</div>
+
+
+
+				</ons-card>
+			
+		
+		
+		
+			{{else}}
+			
+			
+			
+			<ons-card class="card-bottom card-clear">
+			
+				<div class="card-secondary summary-item card-border-{{@index}}" data-value="{{name}}" touch-action="none">
+
+						<div class="">
+						  	
+						
+						  		<div class="card-icon-bubble">
+									{{#ifCond iconType 'ion'}}
+										<ons-icon icon="ion-{{icon}}" class="xlarge-font"></ons-icon>
+									 {{/ifCond}}
+									 
+									  {{#ifCond iconType 'fa'}}
+										<i class="fas fa-{{icon}} xlarge-font"></i>
+									 {{/ifCond}}
+									 
+									</div>
+							   <div style="display:inline-block;">
+									 
+
+										<div class=" font-2 xlarge-font">
+										  <div>{{lookup text ../language}}</div>
+										</div>
+										<div class="font-4 large-font">
+										  <div>{{lookup description ../language}}</div>
+										</div>
+							</div>
+
+						</div>
+					
+
+					
+
+
+				</div>
+				
+				
+				
+			</ons-card>
+			
+			{{/ifCond}}
+		{{/each}}
+		
+	
+</div>
+
+					
